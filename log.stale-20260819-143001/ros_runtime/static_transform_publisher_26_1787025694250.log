@@ -1,0 +1,4 @@
+[INFO] [1787025694.259890917] [livox_static_tf]: Spinning until stopped - publishing transform
+translation: ('0.000000', '0.000000', '0.280000')
+rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+from 'lighting_base_link' to 'livox_frame'

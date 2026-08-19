@@ -1,0 +1,633 @@
+[0.000000] (-) TimerEvent: {}
+[0.000276] (-) JobUnselected: {'identifier': 'lightning_sim'}
+[0.000372] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000397] (lightning) JobQueued: {'identifier': 'lightning', 'dependencies': OrderedDict()}
+[0.000420] (lightning_real) JobQueued: {'identifier': 'lightning_real', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2')])}
+[0.000460] (lightning) JobStarted: {'identifier': 'lightning'}
+[0.004794] (lightning_real) JobStarted: {'identifier': 'lightning_real'}
+[0.007381] (lightning) JobProgress: {'identifier': 'lightning', 'progress': 'cmake'}
+[0.008227] (lightning) JobProgress: {'identifier': 'lightning', 'progress': 'build'}
+[0.008917] (lightning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning', '--', '-j28', '-l28'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'wayland'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1319'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1695'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11030'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('ROS_DISTRO', 'humble'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:5678'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0ETYS5O:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/1671,unix/KPLNB151:/tmp/.ICE-unix/1671'), ('INVOCATION_ID', '08e038dd9b564bc1a1c69d6c854f79e8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QUXZT3'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning:/opt/ros/humble')]), 'shell': False}
+[0.092326] (lightning) StdoutLine: {'line': b'[  1%] Built target lightning__cpp\n'}
+[0.093043] (lightning_real) JobProgress: {'identifier': 'lightning_real', 'progress': 'cmake'}
+[0.095170] (lightning_real) JobProgress: {'identifier': 'lightning_real', 'progress': 'build'}
+[0.096027] (lightning_real) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_real', '--', '-j28', '-l28'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_real', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'wayland'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1319'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1695'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11030'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('ROS_DISTRO', 'humble'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:5678'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0ETYS5O:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/1671,unix/KPLNB151:/tmp/.ICE-unix/1671'), ('INVOCATION_ID', '08e038dd9b564bc1a1c69d6c854f79e8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QUXZT3'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_real'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning:/opt/ros/humble')]), 'shell': False}
+[0.099245] (lightning) StdoutLine: {'line': b'[  1%] Built target livox_interfaces2__rs\n'}
+[0.099444] (lightning) StdoutLine: {'line': b'[  2%] Built target lightning__rs\n'}
+[0.099601] (lightning) StdoutLine: {'line': b'[  5%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[0.099752] (-) TimerEvent: {}
+[0.099792] (lightning) StdoutLine: {'line': b'[  6%] Built target livox_interfaces2__cpp\n'}
+[0.099941] (lightning) StdoutLine: {'line': b'[  9%] Built target lightning__rosidl_generator_c\n'}
+[0.105753] (lightning) StdoutLine: {'line': b'[ 10%] Built target miao.utils\n'}
+[0.109971] (lightning) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_symlink_lightning\n'}
+[0.110254] (lightning) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_symlink_livox_ros_driver2\n'}
+[0.115092] (lightning) StdoutLine: {'line': b'[ 17%] Built target miao.core\n'}
+[0.128820] (lightning) StdoutLine: {'line': b'[ 20%] Built target lightning__rosidl_typesupport_cpp\n'}
+[0.129958] (lightning) StdoutLine: {'line': b'[ 23%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[0.130233] (lightning) StdoutLine: {'line': b'[ 26%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[0.131705] (lightning) StdoutLine: {'line': b'[ 29%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[0.134883] (lightning) StdoutLine: {'line': b'[ 35%] Built target lightning__rosidl_typesupport_fastrtps_cpp\n'}
+[0.135207] (lightning) StdoutLine: {'line': b'[ 35%] Built target lightning__rosidl_typesupport_introspection_cpp\n'}
+[0.137874] (lightning) StdoutLine: {'line': b'[ 38%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[0.138505] (lightning) StdoutLine: {'line': b'[ 41%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[0.139166] (lightning) StdoutLine: {'line': b'[ 44%] Built target lightning__rosidl_typesupport_introspection_c\n'}
+[0.139743] (lightning) StdoutLine: {'line': b'[ 47%] Built target lightning__rosidl_typesupport_c\n'}
+[0.144498] (lightning) StdoutLine: {'line': b'[ 50%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.147112] (lightning) StdoutLine: {'line': b'[ 53%] Built target lightning__rosidl_typesupport_fastrtps_c\n'}
+[0.163783] (lightning) StdoutLine: {'line': b'[ 53%] Built target livox_interfaces2\n'}
+[0.165623] (lightning) StdoutLine: {'line': b'[ 53%] Built target lightning\n'}
+[0.174905] (lightning_real) StdoutLine: {'line': b'[100%] Built target livox_custom_to_pointcloud2\n'}
+[0.182041] (lightning) StdoutLine: {'line': b'[ 53%] Built target livox_interfaces2__py\n'}
+[0.184058] (lightning) StdoutLine: {'line': b'[ 54%] Built target lightning__py\n'}
+[0.184716] (lightning_real) CommandEnded: {'returncode': 0}
+[0.185469] (lightning_real) JobProgress: {'identifier': 'lightning_real', 'progress': 'install'}
+[0.193185] (lightning_real) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_real'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_real', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'wayland'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1319'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1695'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11030'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('ROS_DISTRO', 'humble'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:5678'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0ETYS5O:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/1671,unix/KPLNB151:/tmp/.ICE-unix/1671'), ('INVOCATION_ID', '08e038dd9b564bc1a1c69d6c854f79e8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QUXZT3'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_real'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning:/opt/ros/humble')]), 'shell': False}
+[0.199846] (-) TimerEvent: {}
+[0.200444] (lightning_real) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.201028] (lightning_real) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.201450] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/lib/lightning_real/livox_custom_to_pointcloud2\n'}
+[0.201641] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/lib/lightning_real/run_offline_slam.sh\n'}
+[0.201987] (lightning_real) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/launch/online_mapping.launch.py\n'}
+[0.203480] (lightning) StdoutLine: {'line': b'[ 56%] Built target livox_interfaces2__rosidl_generator_py\n'}
+[0.204876] (lightning) StdoutLine: {'line': b'[ 58%] Built target lightning__rosidl_generator_py\n'}
+[0.207856] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/launch/view_mid360.launch.py\n'}
+[0.208324] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/rviz/mid360_raw.rviz\n'}
+[0.208446] (lightning_real) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/rviz/online_mapping.rviz\n'}
+[0.216187] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/config/mid360_real.yaml\n'}
+[0.216477] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/ament_index/resource_index/package_run_dependencies/lightning_real\n'}
+[0.216637] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/ament_index/resource_index/parent_prefix_path/lightning_real\n'}
+[0.216825] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/environment/ament_prefix_path.sh\n'}
+[0.216989] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/environment/ament_prefix_path.dsv\n'}
+[0.217154] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/environment/path.sh\n'}
+[0.217327] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/environment/path.dsv\n'}
+[0.217516] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/local_setup.bash\n'}
+[0.217768] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/local_setup.sh\n'}
+[0.218031] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/local_setup.zsh\n'}
+[0.218216] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/local_setup.dsv\n'}
+[0.218446] (lightning_real) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/package.dsv\n'}
+[0.220458] (lightning) StdoutLine: {'line': b'[ 59%] Built target lightning__rosidl_typesupport_introspection_c__pyext\n'}
+[0.221047] (lightning) StdoutLine: {'line': b'[ 61%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.221204] (lightning) StdoutLine: {'line': b'[ 61%] Built target lightning__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.221285] (lightning) StdoutLine: {'line': b'[ 63%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.221437] (lightning) StdoutLine: {'line': b'[ 65%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[0.222452] (lightning) StdoutLine: {'line': b'[ 66%] Built target lightning__rosidl_typesupport_c__pyext\n'}
+[0.226503] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/ament_index/resource_index/packages/lightning_real\n'}
+[0.226646] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/cmake/lightning_realConfig.cmake\n'}
+[0.226878] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/cmake/lightning_realConfig-version.cmake\n'}
+[0.227114] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/package.xml\n'}
+[0.228488] (lightning_real) CommandEnded: {'returncode': 0}
+[0.241380] (lightning_real) JobEnded: {'identifier': 'lightning_real', 'rc': 0}
+[0.270857] (lightning) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:507: UserWarning: The version specified ('') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.\n"}
+[0.271038] (lightning) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.271929] (lightning) StdoutLine: {'line': b'running egg_info\n'}
+[0.272116] (lightning) StdoutLine: {'line': b'running egg_info\n'}
+[0.272421] (lightning) StdoutLine: {'line': b'writing lightning.egg-info/PKG-INFO\n'}
+[0.272499] (lightning) StdoutLine: {'line': b'writing dependency_links to lightning.egg-info/dependency_links.txt\n'}
+[0.272624] (lightning) StdoutLine: {'line': b'writing top-level names to lightning.egg-info/top_level.txt\n'}
+[0.272742] (lightning) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[0.272859] (lightning) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[0.272935] (lightning) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[0.274067] (lightning) StdoutLine: {'line': b"reading manifest file 'lightning.egg-info/SOURCES.txt'\n"}
+[0.274147] (lightning) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.274422] (lightning) StdoutLine: {'line': b"writing manifest file 'lightning.egg-info/SOURCES.txt'\n"}
+[0.274538] (lightning) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.285566] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning.libs\n'}
+[0.293636] (lightning) StdoutLine: {'line': b'[ 66%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[0.293768] (lightning) StdoutLine: {'line': b'[ 66%] Built target ament_cmake_python_build_lightning_egg\n'}
+[0.299963] (-) TimerEvent: {}
+[0.353616] (lightning) StdoutLine: {'line': b'[ 67%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/slam.cc.o\n'}
+[0.400064] (-) TimerEvent: {}
+[0.500245] (-) TimerEvent: {}
+[0.600452] (-) TimerEvent: {}
+[0.700625] (-) TimerEvent: {}
+[0.800826] (-) TimerEvent: {}
+[0.901014] (-) TimerEvent: {}
+[1.001197] (-) TimerEvent: {}
+[1.101382] (-) TimerEvent: {}
+[1.201616] (-) TimerEvent: {}
+[1.301812] (-) TimerEvent: {}
+[1.402013] (-) TimerEvent: {}
+[1.502199] (-) TimerEvent: {}
+[1.602378] (-) TimerEvent: {}
+[1.702606] (-) TimerEvent: {}
+[1.802819] (-) TimerEvent: {}
+[1.903012] (-) TimerEvent: {}
+[2.003198] (-) TimerEvent: {}
+[2.103409] (-) TimerEvent: {}
+[2.203606] (-) TimerEvent: {}
+[2.303779] (-) TimerEvent: {}
+[2.403979] (-) TimerEvent: {}
+[2.504168] (-) TimerEvent: {}
+[2.604432] (-) TimerEvent: {}
+[2.704641] (-) TimerEvent: {}
+[2.804890] (-) TimerEvent: {}
+[2.905084] (-) TimerEvent: {}
+[3.005273] (-) TimerEvent: {}
+[3.105491] (-) TimerEvent: {}
+[3.205768] (-) TimerEvent: {}
+[3.305972] (-) TimerEvent: {}
+[3.406154] (-) TimerEvent: {}
+[3.506338] (-) TimerEvent: {}
+[3.606540] (-) TimerEvent: {}
+[3.706769] (-) TimerEvent: {}
+[3.806985] (-) TimerEvent: {}
+[3.907178] (-) TimerEvent: {}
+[4.004265] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.h:22,\n'}
+[4.004460] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:5:\n'}
+[4.004560] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor \xe2\x80\x98lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)\xe2\x80\x99:\n'}
+[4.004644] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: \xe2\x80\x98lightning::Keyframe::state_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[4.004730] (lightning) StderrLine: {'line': b'   74 |     NavState state_;  // \xe5\x8d\xa1\xe5\xb0\x94\xe6\x9b\xbc\xe6\xbb\xa4\xe6\xb3\xa2\xe5\x99\xa8\xe7\x8a\xb6\xe6\x80\x81\n'}
+[4.004809] (lightning) StderrLine: {'line': b'      |              ^~~~~~\n'}
+[4.004898] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   \xe2\x80\x98lightning::SE3 lightning::Keyframe::pose_lio_\xe2\x80\x99 [-Wreorder]\n'}
+[4.004979] (lightning) StderrLine: {'line': b'   71 |     SE3 pose_lio_;  // \xe5\x89\x8d\xe7\xab\xaf\xe7\x9a\x84pose\n'}
+[4.005056] (lightning) StderrLine: {'line': b'      |         ^~~~~~~~~\n'}
+[4.005131] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]\n'}
+[4.005204] (lightning) StderrLine: {'line': b'   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)\n'}
+[4.005277] (lightning) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[4.007271] (-) TimerEvent: {}
+[4.107447] (-) TimerEvent: {}
+[4.207665] (-) TimerEvent: {}
+[4.307955] (-) TimerEvent: {}
+[4.408135] (-) TimerEvent: {}
+[4.504319] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:12,\n'}
+[4.504505] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:7:\n'}
+[4.504579] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[4.504647] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[4.504718] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[4.504785] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[4.508261] (-) TimerEvent: {}
+[4.608462] (-) TimerEvent: {}
+[4.708641] (-) TimerEvent: {}
+[4.808975] (-) TimerEvent: {}
+[4.909148] (-) TimerEvent: {}
+[5.009338] (-) TimerEvent: {}
+[5.043942] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18,\n'}
+[5.044266] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15,\n'}
+[5.044321] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:7:\n'}
+[5.044357] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function \xe2\x80\x98double lightning::IMUFilter::processAxis(double, std::deque<double>&, int)\xe2\x80\x99:\n'}
+[5.044393] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:92:28: warning: comparison of integer expressions of different signedness: \xe2\x80\x98std::deque<double>::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[5.044436] (lightning) StderrLine: {'line': b'   92 |         if (history.size() >= config_.median_window_size && sample_count_ > 100) {\n'}
+[5.044467] (lightning) StderrLine: {'line': b'      |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[5.044496] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function \xe2\x80\x98void lightning::IMUFilter::updateBuffer(const lightning::IMU&)\xe2\x80\x99:\n'}
+[5.044527] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:114:39: warning: comparison of integer expressions of different signedness: \xe2\x80\x98std::deque<double>::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[5.044566] (lightning) StderrLine: {'line': b'  114 |         while (gyro_x_history_.size() > max_history) {\n'}
+[5.044594] (lightning) StderrLine: {'line': b'      |                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\n'}
+[5.044622] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function \xe2\x80\x98double lightning::IMUFilter::detectAndRemoveSpike(double, std::deque<double>&, int)\xe2\x80\x99:\n'}
+[5.044651] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:123:28: warning: comparison of integer expressions of different signedness: \xe2\x80\x98std::deque<double>::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[5.044680] (lightning) StderrLine: {'line': b'  123 |         if (history.size() < config_.median_window_size) {\n'}
+[5.044712] (lightning) StderrLine: {'line': b'      |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[5.044843] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18,\n'}
+[5.044893] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15,\n'}
+[5.044925] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:7:\n'}
+[5.044954] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function \xe2\x80\x98double lightning::IMUFilter::medianFilter(double, std::deque<double>&)\xe2\x80\x99:\n'}
+[5.044982] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:152:28: warning: comparison of integer expressions of different signedness: \xe2\x80\x98std::deque<double>::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[5.045015] (lightning) StderrLine: {'line': b'  152 |         if (history.size() < config_.median_window_size) {\n'}
+[5.045043] (lightning) StderrLine: {'line': b'      |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[5.045071] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function \xe2\x80\x98double lightning::IMUFilter::movingAverage(double, std::deque<double>&)\xe2\x80\x99:\n'}
+[5.045103] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:164:28: warning: comparison of integer expressions of different signedness: \xe2\x80\x98std::deque<double>::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[5.045133] (lightning) StderrLine: {'line': b'  164 |         if (history.size() < config_.moving_avg_window) {\n'}
+[5.045162] (lightning) StderrLine: {'line': b'      |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[5.045477] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function \xe2\x80\x98void lightning::IMUFilter::updateStatistics(const lightning::IMU&)\xe2\x80\x99:\n'}
+[5.045510] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:200:20: warning: unused variable \xe2\x80\x98prev_mean\xe2\x80\x99 [-Wunused-variable]\n'}
+[5.045541] (lightning) StderrLine: {'line': b'  200 |             double prev_mean[3] = {gyro_mean_[0], gyro_mean_[1], gyro_mean_[2]};\n'}
+[5.045570] (lightning) StderrLine: {'line': b'      |                    ^~~~~~~~~\n'}
+[5.109453] (-) TimerEvent: {}
+[5.209791] (-) TimerEvent: {}
+[5.310025] (-) TimerEvent: {}
+[5.409414] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,\n'}
+[5.409557] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,\n'}
+[5.409595] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:8:\n'}
+[5.409644] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor \xe2\x80\x98lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\xe2\x80\x99:\n'}
+[5.409679] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: \xe2\x80\x98lightning::miao::OptimizerConfig::is_dense_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[5.409711] (lightning) StderrLine: {'line': b'   44 |     bool is_dense_ = true;\n'}
+[5.409743] (lightning) StderrLine: {'line': b'      |          ^~~~~~~~~\n'}
+[5.409772] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   \xe2\x80\x98lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\xe2\x80\x99 [-Wreorder]\n'}
+[5.409803] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[5.409833] (lightning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~~~~~\n'}
+[5.409869] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]\n'}
+[5.409902] (lightning) StderrLine: {'line': b'   31 |     explicit OptimizerConfig(AlgorithmType algo_type,\n'}
+[5.409933] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~~~~~~~~\n'}
+[5.410074] (-) TimerEvent: {}
+[5.420175] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,\n'}
+[5.420283] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,\n'}
+[5.420324] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:8:\n'}
+[5.420359] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[5.420392] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.420423] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[5.420456] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[5.510178] (-) TimerEvent: {}
+[5.610367] (-) TimerEvent: {}
+[5.710565] (-) TimerEvent: {}
+[5.810761] (-) TimerEvent: {}
+[5.910896] (-) TimerEvent: {}
+[6.011054] (-) TimerEvent: {}
+[6.111240] (-) TimerEvent: {}
+[6.211439] (-) TimerEvent: {}
+[6.311612] (-) TimerEvent: {}
+[6.411822] (-) TimerEvent: {}
+[6.512034] (-) TimerEvent: {}
+[6.612239] (-) TimerEvent: {}
+[6.712441] (-) TimerEvent: {}
+[6.812710] (-) TimerEvent: {}
+[6.912962] (-) TimerEvent: {}
+[7.013175] (-) TimerEvent: {}
+[7.113362] (-) TimerEvent: {}
+[7.213520] (-) TimerEvent: {}
+[7.313752] (-) TimerEvent: {}
+[7.413929] (-) TimerEvent: {}
+[7.514088] (-) TimerEvent: {}
+[7.614245] (-) TimerEvent: {}
+[7.714442] (-) TimerEvent: {}
+[7.814621] (-) TimerEvent: {}
+[7.914859] (-) TimerEvent: {}
+[8.015023] (-) TimerEvent: {}
+[8.115227] (-) TimerEvent: {}
+[8.215431] (-) TimerEvent: {}
+[8.315596] (-) TimerEvent: {}
+[8.415794] (-) TimerEvent: {}
+[8.515964] (-) TimerEvent: {}
+[8.616125] (-) TimerEvent: {}
+[8.716285] (-) TimerEvent: {}
+[8.816478] (-) TimerEvent: {}
+[8.916667] (-) TimerEvent: {}
+[9.016909] (-) TimerEvent: {}
+[9.117066] (-) TimerEvent: {}
+[9.217227] (-) TimerEvent: {}
+[9.317421] (-) TimerEvent: {}
+[9.417643] (-) TimerEvent: {}
+[9.517870] (-) TimerEvent: {}
+[9.618020] (-) TimerEvent: {}
+[9.718179] (-) TimerEvent: {}
+[9.818324] (-) TimerEvent: {}
+[9.918551] (-) TimerEvent: {}
+[10.018793] (-) TimerEvent: {}
+[10.118966] (-) TimerEvent: {}
+[10.219133] (-) TimerEvent: {}
+[10.319292] (-) TimerEvent: {}
+[10.419485] (-) TimerEvent: {}
+[10.519673] (-) TimerEvent: {}
+[10.619842] (-) TimerEvent: {}
+[10.719967] (-) TimerEvent: {}
+[10.820126] (-) TimerEvent: {}
+[10.920319] (-) TimerEvent: {}
+[11.020523] (-) TimerEvent: {}
+[11.120723] (-) TimerEvent: {}
+[11.220998] (-) TimerEvent: {}
+[11.321182] (-) TimerEvent: {}
+[11.421356] (-) TimerEvent: {}
+[11.521534] (-) TimerEvent: {}
+[11.621698] (-) TimerEvent: {}
+[11.721838] (-) TimerEvent: {}
+[11.822006] (-) TimerEvent: {}
+[11.922181] (-) TimerEvent: {}
+[12.022395] (-) TimerEvent: {}
+[12.122589] (-) TimerEvent: {}
+[12.222809] (-) TimerEvent: {}
+[12.323000] (-) TimerEvent: {}
+[12.423175] (-) TimerEvent: {}
+[12.523486] (-) TimerEvent: {}
+[12.623654] (-) TimerEvent: {}
+[12.723866] (-) TimerEvent: {}
+[12.824158] (-) TimerEvent: {}
+[12.924351] (-) TimerEvent: {}
+[13.024537] (-) TimerEvent: {}
+[13.124702] (-) TimerEvent: {}
+[13.224931] (-) TimerEvent: {}
+[13.325090] (-) TimerEvent: {}
+[13.425229] (-) TimerEvent: {}
+[13.525429] (-) TimerEvent: {}
+[13.625696] (-) TimerEvent: {}
+[13.725873] (-) TimerEvent: {}
+[13.826035] (-) TimerEvent: {}
+[13.926191] (-) TimerEvent: {}
+[14.026499] (-) TimerEvent: {}
+[14.126710] (-) TimerEvent: {}
+[14.226981] (-) TimerEvent: {}
+[14.327146] (-) TimerEvent: {}
+[14.427335] (-) TimerEvent: {}
+[14.527555] (-) TimerEvent: {}
+[14.627767] (-) TimerEvent: {}
+[14.727911] (-) TimerEvent: {}
+[14.828157] (-) TimerEvent: {}
+[14.928338] (-) TimerEvent: {}
+[15.028522] (-) TimerEvent: {}
+[15.128700] (-) TimerEvent: {}
+[15.228880] (-) TimerEvent: {}
+[15.329028] (-) TimerEvent: {}
+[15.429225] (-) TimerEvent: {}
+[15.529419] (-) TimerEvent: {}
+[15.629650] (-) TimerEvent: {}
+[15.729878] (-) TimerEvent: {}
+[15.830050] (-) TimerEvent: {}
+[15.930208] (-) TimerEvent: {}
+[16.030403] (-) TimerEvent: {}
+[16.130605] (-) TimerEvent: {}
+[16.230869] (-) TimerEvent: {}
+[16.331025] (-) TimerEvent: {}
+[16.431227] (-) TimerEvent: {}
+[16.531436] (-) TimerEvent: {}
+[16.631623] (-) TimerEvent: {}
+[16.731794] (-) TimerEvent: {}
+[16.832049] (-) TimerEvent: {}
+[16.932207] (-) TimerEvent: {}
+[17.032382] (-) TimerEvent: {}
+[17.132556] (-) TimerEvent: {}
+[17.232727] (-) TimerEvent: {}
+[17.332888] (-) TimerEvent: {}
+[17.433035] (-) TimerEvent: {}
+[17.533191] (-) TimerEvent: {}
+[17.633374] (-) TimerEvent: {}
+[17.733564] (-) TimerEvent: {}
+[17.833755] (-) TimerEvent: {}
+[17.933922] (-) TimerEvent: {}
+[18.034072] (-) TimerEvent: {}
+[18.134236] (-) TimerEvent: {}
+[18.234421] (-) TimerEvent: {}
+[18.334642] (-) TimerEvent: {}
+[18.434828] (-) TimerEvent: {}
+[18.534985] (-) TimerEvent: {}
+[18.635133] (-) TimerEvent: {}
+[18.735290] (-) TimerEvent: {}
+[18.835481] (-) TimerEvent: {}
+[18.935715] (-) TimerEvent: {}
+[19.035975] (-) TimerEvent: {}
+[19.136122] (-) TimerEvent: {}
+[19.236297] (-) TimerEvent: {}
+[19.336480] (-) TimerEvent: {}
+[19.436631] (-) TimerEvent: {}
+[19.536819] (-) TimerEvent: {}
+[19.636981] (-) TimerEvent: {}
+[19.737132] (-) TimerEvent: {}
+[19.837283] (-) TimerEvent: {}
+[19.937473] (-) TimerEvent: {}
+[20.037627] (-) TimerEvent: {}
+[20.137809] (-) TimerEvent: {}
+[20.237968] (-) TimerEvent: {}
+[20.338111] (-) TimerEvent: {}
+[20.438239] (-) TimerEvent: {}
+[20.538414] (-) TimerEvent: {}
+[20.638573] (-) TimerEvent: {}
+[20.738754] (-) TimerEvent: {}
+[20.838950] (-) TimerEvent: {}
+[20.939103] (-) TimerEvent: {}
+[21.039271] (-) TimerEvent: {}
+[21.139461] (-) TimerEvent: {}
+[21.239709] (-) TimerEvent: {}
+[21.310363] (lightning) StdoutLine: {'line': b'[ 67%] Linking CXX shared library liblightning.libs.so\n'}
+[21.339896] (-) TimerEvent: {}
+[21.440094] (-) TimerEvent: {}
+[21.540313] (-) TimerEvent: {}
+[21.640511] (-) TimerEvent: {}
+[21.740681] (-) TimerEvent: {}
+[21.840948] (-) TimerEvent: {}
+[21.941171] (-) TimerEvent: {}
+[22.041337] (-) TimerEvent: {}
+[22.141511] (-) TimerEvent: {}
+[22.241686] (-) TimerEvent: {}
+[22.341886] (-) TimerEvent: {}
+[22.414869] (lightning) StdoutLine: {'line': b'[ 89%] Built target lightning.libs\n'}
+[22.441893] (lightning) StdoutLine: {'line': b'[ 90%] Linking CXX executable /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/bin/test_ui\n'}
+[22.442020] (-) TimerEvent: {}
+[22.443002] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target run_slam_online\n'}
+[22.448023] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target run_slam_offline\n'}
+[22.452355] (lightning) StdoutLine: {'line': b'[ 90%] Linking CXX executable /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/bin/run_loc_offline\n'}
+[22.454086] (lightning) StdoutLine: {'line': b'[ 91%] Linking CXX executable /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/bin/run_loc_online\n'}
+[22.456153] (lightning) StdoutLine: {'line': b'[ 92%] Linking CXX executable /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/bin/run_loop_offline\n'}
+[22.457042] (lightning) StdoutLine: {'line': b'[ 93%] Linking CXX executable /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/bin/run_frontend_offline\n'}
+[22.457516] (lightning) StdoutLine: {'line': b'[ 94%] Linking CXX executable /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/bin/run_slam_online\n'}
+[22.470587] (lightning) StdoutLine: {'line': b'[ 95%] Linking CXX executable /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/bin/run_slam_offline\n'}
+[22.542136] (-) TimerEvent: {}
+[22.642321] (-) TimerEvent: {}
+[22.742518] (-) TimerEvent: {}
+[22.842718] (-) TimerEvent: {}
+[22.942927] (-) TimerEvent: {}
+[23.043148] (-) TimerEvent: {}
+[23.143367] (-) TimerEvent: {}
+[23.243549] (-) TimerEvent: {}
+[23.343748] (-) TimerEvent: {}
+[23.443987] (-) TimerEvent: {}
+[23.475073] (lightning) StdoutLine: {'line': b'[ 97%] Built target test_ui\n'}
+[23.475274] (lightning) StdoutLine: {'line': b'[ 97%] Built target run_loc_online\n'}
+[23.475432] (lightning) StdoutLine: {'line': b'[ 98%] Built target run_loc_offline\n'}
+[23.483181] (lightning) StdoutLine: {'line': b'[ 99%] Built target run_slam_offline\n'}
+[23.496586] (lightning) StdoutLine: {'line': b'[ 99%] Built target run_loop_offline\n'}
+[23.518332] (lightning) StdoutLine: {'line': b'[100%] Built target run_frontend_offline\n'}
+[23.544142] (-) TimerEvent: {}
+[23.617245] (lightning) StdoutLine: {'line': b'[100%] Built target run_slam_online\n'}
+[23.628703] (lightning) CommandEnded: {'returncode': 0}
+[23.630381] (lightning) JobProgress: {'identifier': 'lightning', 'progress': 'install'}
+[23.630993] (lightning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'wayland'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1319'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1695'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11030'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('ROS_DISTRO', 'humble'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:5678'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0ETYS5O:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/1671,unix/KPLNB151:/tmp/.ICE-unix/1671'), ('INVOCATION_ID', '08e038dd9b564bc1a1c69d6c854f79e8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QUXZT3'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning:/opt/ros/humble')]), 'shell': False}
+[23.643566] (lightning) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[23.644230] (-) TimerEvent: {}
+[23.645474] (lightning) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.645697] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/ament_index/resource_index/rosidl_interfaces/lightning\n'}
+[23.646374] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.646594] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__functions.h\n'}
+[23.646667] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__struct.h\n'}
+[23.646730] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__type_support.h\n'}
+[23.647044] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__functions.h\n'}
+[23.647322] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__struct.h\n'}
+[23.647436] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__type_support.h\n'}
+[23.647489] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/loc_cmd.h\n'}
+[23.647541] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/save_map.h\n'}
+[23.647588] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/environment/library_path.sh\n'}
+[23.647636] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/environment/library_path.dsv\n'}
+[23.647815] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.648002] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[23.648111] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[23.648450] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[23.648589] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__builder.hpp\n'}
+[23.648696] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__struct.hpp\n'}
+[23.648791] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__traits.hpp\n'}
+[23.648887] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__type_support.hpp\n'}
+[23.649089] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__builder.hpp\n'}
+[23.649230] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__struct.hpp\n'}
+[23.649279] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__traits.hpp\n'}
+[23.649382] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__type_support.hpp\n'}
+[23.649514] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/loc_cmd.hpp\n'}
+[23.649563] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/save_map.hpp\n'}
+[23.649880] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.649960] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.650048] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.650278] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.650358] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__rosidl_typesupport_introspection_c.h\n'}
+[23.650434] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[23.650664] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/loc_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.650745] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/lightning/lightning/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.650889] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/environment/pythonpath.sh\n'}
+[23.650998] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/environment/pythonpath.dsv\n'}
+[23.651218] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[23.651350] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[23.651453] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[23.651496] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[23.651947] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/__init__.py\n'}
+[23.652032] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/_lightning_s.ep.rosidl_typesupport_c.c\n'}
+[23.652118] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/_lightning_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[23.652194] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/_lightning_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[23.652270] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/liblightning__rosidl_generator_py.so\n'}
+[23.652372] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/lightning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.652466] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/lightning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.652548] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/lightning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.652622] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv/__init__.py\n'}
+[23.652681] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv/_loc_cmd.py\n'}
+[23.652743] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv/_loc_cmd_s.c\n'}
+[23.652898] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv/_save_map.py\n'}
+[23.652983] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv/_save_map_s.c\n'}
+[23.653222] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/lightning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.653473] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/lightning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.653685] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/lightning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.653811] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/ament_index/resource_index/rust_packages/lightning\n'}
+[23.654027] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/rust/Cargo.toml\n'}
+[23.654093] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/rust/build.rs\n'}
+[23.654155] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/rust/src/lib.rs\n'}
+[23.654217] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/rust/src/srv.rs\n'}
+[23.654278] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/rust/src/srv/rmw.rs\n'}
+[23.654356] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/srv/LocCmd.idl\n'}
+[23.654457] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/srv/SaveMap.idl\n'}
+[23.654581] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/srv/LocCmd.srv\n'}
+[23.654661] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/srv/LocCmd_Request.msg\n'}
+[23.654743] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/srv/LocCmd_Response.msg\n'}
+[23.654893] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/srv/SaveMap.srv\n'}
+[23.655037] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/srv/SaveMap_Request.msg\n'}
+[23.655090] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/srv/SaveMap_Response.msg\n'}
+[23.655226] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/lightning//config/default.yaml\n'}
+[23.655318] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/lightning//config/default_livox.yaml\n'}
+[23.655533] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/lightning//config/default_nclt.yaml\n'}
+[23.655567] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/lightning//config/default_robosense.yaml\n'}
+[23.655639] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/lightning//config/default_utbm.yaml\n'}
+[23.655671] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/lightning//config/default_vbr.yaml\n'}
+[23.655701] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2\n'}
+[23.655873] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h\n'}
+[23.655990] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h\n'}
+[23.656163] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h\n'}
+[23.656257] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h\n'}
+[23.656310] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h\n'}
+[23.656344] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h\n'}
+[23.656441] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h\n'}
+[23.656474] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h\n'}
+[23.656506] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.656630] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[23.656695] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h\n'}
+[23.656757] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.656997] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp\n'}
+[23.657059] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp\n'}
+[23.657124] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp\n'}
+[23.657193] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp\n'}
+[23.657277] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp\n'}
+[23.657352] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp\n'}
+[23.657422] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp\n'}
+[23.657491] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp\n'}
+[23.657559] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp\n'}
+[23.657628] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp\n'}
+[23.657694] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[23.658007] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.658106] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.658178] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.658311] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h\n'}
+[23.658375] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h\n'}
+[23.658438] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.658627] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.658694] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.658936] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2--py3.10.egg-info/PKG-INFO\n'}
+[23.659107] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2--py3.10.egg-info/SOURCES.txt\n'}
+[23.659150] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2--py3.10.egg-info/dependency_links.txt\n'}
+[23.659185] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2--py3.10.egg-info/top_level.txt\n'}
+[23.659484] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py\n'}
+[23.659573] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c\n'}
+[23.659648] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[23.659715] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[23.659779] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[23.659848] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.659921] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.660085] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.660154] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py\n'}
+[23.660219] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py\n'}
+[23.660256] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c\n'}
+[23.660319] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py\n'}
+[23.660408] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c\n'}
+[23.660633] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.660883] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.661116] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.661253] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/ament_index/resource_index/rust_packages/livox_ros_driver2\n'}
+[23.661451] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/livox_ros_driver2/rust/Cargo.toml\n'}
+[23.661669] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/livox_ros_driver2/rust/build.rs\n'}
+[23.661708] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/livox_ros_driver2/rust/src/lib.rs\n'}
+[23.661744] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/livox_ros_driver2/rust/src/msg.rs\n'}
+[23.661886] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/livox_ros_driver2/rust/src/msg/rmw.rs\n'}
+[23.661984] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/livox_ros_driver2/msg/CustomPoint.idl\n'}
+[23.662023] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/livox_ros_driver2/msg/CustomMsg.idl\n'}
+[23.662162] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/livox_ros_driver2/msg/CustomPoint.msg\n'}
+[23.662196] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/livox_ros_driver2/msg/CustomMsg.msg\n'}
+[23.662381] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblightning.libs.so\n'}
+[23.662485] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/libmiao.core.so\n'}
+[23.662606] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/libmiao.utils.so\n'}
+[23.662833] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/lightning/run_slam_offline\n'}
+[23.662928] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/lightning/run_slam_online\n'}
+[23.663008] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/lightning/run_loc_offline\n'}
+[23.663086] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/lightning/run_loc_online\n'}
+[23.663187] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/ament_index/resource_index/package_run_dependencies/lightning\n'}
+[23.663286] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/ament_index/resource_index/parent_prefix_path/lightning\n'}
+[23.663373] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/environment/ament_prefix_path.sh\n'}
+[23.663458] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/environment/ament_prefix_path.dsv\n'}
+[23.663536] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/environment/path.sh\n'}
+[23.663620] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/environment/path.dsv\n'}
+[23.663701] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/local_setup.bash\n'}
+[23.663780] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/local_setup.sh\n'}
+[23.663861] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/local_setup.zsh\n'}
+[23.663937] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/local_setup.dsv\n'}
+[23.663993] (lightning) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/package.dsv\n'}
+[23.669832] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/ament_index/resource_index/packages/lightning\n'}
+[23.669924] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/rosidl_cmake-extras.cmake\n'}
+[23.669984] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.670049] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.670226] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.670261] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.670367] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[23.670400] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[23.670498] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[23.670584] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/lightningConfig.cmake\n'}
+[23.670646] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/lightningConfig-version.cmake\n'}
+[23.670723] (lightning) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/package.xml\n'}
+[23.672499] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblightning__rosidl_generator_c.so\n'}
+[23.672948] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblightning__rosidl_typesupport_fastrtps_c.so\n'}
+[23.673530] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblightning__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.673974] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblightning__rosidl_typesupport_introspection_c.so\n'}
+[23.674272] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblightning__rosidl_typesupport_c.so\n'}
+[23.674694] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblightning__rosidl_typesupport_introspection_cpp.so\n'}
+[23.675134] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblightning__rosidl_typesupport_cpp.so\n'}
+[23.702533] (lightning) StdoutLine: {'line': b"Listing '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning'...\n"}
+[23.702690] (lightning) StdoutLine: {'line': b"Compiling '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/__init__.py'...\n"}
+[23.702764] (lightning) StdoutLine: {'line': b"Listing '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/lightning/srv'...\n"}
+[23.705735] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblightning__rosidl_generator_py.so\n'}
+[23.706501] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_generator_c.so\n'}
+[23.706808] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\n'}
+[23.707037] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.707447] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\n'}
+[23.707611] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_typesupport_c.so\n'}
+[23.707801] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\n'}
+[23.708018] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so\n'}
+[23.731035] (lightning) StdoutLine: {'line': b"Listing '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2'...\n"}
+[23.731195] (lightning) StdoutLine: {'line': b"Compiling '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...\n"}
+[23.731272] (lightning) StdoutLine: {'line': b"Listing '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...\n"}
+[23.734236] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[23.735135] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_generator_cExport.cmake\n'}
+[23.735397] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_generator_cExport-release.cmake\n'}
+[23.735538] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[23.735615] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[23.735745] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_generator_cppExport.cmake\n'}
+[23.735816] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[23.735926] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[23.735999] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_introspection_cExport.cmake\n'}
+[23.736101] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[23.736218] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_cExport.cmake\n'}
+[23.736336] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_cExport-release.cmake\n'}
+[23.736403] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[23.736477] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[23.736547] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_cppExport.cmake\n'}
+[23.736613] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/lightning__rosidl_typesupport_cppExport-release.cmake\n'}
+[23.736685] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_generator_pyExport.cmake\n'}
+[23.736754] (lightning) StdoutLine: {'line': b'-- Up-to-date: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/share/lightning/cmake/export_lightning__rosidl_generator_pyExport-release.cmake\n'}
+[23.737479] (lightning) CommandEnded: {'returncode': 0}
+[23.744487] (-) TimerEvent: {}
+[23.755940] (lightning) JobEnded: {'identifier': 'lightning', 'rc': 0}
+[23.756488] (-) EventReactorShutdown: {}

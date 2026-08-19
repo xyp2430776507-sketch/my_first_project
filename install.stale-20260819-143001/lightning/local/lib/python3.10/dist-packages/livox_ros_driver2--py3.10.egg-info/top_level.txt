@@ -1,0 +1,1 @@
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning/thirdparty/livox_ros_driver/ament_cmake_python/livox_ros_driver2/livox_ros_driver2.egg-info/top_level.txt

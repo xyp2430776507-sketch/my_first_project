@@ -1,0 +1,22 @@
+1787024813.8147292 [INFO] [launch]: All log files can be found below /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/log/ros_runtime/2026-08-18-11-46-53-814172-KPLNB151-2
+1787024813.8149104 [INFO] [launch]: Default logging verbosity is set to INFO
+1787024814.0301111 [INFO] [ign gazebo-1]: process started with pid [21]
+1787024814.0302234 [INFO] [parameter_bridge-2]: process started with pid [23]
+1787024814.0302687 [INFO] [static_transform_publisher-3]: process started with pid [26]
+1787024814.0303044 [INFO] [sim_cloud_adapter-4]: process started with pid [28]
+1787024814.0303373 [INFO] [ros2-5]: process started with pid [30]
+1787024814.0303686 [INFO] [rviz2-6]: process started with pid [32]
+1787024814.1463869 [ERROR] [rviz2-6]: process has died [pid 32, exit code -6, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/rviz/online_mapping.rviz --ros-args -r __node:=lightning_rviz --params-file /tmp/launch_params_e3wmqvg7'].
+1787024814.1557164 [INFO] [ign gazebo-1]: process has finished cleanly [pid 21]
+1787024814.1559665 [INFO] [launch]: process[ign gazebo-1] was required: shutting down launched system
+1787024814.1572876 [INFO] [ros2-5]: sending signal 'SIGINT' to process[ros2-5]
+1787024814.1576328 [INFO] [sim_cloud_adapter-4]: sending signal 'SIGINT' to process[sim_cloud_adapter-4]
+1787024814.1579447 [INFO] [static_transform_publisher-3]: sending signal 'SIGINT' to process[static_transform_publisher-3]
+1787024814.1583867 [INFO] [parameter_bridge-2]: sending signal 'SIGINT' to process[parameter_bridge-2]
+1787024814.1727164 [ERROR] [parameter_bridge-2]: process has died [pid 23, exit code 255, cmd '/opt/ros/humble/lib/ros_gz_bridge/parameter_bridge /cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist /clock@rosgraph_msgs/msg/Clock[ignition.msgs.Clock /imu@sensor_msgs/msg/Imu[ignition.msgs.IMU /livox/lidar/points@sensor_msgs/msg/PointCloud2[ignition.msgs.PointCloudPacked --ros-args -r __node:=lightning_sim_bridge -r /livox/lidar/points:=/livox/lidar'].
+1787024814.2633052 [INFO] [sim_cloud_adapter-4]: process has finished cleanly [pid 28]
+1787024814.2637825 [INFO] [static_transform_publisher-3]: process has finished cleanly [pid 26]
+1787024819.1621749 [ERROR] [ros2-5]: process[ros2-5] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1787024819.1625724 [INFO] [ros2-5]: sending signal 'SIGTERM' to process[ros2-5]
+1787024824.1631646 [ERROR] [ros2-5]: process[ros2-5] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+1787024824.1634715 [ERROR] [ros2-5]: process has died [pid 30, exit code -15, cmd 'ros2 run lightning run_slam_online --config=/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/config/lightning_sim.yaml'].

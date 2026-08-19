@@ -1,0 +1,6 @@
+[0.018s] Invoking command in '/home/kepler/lightning_lm_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kepler/lightning_lm_ws/build/livox_ros_driver2 -- -j28 -l28
+[0.030s] [0mCMake Error: The current CMakeCache.txt directory /home/kepler/lightning_lm_ws/build/livox_ros_driver2/CMakeCache.txt is different than the directory /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/livox_ros_driver2 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.051s] [0mCMake Error: The source directory "/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/livox_ros_driver2" does not exist.
+[0.051s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.052s] gmake: *** [Makefile:1437: cmake_check_build_system] Error 1
+[0.055s] Invoked command in '/home/kepler/lightning_lm_ws/build/livox_ros_driver2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kepler/lightning_lm_ws/build/livox_ros_driver2 -- -j28 -l28

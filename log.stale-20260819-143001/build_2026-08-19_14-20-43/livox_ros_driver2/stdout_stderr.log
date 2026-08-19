@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/kepler/lightning_lm_ws/build/livox_ros_driver2/CMakeCache.txt is different than the directory /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/livox_ros_driver2 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/livox_ros_driver2" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:1437: cmake_check_build_system] Error 1

@@ -1,0 +1,151 @@
+[0.009s] Invoking command in '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm -DDISTRO_ROS=humble -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.249s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.281s] -- Checking for module 'eigen3'
+[0.294s] --   Found eigen3, version 3.4.0
+[0.324s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.324s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.337s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.349s] -- Checking for module 'flann'
+[0.361s] --   Found flann, version 1.9.1
+[0.401s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.401s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.427s] -- Looking for pthread.h
+[0.485s] -- Looking for pthread.h - found
+[0.486s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.546s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.547s] -- Found Threads: TRUE  
+[0.549s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.553s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.624s] -- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+[0.625s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[0.627s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.634s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.646s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.656s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.724s] -- Found X11: /usr/include   
+[0.724s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.790s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.790s] -- Looking for gethostbyname
+[0.862s] -- Looking for gethostbyname - found
+[0.862s] -- Looking for connect
+[0.929s] -- Looking for connect - found
+[0.929s] -- Looking for remove
+[0.990s] -- Looking for remove - found
+[0.990s] -- Looking for shmat
+[1.052s] -- Looking for shmat - found
+[1.052s] -- Looking for IceConnectionNumber in ICE
+[1.119s] -- Looking for IceConnectionNumber in ICE - found
+[1.196s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.198s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.200s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.202s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.215s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.221s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.224s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.229s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.305s] -- Checking for module 'libusb-1.0'
+[1.320s] --   Found libusb-1.0, version 1.0.25
+[1.350s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.351s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.351s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.404s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.405s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.405s] ** WARNING ** io features related to pcap will be disabled
+[1.462s] -- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+[1.462s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[1.557s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.563s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.569s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.633s] -- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+[1.634s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[1.720s] -- Found Qhull version 8.0.2
+[1.773s] -- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+[1.774s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[1.855s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.926s] -- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+[1.926s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[2.006s] -- looking for PCL_COMMON
+[2.007s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.007s] -- looking for PCL_KDTREE
+[2.007s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.007s] -- looking for PCL_OCTREE
+[2.008s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.008s] -- looking for PCL_SEARCH
+[2.008s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.008s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.009s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.009s] -- looking for PCL_FILTERS
+[2.009s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.010s] -- looking for PCL_2D
+[2.010s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.010s] -- looking for PCL_GEOMETRY
+[2.010s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.010s] -- looking for PCL_IO
+[2.010s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.010s] -- looking for PCL_FEATURES
+[2.011s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.011s] -- looking for PCL_ML
+[2.012s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.012s] -- looking for PCL_SEGMENTATION
+[2.012s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.012s] -- looking for PCL_VISUALIZATION
+[2.013s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.013s] -- looking for PCL_SURFACE
+[2.014s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.014s] -- looking for PCL_REGISTRATION
+[2.014s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.014s] -- looking for PCL_KEYPOINTS
+[2.015s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.015s] -- looking for PCL_TRACKING
+[2.015s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.016s] -- looking for PCL_RECOGNITION
+[2.016s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.016s] -- looking for PCL_STEREO
+[2.017s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.017s] -- looking for PCL_APPS
+[2.017s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.018s] -- looking for PCL_IN_HAND_SCANNER
+[2.018s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.018s] -- looking for PCL_MODELER
+[2.018s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.018s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.019s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.019s] -- looking for PCL_OUTOFCORE
+[2.019s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.019s] -- looking for PCL_PEOPLE
+[2.020s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.021s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.028s] CMake Error at cmake/packages.cmake:5 (find_package):
+[2.028s]   By not providing "FindPangolin.cmake" in CMAKE_MODULE_PATH this project has
+[2.028s]   asked CMake to find a package configuration file provided by "Pangolin",
+[2.028s]   but CMake did not find one.
+[2.028s] 
+[2.028s]   Could not find a package configuration file provided by "Pangolin" with any
+[2.028s]   of the following names:
+[2.028s] 
+[2.028s]     PangolinConfig.cmake
+[2.028s]     pangolin-config.cmake
+[2.028s] 
+[2.028s]   Add the installation prefix of "Pangolin" to CMAKE_PREFIX_PATH or set
+[2.028s]   "Pangolin_DIR" to a directory containing one of the above files.  If
+[2.029s]   "Pangolin" provides a separate development package or SDK, be sure it has
+[2.029s]   been installed.
+[2.029s] Call Stack (most recent call first):
+[2.029s]   CMakeLists.txt:32 (include)
+[2.029s] 
+[2.029s] 
+[2.029s] -- Configuring incomplete, errors occurred!
+[2.029s] See also "/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning/CMakeFiles/CMakeOutput.log".
+[2.029s] See also "/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning/CMakeFiles/CMakeError.log".
+[2.036s] Invoked command in '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm -DDISTRO_ROS=humble -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning

@@ -1,0 +1,337 @@
+Consolidate compiler generated dependencies of target lightning__rosidl_generator_c
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_c
+Consolidate compiler generated dependencies of target miao.utils
+[  1%] Built target lightning__cpp
+[  4%] Built target livox_interfaces2__rosidl_generator_c
+[  5%] Built target livox_interfaces2__cpp
+[  5%] Built target livox_interfaces2__rs
+[  6%] Built target lightning__rs
+[  9%] Built target lightning__rosidl_generator_c
+[  9%] Built target ament_cmake_python_symlink_lightning
+[  9%] Built target ament_cmake_python_symlink_livox_ros_driver2
+[ 10%] Built target miao.utils
+Consolidate compiler generated dependencies of target miao.core
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_cpp
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_cpp
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_cpp
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_cpp
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_c
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_c
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_c
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_c
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_c
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_cpp
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_c
+[ 13%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[ 16%] Built target lightning__rosidl_typesupport_cpp
+[ 19%] Built target livox_interfaces2__rosidl_typesupport_c
+[ 22%] Built target lightning__rosidl_typesupport_introspection_cpp
+[ 26%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[ 28%] Built target lightning__rosidl_typesupport_fastrtps_cpp
+[ 35%] Built target miao.core
+[ 38%] Built target lightning__rosidl_typesupport_introspection_c
+[ 41%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[ 44%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[ 47%] Built target lightning__rosidl_typesupport_c
+[ 50%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[ 53%] Built target lightning__rosidl_typesupport_fastrtps_c
+[ 53%] Built target livox_interfaces2
+Consolidate compiler generated dependencies of target lightning.libs
+[ 53%] Built target lightning
+[ 53%] Built target livox_interfaces2__py
+[ 54%] Built target lightning__py
+[ 55%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/pointcloud_preprocess.cc.o
+[ 55%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/laser_mapping.cc.o
+[ 55%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5.cc.o
+[ 56%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map.cc.o
+[ 57%] Building CXX object src/CMakeFiles/lightning.libs.dir/common/params.cc.o
+[ 58%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/eskf.cc.o
+[ 59%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/loop_closing/loop_closing.cc.o
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_py
+Consolidate compiler generated dependencies of target lightning__rosidl_generator_py
+[ 59%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization_result.cc.o
+[ 60%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo_impl.cc.o
+[ 61%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pose_extrapolator.cc.o
+[ 63%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/lidar_loc.cc.o
+[ 63%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/ndt_omp.cpp.o
+[ 63%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp.o
+[ 63%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/pangolin_window.cc.o
+[ 63%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization.cpp.o
+[ 64%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/ui_cloud.cc.o
+[ 66%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo.cc.o
+[ 66%] Building CXX object src/CMakeFiles/lightning.libs.dir/utils/pointcloud_utils.cc.o
+[ 67%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/pangolin_window_impl.cc.o
+[ 68%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/slam.cc.o
+[ 69%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/loc_system.cc.o
+[ 70%] Building CXX object src/CMakeFiles/lightning.libs.dir/wrapper/bag_io.cc.o
+[ 72%] Built target livox_interfaces2__rosidl_generator_py
+[ 74%] Built target lightning__rosidl_generator_py
+Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_c__pyext
+Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_c__pyext
+[ 75%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[ 77%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[ 79%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[ 80%] Built target lightning__rosidl_typesupport_fastrtps_c__pyext
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_c__pyext
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_c__pyext
+[ 82%] Built target lightning__rosidl_typesupport_introspection_c__pyext
+[ 82%] Built target lightning__rosidl_typesupport_c__pyext
+/usr/lib/python3/dist-packages/setuptools/dist.py:507: UserWarning: The version specified ('') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+  warnings.warn(
+running egg_info
+writing livox_ros_driver2.egg-info/PKG-INFO
+writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+running egg_info
+writing lightning.egg-info/PKG-INFO
+writing dependency_links to lightning.egg-info/dependency_links.txt
+writing top-level names to lightning.egg-info/top_level.txt
+reading manifest file 'lightning.egg-info/SOURCES.txt'
+writing manifest file 'lightning.egg-info/SOURCES.txt'
+[ 82%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[ 82%] Built target ament_cmake_python_build_lightning_egg
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+   44 |     bool is_dense_ = true;
+      |          ^~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      ^~~~~~~~~~~~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+   31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+      |              ^~~~~~~~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+   80 |     virtual int Optimize(int interations) { return 0; }
+      |                          ~~~~^~~~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:1:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+   44 |     bool is_dense_ = true;
+      |          ^~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      ^~~~~~~~~~~~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+   31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+      |              ^~~~~~~~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:1:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+   80 |     virtual int Optimize(int interations) { return 0; }
+      |                          ~~~~^~~~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.h:9,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc:5:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+   74 |     NavState state_;  // 卡尔曼滤波器状态
+      |              ^~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+   71 |     SE3 pose_lio_;  // 前端的pose
+      |         ^~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+      |     ^~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc:2:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:8,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+   74 |     NavState state_;  // 卡尔曼滤波器状态
+      |              ^~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+   71 |     SE3 pose_lio_;  // 前端的pose
+      |         ^~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+      |     ^~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc: In member function ‘void lightning::ui::UiCloud::Render()’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc:56:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<float, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   56 |     for (int i = 0; i < xyz_data_.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc:66:31: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   66 |         } else if (use_color_ = UseColor::CUSTOM_COLOR) {
+      |                    ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+   44 |     bool is_dense_ = true;
+      |          ^~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      ^~~~~~~~~~~~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+   31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+      |              ^~~~~~~~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+   80 |     virtual int Optimize(int interations) { return 0; }
+      |                          ~~~~^~~~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/eskf.cc:6:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:5:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.h:16,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window.cc:1:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+   74 |     NavState state_;  // 卡尔曼滤波器状态
+      |              ^~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+   71 |     SE3 pose_lio_;  // 前端的pose
+      |         ^~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+      |     ^~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:7:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.h:47,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp:1:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h:25,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.cc:5:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc: In member function ‘void lightning::g2p5::G2P5::RenderBack()’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc:128:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+  128 |             if (cur_idx == frontend_kf->GetID()) {
+      |                 ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:8:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/eskf.cc: In member function ‘void lightning::ESKF::Predict(const double&, const ProcessNoiseType&, const Vec3d&, const Vec3d&)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/eskf.cc:45:14: warning: variable ‘x_before’ set but not used [-Wunused-but-set-variable]
+   45 |     NavState x_before = x_;
+      |              ^~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/params.cc:6:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.h:47,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h:47,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:1:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization_result.cc:6:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:11,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:7:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+   74 |     NavState state_;  // 卡尔曼滤波器状态
+      |              ^~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+   71 |     SE3 pose_lio_;  // 前端的pose
+      |         ^~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+      |     ^~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pose_extrapolator.cc:2:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function ‘void lightning::PointCloudPreprocess::Process(const SharedPtr&, pcl::PointCloud<PointXYZIT>::Ptr&)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:47:24: warning: comparison of integer expressions of different signedness: ‘uint’ {aka ‘unsigned int’} and ‘int’ [-Wsign-compare]
+   47 |     for (uint i = 0; i < plsize - 1; ++i) {
+      |                      ~~^~~~~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In lambda function:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:72:67: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   72 |             (abs(cloud_full_[i].z - cloud_full_[i - 1].z) > 1e-7) &&
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+   73 |                 (cloud_full_[i].x * cloud_full_[i].x + cloud_full_[i].y * cloud_full_[i].y +
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   74 |                      cloud_full_[i].z * cloud_full_[i].z >
+      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         
+   75 |                  (blind_ * blind_))) {
+      |                  ~~~~~~~~~~~~~~~~~~                                
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function ‘void lightning::PointCloudPreprocess::Process(const SharedPtr&, pcl::PointCloud<PointXYZIT>::Ptr&)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:82:24: warning: comparison of integer expressions of different signedness: ‘uint’ {aka ‘unsigned int’} and ‘int’ [-Wsign-compare]
+   82 |     for (uint i = 1; i < plsize; i++) {
+      |                      ~~^~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function ‘void lightning::PointCloudPreprocess::Oust64Handler(const SharedPtr&)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:103:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<ouster_ros::Point, Eigen::aligned_allocator<ouster_ros::Point> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  103 |     for (int i = 0; i < pl_orig.points.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function ‘void lightning::PointCloudPreprocess::RoboSenseHandler(const SharedPtr&)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:148:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<PointRobotSense, Eigen::aligned_allocator<PointRobotSense> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  148 |     for (int i = 0; i < pl_orig.points.size(); i++) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function ‘void lightning::PointCloudPreprocess::VelodyneHandler(const SharedPtr&)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:202:16: warning: variable ‘yaw_end’ set but not used [-Wunused-but-set-variable]
+  202 |         double yaw_end = yaw_first;
+      |                ^~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.h:16,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.cc:5:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.h:18,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:5:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+   74 |     NavState state_;  // 卡尔曼滤波器状态
+      |              ^~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+   71 |     SE3 pose_lio_;  // 前端的pose
+      |         ^~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+      |     ^~~~~~~~

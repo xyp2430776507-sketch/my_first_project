@@ -1,0 +1,234 @@
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+-- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+-- Could NOT find MPI (missing: MPI_C_FOUND C) 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+-- Could NOT find MPI (missing: MPI_C_FOUND C) 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+-- Could NOT find MPI (missing: MPI_C_FOUND C) 
+-- Found Qhull version 8.0.2
+-- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+-- Could NOT find MPI (missing: MPI_C_FOUND C) 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+-- Could NOT find MPI (missing: MPI_C_FOUND C) 
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- looking for PCL_RECOGNITION
+-- looking for PCL_STEREO
+-- looking for PCL_APPS
+-- looking for PCL_IN_HAND_SCANNER
+-- looking for PCL_MODELER
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_PEOPLE
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- livox_ros_driver2 version: 
+-- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning
+Consolidate compiler generated dependencies of target lightning__rosidl_generator_c
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_c
+Consolidate compiler generated dependencies of target miao.utils
+[  1%] Built target lightning__cpp
+[  2%] Built target lightning__rs
+[  5%] Built target livox_interfaces2__rosidl_generator_c
+[  8%] Built target lightning__rosidl_generator_c
+[  9%] Built target livox_interfaces2__rs
+[  9%] Built target livox_interfaces2__cpp
+[ 10%] Building CXX object src/core/miao/utils/CMakeFiles/miao.utils.dir/sampler.cc.o
+[ 10%] Built target ament_cmake_python_symlink_lightning
+[ 10%] Built target ament_cmake_python_symlink_livox_ros_driver2
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_cpp
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_cpp
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_c
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_c
+Consolidate compiler generated dependencies of target miao.core
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_cpp
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_c
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_c
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_c
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_cpp
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_cpp
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_c
+[ 11%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o
+[ 12%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lightning/srv/detail/loc_cmd__type_support.cpp.o
+[ 13%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lightning/srv/detail/dds_fastrtps/loc_cmd__type_support.cpp.o
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[ 14%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o
+[ 15%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o
+[ 16%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lightning/srv/detail/save_map__type_support.cpp.o
+[ 16%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o
+[ 16%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lightning/srv/detail/dds_fastrtps/save_map__type_support.cpp.o
+[ 16%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lightning/srv/loc_cmd__type_support.cpp.o
+[ 17%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lightning/srv/save_map__type_support.cpp.o
+[ 20%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[ 21%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lightning/srv/detail/save_map__type_support_c.cpp.o
+[ 22%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/graph/graph.cc.o
+[ 22%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lightning/srv/detail/loc_cmd__type_support_c.cpp.o
+[ 22%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o
+[ 25%] Built target lightning__rosidl_typesupport_introspection_c
+[ 25%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/graph/optimizer.cc.o
+[ 26%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/common/string_tools.cc.o
+[ 27%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o
+[ 28%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o
+[ 29%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o
+[ 29%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/optimization_algorithm.cc.o
+[ 30%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o
+[ 31%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_c.dir/rosidl_typesupport_c/lightning/srv/save_map__type_support.cpp.o
+[ 32%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_c.dir/rosidl_typesupport_c/lightning/srv/loc_cmd__type_support.cpp.o
+[ 32%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o
+[ 33%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/math/marginal_covariance_cholesky.cc.o
+[ 34%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_gauss_newton.cc.o
+[ 34%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so
+[ 35%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_lm.cc.o
+[ 36%] Linking CXX shared library liblightning__rosidl_typesupport_c.so
+[ 37%] Built target livox_interfaces2__rosidl_typesupport_c
+[ 38%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_dogleg.cc.o
+[ 38%] Built target lightning__rosidl_typesupport_c
+[ 38%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/solver/solver.cc.o
+running egg_info
+writing livox_ros_driver2.egg-info/PKG-INFO
+writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+running egg_info
+writing lightning.egg-info/PKG-INFO
+writing dependency_links to lightning.egg-info/dependency_links.txt
+writing top-level names to lightning.egg-info/top_level.txt
+reading manifest file 'lightning.egg-info/SOURCES.txt'
+writing manifest file 'lightning.egg-info/SOURCES.txt'
+[ 38%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[ 38%] Built target ament_cmake_python_build_lightning_egg
+[ 38%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[ 39%] Linking CXX shared library liblightning__rosidl_typesupport_cpp.so
+[ 40%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[ 41%] Built target lightning__rosidl_typesupport_cpp
+[ 42%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[ 43%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[ 43%] Linking CXX shared library liblightning__rosidl_typesupport_introspection_cpp.so
+[ 44%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[ 45%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[ 46%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[ 47%] Built target lightning__rosidl_typesupport_introspection_cpp
+[ 48%] Linking CXX shared library liblightning__rosidl_typesupport_fastrtps_cpp.so
+[ 49%] Linking CXX shared library liblightning__rosidl_typesupport_fastrtps_c.so
+[ 50%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target livox_interfaces2
+[ 51%] Built target lightning__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target livox_interfaces2__py
+Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_py
+[ 51%] Linking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[ 52%] Built target lightning__rosidl_typesupport_fastrtps_c
+[ 52%] Built target lightning
+[ 54%] Built target livox_interfaces2__rosidl_generator_py
+Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[ 55%] Built target lightning__py
+Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_c__pyext
+Consolidate compiler generated dependencies of target lightning__rosidl_generator_py
+[ 56%] Linking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[ 56%] Linking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[ 57%] Linking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[ 58%] Linking C shared library rosidl_generator_py/lightning/liblightning__rosidl_generator_py.so
+[ 59%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[ 60%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[ 61%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[ 62%] Built target lightning__rosidl_generator_py
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_c__pyext
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_c__pyext
+Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_c__pyext
+[ 62%] Linking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[ 63%] Linking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[ 63%] Linking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[ 63%] Built target lightning__rosidl_typesupport_c__pyext
+[ 64%] Built target lightning__rosidl_typesupport_fastrtps_c__pyext
+[ 65%] Built target lightning__rosidl_typesupport_introspection_c__pyext
+[ 65%] Linking CXX shared library libmiao.utils.so
+[ 65%] Built target miao.utils
+[ 66%] Linking CXX shared library libmiao.core.so
+[ 66%] Built target miao.core
+Consolidate compiler generated dependencies of target lightning.libs
+[ 66%] Building CXX object src/CMakeFiles/lightning.libs.dir/common/nav_state.cc.o
+[ 67%] Building CXX object src/CMakeFiles/lightning.libs.dir/common/options.cc.o
+[ 68%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/eskf.cc.o
+[ 69%] Building CXX object src/CMakeFiles/lightning.libs.dir/io/yaml_io.cc.o
+[ 69%] Building CXX object src/CMakeFiles/lightning.libs.dir/common/params.cc.o
+[ 70%] Building CXX object src/CMakeFiles/lightning.libs.dir/io/file_io.cc.o
+[ 71%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/laser_mapping.cc.o
+[ 71%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/pointcloud_preprocess.cc.o
+[ 72%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/loop_closing/loop_closing.cc.o
+[ 73%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5_map.cc.o
+[ 73%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5.cc.o
+[ 74%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map.cc.o
+[ 75%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5_subgrid.cc.o
+[ 76%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map_chunk.cc.o
+[ 76%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization_result.cc.o
+[ 77%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/lidar_loc.cc.o
+[ 78%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/ndt_omp.cpp.o
+[ 79%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo.cc.o
+[ 79%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp.o
+[ 80%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo_impl.cc.o
+[ 82%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization.cpp.o
+[ 82%] Building CXX object src/CMakeFiles/lightning.libs.dir/utils/timer.cc.o
+[ 82%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pose_extrapolator.cc.o
+[ 83%] Building CXX object src/CMakeFiles/lightning.libs.dir/utils/pointcloud_utils.cc.o
+[ 83%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/pangolin_window.cc.o
+[ 84%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/pangolin_window_impl.cc.o
+[ 85%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/ui_cloud.cc.o
+[ 86%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/ui_car.cc.o
+[ 86%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/ui_trajectory.cc.o
+[ 87%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/slam.cc.o
+[ 88%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/loc_system.cc.o
+[ 89%] Building CXX object src/CMakeFiles/lightning.libs.dir/wrapper/bag_io.cc.o

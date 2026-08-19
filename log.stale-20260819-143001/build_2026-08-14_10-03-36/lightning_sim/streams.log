@@ -1,0 +1,44 @@
+[30.009s] Invoking command in '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim
+[30.123s] -- The C compiler identification is GNU 11.4.0
+[30.187s] -- The CXX compiler identification is GNU 11.4.0
+[30.193s] -- Detecting C compiler ABI info
+[30.268s] -- Detecting C compiler ABI info - done
+[30.276s] -- Check for working C compiler: /usr/bin/cc - skipped
+[30.277s] -- Detecting C compile features
+[30.278s] -- Detecting C compile features - done
+[30.281s] -- Detecting CXX compiler ABI info
+[30.373s] -- Detecting CXX compiler ABI info - done
+[30.383s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[30.383s] -- Detecting CXX compile features
+[30.384s] -- Detecting CXX compile features - done
+[30.388s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[30.525s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[30.576s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[30.652s] -- Configuring done
+[30.654s] -- Generating done
+[30.654s] -- Build files have been written to: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_sim
+[30.657s] Invoked command in '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim
+[30.658s] Invoking command in '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_sim -- -j28 -l28
+[30.697s] Invoked command in '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_sim -- -j28 -l28
+[30.708s] Invoking command in '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_sim
+[30.717s] -- Install configuration: ""
+[30.718s] -- Execute custom install script
+[30.719s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/launch/__pycache__/world.launch.cpython-310.pyc
+[30.730s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/launch/world.launch.py
+[30.738s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/worlds/baseline_world.sdf
+[30.748s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/ament_index/resource_index/package_run_dependencies/lightning_sim
+[30.755s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/ament_index/resource_index/parent_prefix_path/lightning_sim
+[30.761s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/environment/ament_prefix_path.sh
+[30.766s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/environment/ament_prefix_path.dsv
+[30.774s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/environment/path.sh
+[30.781s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/environment/path.dsv
+[30.788s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/local_setup.bash
+[30.794s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/local_setup.sh
+[30.802s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/local_setup.zsh
+[30.808s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/local_setup.dsv
+[30.817s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/package.dsv
+[30.825s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/ament_index/resource_index/packages/lightning_sim
+[30.835s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/cmake/lightning_simConfig.cmake
+[30.843s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/cmake/lightning_simConfig-version.cmake
+[30.849s] -- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/package.xml
+[60.036s] Invoked command in '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_sim

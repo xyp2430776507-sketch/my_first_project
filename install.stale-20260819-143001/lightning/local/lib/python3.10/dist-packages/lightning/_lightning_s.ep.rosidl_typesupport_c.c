@@ -1,0 +1,1 @@
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning/rosidl_generator_py/lightning/_lightning_s.ep.rosidl_typesupport_c.c

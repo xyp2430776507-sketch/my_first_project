@@ -1,0 +1,8 @@
+source;share/xyp_mid360_navigation/hook/cmake_prefix_path.ps1
+source;share/xyp_mid360_navigation/hook/cmake_prefix_path.dsv
+source;share/xyp_mid360_navigation/hook/cmake_prefix_path.sh
+source;share/xyp_mid360_navigation/local_setup.bash
+source;share/xyp_mid360_navigation/local_setup.dsv
+source;share/xyp_mid360_navigation/local_setup.ps1
+source;share/xyp_mid360_navigation/local_setup.sh
+source;share/xyp_mid360_navigation/local_setup.zsh

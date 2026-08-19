@@ -1,0 +1,1 @@
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning/rosidl_typesupport_fastrtps_c/lightning/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

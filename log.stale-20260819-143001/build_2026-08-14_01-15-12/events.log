@@ -1,0 +1,996 @@
+[0.000000] (-) TimerEvent: {}
+[0.000301] (lightning) JobQueued: {'identifier': 'lightning', 'dependencies': OrderedDict()}
+[0.000399] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.000564] (lightning) JobStarted: {'identifier': 'lightning'}
+[0.004124] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.006338] (lightning) JobProgress: {'identifier': 'lightning', 'progress': 'cmake'}
+[0.007300] (lightning) Command: {'cmd': ['/usr/bin/cmake', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm', '-DDISTRO_ROS=humble', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1298'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2288'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1145838'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:3674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0AaAVJJ:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/2261,unix/KPLNB151:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '41a0992f09ec4f17bdf6cbbabdc6f9d5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.008199] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.008745] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'build'}
+[0.009507] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/livox_ros_driver2', '--', '-j28', '-l28'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/livox_ros_driver2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1298'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2288'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1145838'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:3674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0AaAVJJ:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/2261,unix/KPLNB151:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '41a0992f09ec4f17bdf6cbbabdc6f9d5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/livox_ros_driver2'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.031531] (lightning) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.050843] (livox_ros_driver2) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[0.058567] (lightning) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.058781] (livox_ros_driver2) StdoutLine: {'line': b'[  3%] Generating Rust code for ROS interfaces\n'}
+[0.061272] (livox_ros_driver2) StdoutLine: {'line': b'[  5%] Building CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o\n'}
+[0.062605] (livox_ros_driver2) StdoutLine: {'line': b'[  6%] Generating C++ code for ROS interfaces\n'}
+[0.069427] (livox_ros_driver2) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_livox_ros_driver2\n'}
+[0.099714] (-) TimerEvent: {}
+[0.117441] (lightning) StdoutLine: {'line': b'-- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) \n'}
+[0.117669] (lightning) StdoutLine: {'line': b'-- Could NOT find MPI (missing: MPI_C_FOUND C) \n'}
+[0.199837] (-) TimerEvent: {}
+[0.236452] (lightning) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.243362] (lightning) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.243576] (lightning) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[0.247939] (livox_ros_driver2) StdoutLine: {'line': b'running egg_info\n'}
+[0.248566] (livox_ros_driver2) StdoutLine: {'line': b'creating livox_ros_driver2.egg-info\n'}
+[0.248647] (livox_ros_driver2) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[0.248814] (livox_ros_driver2) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[0.248885] (livox_ros_driver2) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[0.248920] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.250134] (livox_ros_driver2) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.250301] (livox_ros_driver2) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.269671] (livox_ros_driver2) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[0.299969] (-) TimerEvent: {}
+[0.301563] (lightning) StdoutLine: {'line': b'-- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) \n'}
+[0.301779] (lightning) StdoutLine: {'line': b'-- Could NOT find MPI (missing: MPI_C_FOUND C) \n'}
+[0.337421] (livox_ros_driver2) StdoutLine: {'line': b'[  6%] Built target livox_interfaces2__cpp\n'}
+[0.341724] (livox_ros_driver2) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o\n'}
+[0.342381] (livox_ros_driver2) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o\n'}
+[0.344433] (livox_ros_driver2) StdoutLine: {'line': b'[ 15%] Generating C++ introspection for ROS interfaces\n'}
+[0.344570] (livox_ros_driver2) StdoutLine: {'line': b'[ 15%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[0.344641] (livox_ros_driver2) StdoutLine: {'line': b'[ 15%] Generating C++ type support dispatch for ROS interfaces\n'}
+[0.378352] (livox_ros_driver2) StdoutLine: {'line': b'[ 15%] Built target livox_interfaces2__rs\n'}
+[0.400048] (-) TimerEvent: {}
+[0.420167] (lightning) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.420335] (livox_ros_driver2) StdoutLine: {'line': b'[ 17%] Linking C shared library liblivox_ros_driver2__rosidl_generator_c.so\n'}
+[0.425538] (lightning) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.431078] (lightning) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.455064] (livox_ros_driver2) StdoutLine: {'line': b'[ 17%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[0.464089] (livox_ros_driver2) StdoutLine: {'line': b'[ 18%] Generating C type support for eProsima Fast-RTPS\n'}
+[0.465111] (livox_ros_driver2) StdoutLine: {'line': b'[ 22%] Generating C type support dispatch for ROS interfaces\n'}
+[0.465200] (livox_ros_driver2) StdoutLine: {'line': b'[ 22%] Generating C introspection for ROS interfaces\n'}
+[0.489043] (lightning) StdoutLine: {'line': b'-- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) \n'}
+[0.489269] (lightning) StdoutLine: {'line': b'-- Could NOT find MPI (missing: MPI_C_FOUND C) \n'}
+[0.500131] (-) TimerEvent: {}
+[0.573145] (lightning) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[0.594223] (livox_ros_driver2) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o\n'}
+[0.594688] (livox_ros_driver2) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\n'}
+[0.600234] (-) TimerEvent: {}
+[0.611482] (livox_ros_driver2) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o\n'}
+[0.611705] (livox_ros_driver2) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o\n'}
+[0.627173] (lightning) StdoutLine: {'line': b'-- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) \n'}
+[0.627403] (lightning) StdoutLine: {'line': b'-- Could NOT find MPI (missing: MPI_C_FOUND C) \n'}
+[0.636854] (livox_ros_driver2) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o\n'}
+[0.639069] (livox_ros_driver2) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o\n'}
+[0.700338] (-) TimerEvent: {}
+[0.731538] (lightning) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.737802] (livox_ros_driver2) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o\n'}
+[0.740052] (livox_ros_driver2) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o\n'}
+[0.786251] (livox_ros_driver2) StdoutLine: {'line': b'[ 37%] Building C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o\n'}
+[0.788240] (livox_ros_driver2) StdoutLine: {'line': b'[ 39%] Building C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o\n'}
+[0.794538] (lightning) StdoutLine: {'line': b'-- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) \n'}
+[0.794728] (lightning) StdoutLine: {'line': b'-- Could NOT find MPI (missing: MPI_C_FOUND C) \n'}
+[0.800371] (-) TimerEvent: {}
+[0.825503] (livox_ros_driver2) StdoutLine: {'line': b'[ 41%] Linking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\n'}
+[0.854653] (livox_ros_driver2) StdoutLine: {'line': b'[ 41%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[0.859804] (livox_ros_driver2) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o\n'}
+[0.859965] (livox_ros_driver2) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\n'}
+[0.883165] (lightning) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[0.883408] (lightning) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[0.883527] (lightning) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[0.883655] (livox_ros_driver2) StdoutLine: {'line': b'[ 46%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so\n'}
+[0.883773] (lightning) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[0.883943] (lightning) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[0.884160] (lightning) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[0.884401] (lightning) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[0.884601] (lightning) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[0.884765] (lightning) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[0.885020] (lightning) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[0.885286] (lightning) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[0.885504] (lightning) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[0.885796] (lightning) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[0.886067] (lightning) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[0.886329] (lightning) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[0.886682] (lightning) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[0.886870] (lightning) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[0.887136] (lightning) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[0.887470] (lightning) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[0.887674] (lightning) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[0.888248] (lightning) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[0.888385] (lightning) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[0.888521] (lightning) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[0.888694] (lightning) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[0.888950] (lightning) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[0.889902] (livox_ros_driver2) StdoutLine: {'line': b'[ 48%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so\n'}
+[0.893876] (lightning) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.894574] (lightning) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.900473] (-) TimerEvent: {}
+[0.919307] (livox_ros_driver2) StdoutLine: {'line': b'[ 48%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[0.925093] (livox_ros_driver2) StdoutLine: {'line': b'[ 48%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[0.938760] (livox_ros_driver2) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o\n'}
+[0.938989] (livox_ros_driver2) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o\n'}
+[0.939061] (livox_ros_driver2) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o\n'}
+[0.939770] (livox_ros_driver2) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o\n'}
+[0.940159] (livox_ros_driver2) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o\n'}
+[0.941160] (livox_ros_driver2) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o\n'}
+[0.941490] (livox_ros_driver2) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o\n'}
+[0.941661] (livox_ros_driver2) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o\n'}
+[0.941710] (livox_ros_driver2) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o\n'}
+[0.941750] (livox_ros_driver2) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o\n'}
+[0.941788] (livox_ros_driver2) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o\n'}
+[0.942081] (livox_ros_driver2) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o\n'}
+[0.942190] (livox_ros_driver2) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o\n'}
+[0.942422] (livox_ros_driver2) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o\n'}
+[0.943304] (livox_ros_driver2) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o\n'}
+[0.990162] (livox_ros_driver2) StdoutLine: {'line': b'[ 75%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\n'}
+[1.000582] (-) TimerEvent: {}
+[1.028030] (lightning) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.072398] (livox_ros_driver2) StdoutLine: {'line': b'[ 75%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[1.090452] (livox_ros_driver2) StdoutLine: {'line': b'[ 77%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\n'}
+[1.096917] (lightning) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.100673] (-) TimerEvent: {}
+[1.128037] (livox_ros_driver2) StdoutLine: {'line': b'[ 79%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.155749] (lightning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.160256] (lightning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.168766] (lightning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.174449] (livox_ros_driver2) StdoutLine: {'line': b'[ 79%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[1.179988] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.190568] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.193564] (livox_ros_driver2) StdoutLine: {'line': b'[ 79%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[1.200813] (-) TimerEvent: {}
+[1.212001] (livox_ros_driver2) StdoutLine: {'line': b'[ 79%] Built target livox_interfaces2\n'}
+[1.217893] (lightning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.219339] (lightning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.232403] (livox_ros_driver2) StdoutLine: {'line': b'[ 81%] Generating Python code for ROS interfaces\n'}
+[1.289649] (lightning) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.300939] (-) TimerEvent: {}
+[1.309018] (lightning) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.342340] (lightning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.401042] (-) TimerEvent: {}
+[1.428271] (lightning) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.441565] (lightning) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.454766] (lightning) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.456192] (lightning) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.463572] (lightning) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.501144] (-) TimerEvent: {}
+[1.527959] (lightning) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[1.557834] (lightning) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.601336] (-) TimerEvent: {}
+[1.683949] (livox_ros_driver2) StdoutLine: {'line': b'[ 81%] Built target livox_interfaces2__py\n'}
+[1.698544] (livox_ros_driver2) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o\n'}
+[1.700741] (livox_ros_driver2) StdoutLine: {'line': b'[ 84%] Building C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o\n'}
+[1.701338] (-) TimerEvent: {}
+[1.786362] (lightning) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[1.801445] (-) TimerEvent: {}
+[1.801746] (livox_ros_driver2) StdoutLine: {'line': b'[ 86%] Linking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[1.836167] (livox_ros_driver2) StdoutLine: {'line': b'[ 86%] Built target livox_interfaces2__rosidl_generator_py\n'}
+[1.852164] (livox_ros_driver2) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o\n'}
+[1.854089] (livox_ros_driver2) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[1.854230] (livox_ros_driver2) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[1.868074] (lightning) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[1.868315] (lightning) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[1.901545] (-) TimerEvent: {}
+[1.938763] (livox_ros_driver2) StdoutLine: {'line': b'[ 93%] Linking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.944513] (livox_ros_driver2) StdoutLine: {'line': b'[ 94%] Linking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.971303] (livox_ros_driver2) StdoutLine: {'line': b'[ 94%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[1.972971] (livox_ros_driver2) StdoutLine: {'line': b'[ 94%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.986540] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] Linking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.001632] (-) TimerEvent: {}
+[2.018122] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[2.101798] (-) TimerEvent: {}
+[2.133000] (lightning) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.201935] (-) TimerEvent: {}
+[2.302102] (-) TimerEvent: {}
+[2.402269] (-) TimerEvent: {}
+[2.502422] (-) TimerEvent: {}
+[2.527534] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.602495] (-) TimerEvent: {}
+[2.633862] (livox_ros_driver2) StdoutLine: {'line': b'[ 98%] Linking CXX executable livox_ros_driver2_node\n'}
+[2.683949] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.700604] (lightning) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.701841] (lightning) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.702556] (-) TimerEvent: {}
+[2.729109] (livox_ros_driver2) StdoutLine: {'line': b'[ 98%] Built target livox_ros_driver2_node\n'}
+[2.729495] (lightning) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.729582] (lightning) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.729648] (lightning) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.729712] (lightning) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.749483] (lightning) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.802670] (-) TimerEvent: {}
+[2.896477] (lightning) StderrLine: {'line': b'CMake Warning at thirdparty/livox_ros_driver/CMakeLists.txt:25 (project):\n'}
+[2.896638] (lightning) StderrLine: {'line': b'  VERSION keyword not followed by a value or was followed by a value that\n'}
+[2.896704] (lightning) StderrLine: {'line': b'  expanded to nothing.\n'}
+[2.896765] (lightning) StderrLine: {'line': b'\n'}
+[2.896823] (lightning) StderrLine: {'line': b'\n'}
+[2.896887] (lightning) StdoutLine: {'line': b'-- livox_ros_driver2 version: \n'}
+[2.897080] (lightning) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[2.902788] (-) TimerEvent: {}
+[2.908897] (lightning) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.909727] (lightning) StdoutLine: {'line': b"-- Checking for module 'apr-1'\n"}
+[2.924382] (lightning) StdoutLine: {'line': b'--   Found apr-1, version 1.7.0\n'}
+[2.955541] (lightning) StderrLine: {'line': b'/usr/include/apr-1.0\n'}
+[2.955723] (lightning) StderrLine: {'line': b'apr-1\n'}
+[3.002888] (-) TimerEvent: {}
+[3.103051] (-) TimerEvent: {}
+[3.203221] (-) TimerEvent: {}
+[3.303396] (-) TimerEvent: {}
+[3.403566] (-) TimerEvent: {}
+[3.407744] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.503662] (-) TimerEvent: {}
+[3.522127] (lightning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.562509] (lightning) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.562680] (lightning) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.562747] (lightning) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.603770] (-) TimerEvent: {}
+[3.667587] (lightning) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.703871] (-) TimerEvent: {}
+[3.804081] (-) TimerEvent: {}
+[3.904250] (-) TimerEvent: {}
+[4.004431] (-) TimerEvent: {}
+[4.087341] (lightning) StdoutLine: {'line': b'-- Generating done\n'}
+[4.104536] (-) TimerEvent: {}
+[4.157491] (lightning) StdoutLine: {'line': b'-- Build files have been written to: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning\n'}
+[4.176000] (lightning) CommandEnded: {'returncode': 0}
+[4.176850] (lightning) JobProgress: {'identifier': 'lightning', 'progress': 'build'}
+[4.176870] (lightning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning', '--', '-j28', '-l28'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1298'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2288'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1145838'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:3674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0AaAVJJ:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/2261,unix/KPLNB151:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '41a0992f09ec4f17bdf6cbbabdc6f9d5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.204620] (-) TimerEvent: {}
+[4.220929] (lightning) StdoutLine: {'line': b'[  0%] Generating C code for ROS interfaces\n'}
+[4.221188] (lightning) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[4.230660] (lightning) StdoutLine: {'line': b'[  2%] Building CXX object src/core/miao/utils/CMakeFiles/miao.utils.dir/sampler.cc.o\n'}
+[4.230849] (lightning) StdoutLine: {'line': b'[  2%] Generating Rust code for ROS interfaces\n'}
+[4.231103] (lightning) StdoutLine: {'line': b'[  3%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/graph/graph.cc.o\n'}
+[4.231376] (lightning) StdoutLine: {'line': b'[  4%] Generating Rust code for ROS interfaces\n'}
+[4.231465] (lightning) StdoutLine: {'line': b'[  4%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/graph/optimizer.cc.o\n'}
+[4.231717] (lightning) StdoutLine: {'line': b'[  7%] Generating C++ code for ROS interfaces\n'}
+[4.231819] (lightning) StdoutLine: {'line': b'[  7%] Generating C++ code for ROS interfaces\n'}
+[4.231898] (lightning) StdoutLine: {'line': b'[  7%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/math/marginal_covariance_cholesky.cc.o\n'}
+[4.232078] (lightning) StdoutLine: {'line': b'[  8%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/common/string_tools.cc.o\n'}
+[4.232682] (lightning) StdoutLine: {'line': b'[  9%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_lm.cc.o\n'}
+[4.232893] (lightning) StdoutLine: {'line': b'[  9%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/optimization_algorithm.cc.o\n'}
+[4.233177] (lightning) StdoutLine: {'line': b'[ 10%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_dogleg.cc.o\n'}
+[4.233351] (lightning) StdoutLine: {'line': b'[ 11%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_gauss_newton.cc.o\n'}
+[4.234201] (lightning) StdoutLine: {'line': b'[ 11%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/solver/solver.cc.o\n'}
+[4.236791] (lightning) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_livox_ros_driver2\n'}
+[4.240688] (lightning) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_lightning\n'}
+[4.304725] (-) TimerEvent: {}
+[4.404907] (-) TimerEvent: {}
+[4.463806] (lightning) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:507: UserWarning: The version specified ('') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.\n"}
+[4.463999] (lightning) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.466317] (lightning) StdoutLine: {'line': b'running egg_info\n'}
+[4.467204] (lightning) StdoutLine: {'line': b'creating livox_ros_driver2.egg-info\n'}
+[4.467397] (lightning) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[4.467541] (lightning) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[4.467646] (lightning) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[4.467822] (lightning) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[4.469806] (lightning) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[4.470369] (lightning) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[4.479548] (lightning) StdoutLine: {'line': b'running egg_info\n'}
+[4.479842] (lightning) StdoutLine: {'line': b'creating lightning.egg-info\n'}
+[4.479901] (lightning) StdoutLine: {'line': b'writing lightning.egg-info/PKG-INFO\n'}
+[4.479950] (lightning) StdoutLine: {'line': b'writing dependency_links to lightning.egg-info/dependency_links.txt\n'}
+[4.479998] (lightning) StdoutLine: {'line': b'writing top-level names to lightning.egg-info/top_level.txt\n'}
+[4.480134] (lightning) StdoutLine: {'line': b"writing manifest file 'lightning.egg-info/SOURCES.txt'\n"}
+[4.482788] (lightning) StdoutLine: {'line': b"reading manifest file 'lightning.egg-info/SOURCES.txt'\n"}
+[4.483060] (lightning) StdoutLine: {'line': b"writing manifest file 'lightning.egg-info/SOURCES.txt'\n"}
+[4.504653] (lightning) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[4.504958] (-) TimerEvent: {}
+[4.516986] (lightning) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_lightning_egg\n'}
+[4.543319] (lightning) StdoutLine: {'line': b'[ 11%] Built target livox_interfaces2__rs\n'}
+[4.564117] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,\n'}
+[4.564291] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:5:\n'}
+[4.564363] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor \xe2\x80\x98lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\xe2\x80\x99:\n'}
+[4.564417] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: \xe2\x80\x98lightning::miao::OptimizerConfig::is_dense_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[4.564469] (lightning) StderrLine: {'line': b'   44 |     bool is_dense_ = true;\n'}
+[4.564515] (lightning) StderrLine: {'line': b'      |          ^~~~~~~~~\n'}
+[4.564560] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   \xe2\x80\x98lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\xe2\x80\x99 [-Wreorder]\n'}
+[4.564614] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[4.564663] (lightning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~~~~~\n'}
+[4.564706] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]\n'}
+[4.564752] (lightning) StderrLine: {'line': b'   31 |     explicit OptimizerConfig(AlgorithmType algo_type,\n'}
+[4.564798] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~~~~~~~~\n'}
+[4.579147] (lightning) StdoutLine: {'line': b'[ 11%] Built target livox_interfaces2__cpp\n'}
+[4.589432] (lightning) StdoutLine: {'line': b'[ 14%] Generating C++ introspection for ROS interfaces\n'}
+[4.589625] (lightning) StdoutLine: {'line': b'[ 14%] Generating C++ type support dispatch for ROS interfaces\n'}
+[4.589698] (lightning) StdoutLine: {'line': b'[ 14%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[4.605055] (-) TimerEvent: {}
+[4.613646] (lightning) StdoutLine: {'line': b'[ 16%] Building C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o\n'}
+[4.613836] (lightning) StdoutLine: {'line': b'[ 16%] Building C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o\n'}
+[4.617695] (lightning) StdoutLine: {'line': b'[ 16%] Built target lightning__rs\n'}
+[4.705154] (-) TimerEvent: {}
+[4.726666] (lightning) StdoutLine: {'line': b'[ 17%] Building C object CMakeFiles/lightning__rosidl_generator_c.dir/rosidl_generator_c/lightning/srv/detail/save_map__functions.c.o\n'}
+[4.727551] (lightning) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/lightning__rosidl_generator_c.dir/rosidl_generator_c/lightning/srv/detail/loc_cmd__functions.c.o\n'}
+[4.733827] (lightning) StdoutLine: {'line': b'[ 18%] Linking C shared library liblivox_ros_driver2__rosidl_generator_c.so\n'}
+[4.761884] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.cc:5:\n'}
+[4.762049] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[4.762113] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[4.762170] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[4.762219] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[4.778022] (lightning) StdoutLine: {'line': b'[ 18%] Built target lightning__cpp\n'}
+[4.778191] (lightning) StdoutLine: {'line': b'[ 18%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[4.790833] (lightning) StdoutLine: {'line': b'[ 22%] Generating C++ type support dispatch for ROS interfaces\n'}
+[4.791040] (lightning) StdoutLine: {'line': b'[ 22%] Generating C introspection for ROS interfaces\n'}
+[4.791113] (lightning) StdoutLine: {'line': b'[ 22%] Generating C++ introspection for ROS interfaces\n'}
+[4.791183] (lightning) StdoutLine: {'line': b'[ 22%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[4.791589] (lightning) StdoutLine: {'line': b'[ 24%] Generating C type support dispatch for ROS interfaces\n'}
+[4.791737] (lightning) StdoutLine: {'line': b'[ 24%] Generating C type support for eProsima Fast-RTPS\n'}
+[4.805254] (-) TimerEvent: {}
+[4.895148] (lightning) StdoutLine: {'line': b'[ 25%] Linking C shared library liblightning__rosidl_generator_c.so\n'}
+[4.905365] (-) TimerEvent: {}
+[4.932370] (lightning) StdoutLine: {'line': b'[ 25%] Built target lightning__rosidl_generator_c\n'}
+[4.933745] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,\n'}
+[4.933891] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:5:\n'}
+[4.933978] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[4.934263] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[4.934340] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[4.934558] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[4.943992] (lightning) StdoutLine: {'line': b'[ 27%] Generating C type support for eProsima Fast-RTPS\n'}
+[4.944145] (lightning) StdoutLine: {'line': b'[ 27%] Generating C introspection for ROS interfaces\n'}
+[4.944202] (lightning) StdoutLine: {'line': b'[ 27%] Generating C type support dispatch for ROS interfaces\n'}
+[5.005487] (-) TimerEvent: {}
+[5.021697] (lightning) StdoutLine: {'line': b'[ 27%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o\n'}
+[5.022852] (lightning) StdoutLine: {'line': b'[ 28%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o\n'}
+[5.054437] (lightning) StdoutLine: {'line': b'[ 29%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\n'}
+[5.058636] (lightning) StdoutLine: {'line': b'[ 30%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o\n'}
+[5.086732] (lightning) StdoutLine: {'line': b'[ 30%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o\n'}
+[5.094364] (lightning) StdoutLine: {'line': b'[ 31%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o\n'}
+[5.105576] (-) TimerEvent: {}
+[5.163740] (lightning) StdoutLine: {'line': b'[ 31%] Building C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o\n'}
+[5.175260] (lightning) StdoutLine: {'line': b'[ 32%] Building C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o\n'}
+[5.208390] (-) TimerEvent: {}
+[5.212312] (lightning) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lightning/srv/detail/loc_cmd__type_support.cpp.o\n'}
+[5.212460] (lightning) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lightning/srv/detail/save_map__type_support.cpp.o\n'}
+[5.241169] (lightning) StdoutLine: {'line': b'[ 35%] Linking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\n'}
+[5.272660] (lightning) StdoutLine: {'line': b'[ 36%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o\n'}
+[5.273059] (lightning) StdoutLine: {'line': b'[ 37%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[5.273208] (lightning) StdoutLine: {'line': b'[ 37%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o\n'}
+[5.304564] (lightning) StdoutLine: {'line': b'[ 37%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so\n'}
+[5.308485] (-) TimerEvent: {}
+[5.327956] (lightning) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lightning/srv/loc_cmd__type_support.cpp.o\n'}
+[5.336530] (lightning) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lightning/srv/save_map__type_support.cpp.o\n'}
+[5.344468] (lightning) StdoutLine: {'line': b'[ 38%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[5.370176] (lightning) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lightning/srv/detail/dds_fastrtps/loc_cmd__type_support.cpp.o\n'}
+[5.371794] (lightning) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lightning/srv/detail/dds_fastrtps/save_map__type_support.cpp.o\n'}
+[5.389790] (lightning) StdoutLine: {'line': b'[ 40%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o\n'}
+[5.398257] (lightning) StdoutLine: {'line': b'[ 40%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o\n'}
+[5.403097] (lightning) StdoutLine: {'line': b'[ 40%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so\n'}
+[5.408585] (-) TimerEvent: {}
+[5.464595] (lightning) StdoutLine: {'line': b'[ 40%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[5.472066] (lightning) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lightning/srv/detail/loc_cmd__type_support_c.cpp.o\n'}
+[5.472685] (lightning) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lightning/srv/detail/save_map__type_support_c.cpp.o\n'}
+[5.480784] (lightning) StdoutLine: {'line': b'[ 41%] Building C object CMakeFiles/lightning__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lightning/srv/detail/save_map__type_support.c.o\n'}
+[5.481042] (lightning) StdoutLine: {'line': b'[ 42%] Building C object CMakeFiles/lightning__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lightning/srv/detail/loc_cmd__type_support.c.o\n'}
+[5.508691] (-) TimerEvent: {}
+[5.569586] (lightning) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_c.dir/rosidl_typesupport_c/lightning/srv/loc_cmd__type_support.cpp.o\n'}
+[5.574604] (lightning) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_c.dir/rosidl_typesupport_c/lightning/srv/save_map__type_support.cpp.o\n'}
+[5.608819] (-) TimerEvent: {}
+[5.610598] (lightning) StdoutLine: {'line': b'[ 45%] Linking C shared library liblightning__rosidl_typesupport_introspection_c.so\n'}
+[5.613460] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/solver/solver.h:9,\n'}
+[5.613644] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/solver/solver.cc:5:\n'}
+[5.613733] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[5.613802] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.613866] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[5.613928] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[5.625582] (lightning) StdoutLine: {'line': b'[ 46%] Linking CXX shared library liblightning__rosidl_typesupport_c.so\n'}
+[5.658540] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,\n'}
+[5.658803] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_gauss_newton.cc:5:\n'}
+[5.658880] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor \xe2\x80\x98lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\xe2\x80\x99:\n'}
+[5.658952] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: \xe2\x80\x98lightning::miao::OptimizerConfig::is_dense_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[5.659018] (lightning) StderrLine: {'line': b'   44 |     bool is_dense_ = true;\n'}
+[5.659082] (lightning) StderrLine: {'line': b'      |          ^~~~~~~~~\n'}
+[5.659145] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   \xe2\x80\x98lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\xe2\x80\x99 [-Wreorder]\n'}
+[5.659221] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[5.659284] (lightning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~~~~~\n'}
+[5.659355] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]\n'}
+[5.659428] (lightning) StderrLine: {'line': b'   31 |     explicit OptimizerConfig(AlgorithmType algo_type,\n'}
+[5.659493] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~~~~~~~~\n'}
+[5.662400] (lightning) StdoutLine: {'line': b'[ 46%] Built target lightning__rosidl_typesupport_introspection_c\n'}
+[5.668607] (lightning) StdoutLine: {'line': b'[ 47%] Linking CXX shared library liblightning__rosidl_typesupport_cpp.so\n'}
+[5.675782] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,\n'}
+[5.675972] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_lm.cc:7:\n'}
+[5.676056] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor \xe2\x80\x98lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\xe2\x80\x99:\n'}
+[5.676126] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: \xe2\x80\x98lightning::miao::OptimizerConfig::is_dense_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[5.676191] (lightning) StderrLine: {'line': b'   44 |     bool is_dense_ = true;\n'}
+[5.676254] (lightning) StderrLine: {'line': b'      |          ^~~~~~~~~\n'}
+[5.676315] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   \xe2\x80\x98lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\xe2\x80\x99 [-Wreorder]\n'}
+[5.676398] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[5.676462] (lightning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~~~~~\n'}
+[5.676521] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]\n'}
+[5.676592] (lightning) StderrLine: {'line': b'   31 |     explicit OptimizerConfig(AlgorithmType algo_type,\n'}
+[5.676651] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~~~~~~~~\n'}
+[5.679459] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,\n'}
+[5.679635] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_gauss_newton.cc:5:\n'}
+[5.679705] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[5.679769] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.679831] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[5.679892] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[5.681429] (lightning) StdoutLine: {'line': b'[ 47%] Built target lightning__rosidl_typesupport_c\n'}
+[5.704478] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,\n'}
+[5.704650] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_lm.cc:7:\n'}
+[5.704711] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[5.704777] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.704825] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[5.704870] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[5.708924] (-) TimerEvent: {}
+[5.716004] (lightning) StdoutLine: {'line': b'[ 47%] Built target lightning__rosidl_typesupport_cpp\n'}
+[5.722067] (lightning) StdoutLine: {'line': b'[ 48%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\n'}
+[5.765408] (lightning) StdoutLine: {'line': b'[ 49%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.800349] (lightning) StdoutLine: {'line': b'[ 49%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[5.801035] (lightning) StdoutLine: {'line': b'[ 49%] Linking CXX shared library liblightning__rosidl_typesupport_introspection_cpp.so\n'}
+[5.810388] (-) TimerEvent: {}
+[5.815872] (lightning) StdoutLine: {'line': b'[ 49%] Linking CXX shared library libmiao.utils.so\n'}
+[5.833887] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,\n'}
+[5.834067] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/optimization_algorithm.cc:6:\n'}
+[5.834125] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor \xe2\x80\x98lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\xe2\x80\x99:\n'}
+[5.834174] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: \xe2\x80\x98lightning::miao::OptimizerConfig::is_dense_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[5.834221] (lightning) StderrLine: {'line': b'   44 |     bool is_dense_ = true;\n'}
+[5.834270] (lightning) StderrLine: {'line': b'      |          ^~~~~~~~~\n'}
+[5.834315] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   \xe2\x80\x98lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\xe2\x80\x99 [-Wreorder]\n'}
+[5.834377] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[5.834425] (lightning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~~~~~\n'}
+[5.834469] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]\n'}
+[5.834517] (lightning) StderrLine: {'line': b'   31 |     explicit OptimizerConfig(AlgorithmType algo_type,\n'}
+[5.834563] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~~~~~~~~\n'}
+[5.839119] (lightning) StdoutLine: {'line': b'[ 50%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\n'}
+[5.843507] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,\n'}
+[5.843711] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_dogleg.cc:6:\n'}
+[5.843769] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor \xe2\x80\x98lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\xe2\x80\x99:\n'}
+[5.843819] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: \xe2\x80\x98lightning::miao::OptimizerConfig::is_dense_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[5.843869] (lightning) StderrLine: {'line': b'   44 |     bool is_dense_ = true;\n'}
+[5.843911] (lightning) StderrLine: {'line': b'      |          ^~~~~~~~~\n'}
+[5.843955] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   \xe2\x80\x98lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\xe2\x80\x99 [-Wreorder]\n'}
+[5.844000] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[5.844041] (lightning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~~~~~\n'}
+[5.844085] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]\n'}
+[5.844130] (lightning) StderrLine: {'line': b'   31 |     explicit OptimizerConfig(AlgorithmType algo_type,\n'}
+[5.844171] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~~~~~~~~\n'}
+[5.863212] (lightning) StdoutLine: {'line': b'[ 51%] Linking CXX shared library liblightning__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.864542] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,\n'}
+[5.864772] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/optimization_algorithm.cc:6:\n'}
+[5.864837] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[5.864892] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.864941] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[5.864988] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[5.865034] (lightning) StdoutLine: {'line': b'[ 51%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[5.869507] (lightning) StdoutLine: {'line': b'[ 51%] Built target lightning__rosidl_typesupport_introspection_cpp\n'}
+[5.873604] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,\n'}
+[5.873806] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_dogleg.cc:6:\n'}
+[5.873864] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[5.873916] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.873966] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[5.874012] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[5.905729] (lightning) StdoutLine: {'line': b'[ 51%] Built target miao.utils\n'}
+[5.905876] (lightning) StdoutLine: {'line': b'[ 51%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[5.910485] (-) TimerEvent: {}
+[5.924273] (lightning) StdoutLine: {'line': b'[ 51%] Built target livox_interfaces2\n'}
+[5.943091] (lightning) StdoutLine: {'line': b'[ 51%] Generating Python code for ROS interfaces\n'}
+[5.950258] (lightning) StdoutLine: {'line': b'[ 51%] Built target lightning__rosidl_typesupport_fastrtps_cpp\n'}
+[5.952829] (lightning) StdoutLine: {'line': b'[ 52%] Linking CXX shared library liblightning__rosidl_typesupport_fastrtps_c.so\n'}
+[6.010582] (-) TimerEvent: {}
+[6.011716] (lightning) StdoutLine: {'line': b'[ 52%] Built target lightning__rosidl_typesupport_fastrtps_c\n'}
+[6.031869] (lightning) StdoutLine: {'line': b'[ 52%] Built target lightning\n'}
+[6.056366] (lightning) StdoutLine: {'line': b'[ 53%] Generating Python code for ROS interfaces\n'}
+[6.110684] (-) TimerEvent: {}
+[6.210864] (-) TimerEvent: {}
+[6.311040] (-) TimerEvent: {}
+[6.375876] (lightning) StdoutLine: {'line': b'[ 53%] Built target livox_interfaces2__py\n'}
+[6.395381] (lightning) StdoutLine: {'line': b'[ 54%] Building C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o\n'}
+[6.397505] (lightning) StdoutLine: {'line': b'[ 55%] Building C object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o\n'}
+[6.411141] (-) TimerEvent: {}
+[6.511374] (-) TimerEvent: {}
+[6.535159] (lightning) StdoutLine: {'line': b'[ 55%] Linking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[6.579529] (lightning) StdoutLine: {'line': b'[ 55%] Built target livox_interfaces2__rosidl_generator_py\n'}
+[6.599866] (lightning) StdoutLine: {'line': b'[ 56%] Building C object thirdparty/livox_ros_driver/CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[6.600792] (lightning) StdoutLine: {'line': b'[ 57%] Building C object thirdparty/livox_ros_driver/CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o\n'}
+[6.601441] (lightning) StdoutLine: {'line': b'[ 58%] Building C object thirdparty/livox_ros_driver/CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[6.611505] (-) TimerEvent: {}
+[6.674855] (lightning) StdoutLine: {'line': b'[ 58%] Built target lightning__py\n'}
+[6.699505] (lightning) StdoutLine: {'line': b'[ 59%] Building C object CMakeFiles/lightning__rosidl_generator_py.dir/rosidl_generator_py/lightning/srv/_save_map_s.c.o\n'}
+[6.699688] (lightning) StdoutLine: {'line': b'[ 59%] Building C object CMakeFiles/lightning__rosidl_generator_py.dir/rosidl_generator_py/lightning/srv/_loc_cmd_s.c.o\n'}
+[6.711615] (-) TimerEvent: {}
+[6.718396] (lightning) StdoutLine: {'line': b'[ 61%] Linking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.718588] (lightning) StdoutLine: {'line': b'[ 61%] Linking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.721918] (lightning) StdoutLine: {'line': b'[ 61%] Linking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.746343] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc: In member function \xe2\x80\x98virtual bool lightning::miao::Optimizer::AddVertex(std::shared_ptr<lightning::miao::Vertex>)\xe2\x80\x99:\n'}
+[6.746535] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:288:62: warning: comparison of integer expressions of different signedness: \xe2\x80\x98std::unordered_map<int, std::shared_ptr<lightning::miao::Vertex> >::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[6.746614] (lightning) StderrLine: {'line': b'  288 |         if (config_.max_vertex_size_ > 0 && vertices_.size() == config_.max_vertex_size_) {\n'}
+[6.746682] (lightning) StderrLine: {'line': b'      |                                             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.751259] (lightning) StdoutLine: {'line': b'[ 61%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.753484] (lightning) StdoutLine: {'line': b'[ 61%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[6.758169] (lightning) StdoutLine: {'line': b'[ 61%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[6.811720] (-) TimerEvent: {}
+[6.838744] (lightning) StdoutLine: {'line': b'[ 62%] Linking C shared library rosidl_generator_py/lightning/liblightning__rosidl_generator_py.so\n'}
+[6.881564] (lightning) StdoutLine: {'line': b'[ 62%] Built target lightning__rosidl_generator_py\n'}
+[6.900236] (lightning) StdoutLine: {'line': b'[ 62%] Building C object CMakeFiles/lightning__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lightning/_lightning_s.ep.rosidl_typesupport_c.c.o\n'}
+[6.900409] (lightning) StdoutLine: {'line': b'[ 63%] Building C object CMakeFiles/lightning__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lightning/_lightning_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[6.900910] (lightning) StdoutLine: {'line': b'[ 64%] Building C object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lightning/_lightning_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[6.911858] (-) TimerEvent: {}
+[7.012032] (-) TimerEvent: {}
+[7.024109] (lightning) StdoutLine: {'line': b'[ 65%] Linking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.042217] (lightning) StdoutLine: {'line': b'[ 65%] Linking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.064175] (lightning) StdoutLine: {'line': b'[ 65%] Built target lightning__rosidl_typesupport_c__pyext\n'}
+[7.064618] (lightning) StdoutLine: {'line': b'[ 65%] Linking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.088707] (lightning) StdoutLine: {'line': b'[ 65%] Built target lightning__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.100122] (lightning) StdoutLine: {'line': b'[ 65%] Built target lightning__rosidl_typesupport_introspection_c__pyext\n'}
+[7.112138] (-) TimerEvent: {}
+[7.212351] (-) TimerEvent: {}
+[7.312525] (-) TimerEvent: {}
+[7.412692] (-) TimerEvent: {}
+[7.512886] (-) TimerEvent: {}
+[7.613085] (-) TimerEvent: {}
+[7.713287] (-) TimerEvent: {}
+[7.813506] (-) TimerEvent: {}
+[7.913677] (-) TimerEvent: {}
+[8.013865] (-) TimerEvent: {}
+[8.114030] (-) TimerEvent: {}
+[8.178581] (lightning) StdoutLine: {'line': b'[ 66%] Linking CXX shared library libmiao.core.so\n'}
+[8.214187] (-) TimerEvent: {}
+[8.287458] (lightning) StdoutLine: {'line': b'[ 66%] Built target miao.core\n'}
+[8.294089] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Linking CXX shared library liblivox_ros_driver2.so\n'}
+[8.313569] (lightning) StdoutLine: {'line': b'[ 67%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5_map.cc.o\n'}
+[8.313824] (lightning) StdoutLine: {'line': b'[ 69%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/eskf.cc.o\n'}
+[8.313930] (lightning) StdoutLine: {'line': b'[ 69%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/pointcloud_preprocess.cc.o\n'}
+[8.314343] (lightning) StdoutLine: {'line': b'[ 70%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/loop_closing/loop_closing.cc.o\n'}
+[8.314457] (-) TimerEvent: {}
+[8.314486] (lightning) StdoutLine: {'line': b'[ 71%] Building CXX object src/CMakeFiles/lightning.libs.dir/common/params.cc.o\n'}
+[8.314584] (lightning) StdoutLine: {'line': b'[ 71%] Building CXX object src/CMakeFiles/lightning.libs.dir/common/nav_state.cc.o\n'}
+[8.315646] (lightning) StdoutLine: {'line': b'[ 72%] Building CXX object src/CMakeFiles/lightning.libs.dir/io/file_io.cc.o\n'}
+[8.315916] (lightning) StdoutLine: {'line': b'[ 73%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5_subgrid.cc.o\n'}
+[8.315988] (lightning) StdoutLine: {'line': b'[ 69%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/laser_mapping.cc.o\n'}
+[8.316060] (lightning) StdoutLine: {'line': b'[ 74%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map.cc.o\n'}
+[8.316130] (lightning) StdoutLine: {'line': b'[ 74%] Building CXX object src/CMakeFiles/lightning.libs.dir/io/yaml_io.cc.o\n'}
+[8.316360] (lightning) StdoutLine: {'line': b'[ 74%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization_result.cc.o\n'}
+[8.317350] (lightning) StdoutLine: {'line': b'[ 75%] Building CXX object src/CMakeFiles/lightning.libs.dir/common/options.cc.o\n'}
+[8.317695] (lightning) StdoutLine: {'line': b'[ 75%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5.cc.o\n'}
+[8.317782] (lightning) StdoutLine: {'line': b'[ 77%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/lidar_loc.cc.o\n'}
+[8.317832] (lightning) StdoutLine: {'line': b'[ 77%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map_chunk.cc.o\n'}
+[8.317944] (lightning) StdoutLine: {'line': b'[ 78%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo.cc.o\n'}
+[8.318044] (lightning) StdoutLine: {'line': b'[ 78%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp.o\n'}
+[8.318131] (lightning) StdoutLine: {'line': b'[ 79%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo_impl.cc.o\n'}
+[8.318329] (lightning) StdoutLine: {'line': b'[ 80%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/ndt_omp.cpp.o\n'}
+[8.318716] (lightning) StdoutLine: {'line': b'[ 80%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization.cpp.o\n'}
+[8.319902] (lightning) StdoutLine: {'line': b'[ 81%] Building CXX object src/CMakeFiles/lightning.libs.dir/utils/pointcloud_utils.cc.o\n'}
+[8.320027] (lightning) StdoutLine: {'line': b'[ 82%] Building CXX object src/CMakeFiles/lightning.libs.dir/utils/timer.cc.o\n'}
+[8.320093] (lightning) StdoutLine: {'line': b'[ 83%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pose_extrapolator.cc.o\n'}
+[8.321856] (lightning) StdoutLine: {'line': b'[ 84%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/pangolin_window_impl.cc.o\n'}
+[8.322020] (lightning) StdoutLine: {'line': b'[ 84%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/pangolin_window.cc.o\n'}
+[8.334504] (lightning) StdoutLine: {'line': b'[ 85%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/ui_car.cc.o\n'}
+[8.336394] (lightning) StdoutLine: {'line': b'[ 86%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/ui_cloud.cc.o\n'}
+[8.415383] (-) TimerEvent: {}
+[8.515567] (-) TimerEvent: {}
+[8.615751] (-) TimerEvent: {}
+[8.715928] (-) TimerEvent: {}
+[8.796236] (lightning) StdoutLine: {'line': b'[ 86%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/ui_trajectory.cc.o\n'}
+[8.818833] (-) TimerEvent: {}
+[8.893301] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2\n'}
+[8.918963] (-) TimerEvent: {}
+[9.019190] (-) TimerEvent: {}
+[9.119423] (-) TimerEvent: {}
+[9.219645] (-) TimerEvent: {}
+[9.319859] (-) TimerEvent: {}
+[9.420073] (-) TimerEvent: {}
+[9.520302] (-) TimerEvent: {}
+[9.620808] (-) TimerEvent: {}
+[9.721344] (-) TimerEvent: {}
+[9.822400] (-) TimerEvent: {}
+[9.922846] (-) TimerEvent: {}
+[9.971646] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/io/file_io.cc: In function \xe2\x80\x98bool lightning::RemoveIfExist(const string&)\xe2\x80\x99:\n'}
+[9.971921] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/io/file_io.cc:17:15: warning: ignoring return value of \xe2\x80\x98int system(const char*)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Wunused-result]\n'}
+[9.971978] (lightning) StderrLine: {'line': b'   17 |         system(("rm -f " + path).c_str());\n'}
+[9.972025] (lightning) StderrLine: {'line': b'      |         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[9.972071] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[9.972552] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'install'}
+[9.993393] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/livox_ros_driver2'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/livox_ros_driver2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1298'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2288'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1145838'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:3674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0AaAVJJ:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/2261,unix/KPLNB151:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '41a0992f09ec4f17bdf6cbbabdc6f9d5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/livox_ros_driver2'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.022520] (livox_ros_driver2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[10.023489] (-) TimerEvent: {}
+[10.026131] (livox_ros_driver2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.026399] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2\n'}
+[10.040853] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h\n'}
+[10.051545] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h\n'}
+[10.072715] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h\n'}
+[10.089267] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h\n'}
+[10.105441] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h\n'}
+[10.123632] (-) TimerEvent: {}
+[10.126036] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h\n'}
+[10.138472] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h\n'}
+[10.150308] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h\n'}
+[10.161831] (lightning) StdoutLine: {'line': b'[ 87%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/slam.cc.o\n'}
+[10.162019] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.191395] (lightning) StdoutLine: {'line': b'[ 88%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/loc_system.cc.o\n'}
+[10.191577] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh\n'}
+[10.223749] (-) TimerEvent: {}
+[10.226520] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv\n'}
+[10.243680] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[10.262911] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h\n'}
+[10.284018] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.308436] (lightning) StdoutLine: {'line': b'[ 89%] Building CXX object src/CMakeFiles/lightning.libs.dir/wrapper/bag_io.cc.o\n'}
+[10.326429] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h\n'}
+[10.326630] (-) TimerEvent: {}
+[10.385266] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h\n'}
+[10.406422] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.428443] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp\n'}
+[10.428626] (-) TimerEvent: {}
+[10.447820] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp\n'}
+[10.448696] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_trajectory.cc: In member function \xe2\x80\x98void lightning::ui::UiTrajectory::AddPt(const SE3&)\xe2\x80\x99:\n'}
+[10.448823] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_trajectory.cc:10:21: warning: comparison of integer expressions of different signedness: \xe2\x80\x98std::vector<Eigen::Matrix<float, 3, 1> >::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[10.448878] (lightning) StderrLine: {'line': b'   10 |     if (pos_.size() > max_size_) {\n'}
+[10.448924] (lightning) StderrLine: {'line': b'      |         ~~~~~~~~~~~~^~~~~~~~~~~\n'}
+[10.460682] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp\n'}
+[10.480646] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp\n'}
+[10.497094] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp\n'}
+[10.508820] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp\n'}
+[10.520321] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp\n'}
+[10.528741] (-) TimerEvent: {}
+[10.541106] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp\n'}
+[10.558715] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp\n'}
+[10.596406] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp\n'}
+[10.624638] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.628851] (-) TimerEvent: {}
+[10.659131] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.673214] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.694296] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.707795] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.723076] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.728976] (-) TimerEvent: {}
+[10.733682] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh\n'}
+[10.744981] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv\n'}
+[10.757598] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.769212] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.782268] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.793554] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.807173] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py\n'}
+[10.820636] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c\n'}
+[10.829202] (-) TimerEvent: {}
+[10.830071] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.845475] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.855659] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[10.867915] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.879226] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.895145] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.908625] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py\n'}
+[10.929620] (-) TimerEvent: {}
+[10.937763] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py\n'}
+[10.949349] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c\n'}
+[10.962708] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py\n'}
+[10.973322] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c\n'}
+[10.985219] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.985468] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.985537] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.985597] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/ament_index/resource_index/rust_packages/livox_ros_driver2\n'}
+[10.996764] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust/Cargo.toml\n'}
+[11.010540] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust/build.rs\n'}
+[11.024551] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/lib.rs\n'}
+[11.029745] (-) TimerEvent: {}
+[11.039481] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg.rs\n'}
+[11.063699] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/rust/src/msg/rmw.rs\n'}
+[11.082577] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl\n'}
+[11.092592] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl\n'}
+[11.105352] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg\n'}
+[11.122398] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg\n'}
+[11.129870] (-) TimerEvent: {}
+[11.135240] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_lidar_sdk_shared.so\n'}
+[11.146656] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node\n'}
+[11.158609] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2.so\n'}
+[11.169661] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json\n'}
+[11.180603] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json\n'}
+[11.191666] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360s_config.json\n'}
+[11.202084] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz\n'}
+[11.212596] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json\n'}
+[11.223369] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_HAP_launch.py\n'}
+[11.229975] (-) TimerEvent: {}
+[11.233697] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_MID360_launch.py\n'}
+[11.246484] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_MID360s_launch.py\n'}
+[11.258385] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_HAP_launch.py\n'}
+[11.266170] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_MID360_launch.py\n'}
+[11.276427] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_MID360s_launch.py\n'}
+[11.294402] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_mixed.py\n'}
+[11.308215] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2\n'}
+[11.317748] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2\n'}
+[11.329545] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh\n'}
+[11.330053] (-) TimerEvent: {}
+[11.340811] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv\n'}
+[11.353264] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh\n'}
+[11.366768] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv\n'}
+[11.368183] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5_map.cc: In member function \xe2\x80\x98void lightning::g2p5::G2P5Map::SetMissPoint(const float&, const float&, const float&, const float&, float, float)\xe2\x80\x99:\n'}
+[11.368370] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5_map.cc:215:23: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98std::vector<Eigen::Matrix<int, 2, 1> >::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} [-Wsign-compare]\n'}
+[11.368435] (lightning) StderrLine: {'line': b'  215 |     for (int i = 0; i < updated_pts.size(); ++i) {\n'}
+[11.368486] (lightning) StderrLine: {'line': b'      |                     ~~^~~~~~~~~~~~~~~~~~~~\n'}
+[11.391376] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash\n'}
+[11.399402] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh\n'}
+[11.418069] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh\n'}
+[11.428444] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv\n'}
+[11.430146] (-) TimerEvent: {}
+[11.438726] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv\n'}
+[11.462805] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2\n'}
+[11.488922] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2\n'}
+[11.499395] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake\n'}
+[11.517109] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.528313] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.530249] (-) TimerEvent: {}
+[11.542056] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.557861] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.567984] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.592474] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.606686] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[11.618544] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake\n'}
+[11.630374] (-) TimerEvent: {}
+[11.632514] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake\n'}
+[11.644392] (livox_ros_driver2) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.xml\n'}
+[11.654655] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so\n'}
+[11.654845] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""\n'}
+[11.654904] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\n'}
+[11.655693] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.655802] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\n'}
+[11.655849] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.655894] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so\n'}
+[11.655941] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""\n'}
+[11.655988] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.656399] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.659970] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\n'}
+[11.660131] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.660191] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so\n'}
+[11.660241] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""\n'}
+[11.698047] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...\n"}
+[11.698211] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...\n"}
+[11.698270] (livox_ros_driver2) StdoutLine: {'line': b"Listing '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...\n"}
+[11.698321] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py'...\n"}
+[11.698373] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py'...\n"}
+[11.698420] (livox_ros_driver2) StdoutLine: {'line': b"Compiling '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py'...\n"}
+[11.703470] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so\n'}
+[11.706394] (livox_ros_driver2) StdoutLine: {'line': b'-- Set runtime path of "/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so" to ""\n'}
+[11.706782] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake\n'}
+[11.706862] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-release.cmake\n'}
+[11.706914] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.706970] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[11.707022] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.707070] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[11.707128] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake\n'}
+[11.707177] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-release.cmake\n'}
+[11.707224] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake\n'}
+[11.707270] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.707308] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[11.707358] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.707407] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[11.707452] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake\n'}
+[11.707497] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-release.cmake\n'}
+[11.707540] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake\n'}
+[11.707584] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-release.cmake\n'}
+[11.730490] (-) TimerEvent: {}
+[11.830691] (-) TimerEvent: {}
+[11.932447] (-) TimerEvent: {}
+[12.032667] (-) TimerEvent: {}
+[12.132869] (-) TimerEvent: {}
+[12.233083] (-) TimerEvent: {}
+[12.333299] (-) TimerEvent: {}
+[12.433514] (-) TimerEvent: {}
+[12.461049] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,\n'}
+[12.461198] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,\n'}
+[12.461279] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7,\n'}
+[12.461353] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1:\n'}
+[12.461420] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor \xe2\x80\x98lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\xe2\x80\x99:\n'}
+[12.461483] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: \xe2\x80\x98lightning::miao::OptimizerConfig::is_dense_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[12.461544] (lightning) StderrLine: {'line': b'   44 |     bool is_dense_ = true;\n'}
+[12.461603] (lightning) StderrLine: {'line': b'      |          ^~~~~~~~~\n'}
+[12.461662] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   \xe2\x80\x98lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\xe2\x80\x99 [-Wreorder]\n'}
+[12.461722] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[12.461781] (lightning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~~~~~\n'}
+[12.461838] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]\n'}
+[12.461898] (lightning) StderrLine: {'line': b'   31 |     explicit OptimizerConfig(AlgorithmType algo_type,\n'}
+[12.461954] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~~~~~~~~\n'}
+[12.462012] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[12.529867] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 0}
+[12.530314] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,\n'}
+[12.530432] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,\n'}
+[12.530503] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7,\n'}
+[12.530572] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1:\n'}
+[12.530634] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[12.530697] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[12.530762] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[12.530822] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[12.535450] (-) TimerEvent: {}
+[12.635753] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,\n'}
+[12.636028] (-) TimerEvent: {}
+[12.636050] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,\n'}
+[12.636105] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:1:\n'}
+[12.636153] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor \xe2\x80\x98lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\xe2\x80\x99:\n'}
+[12.636203] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: \xe2\x80\x98lightning::miao::OptimizerConfig::is_dense_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[12.636259] (lightning) StderrLine: {'line': b'   44 |     bool is_dense_ = true;\n'}
+[12.636300] (lightning) StderrLine: {'line': b'      |          ^~~~~~~~~\n'}
+[12.636354] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   \xe2\x80\x98lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\xe2\x80\x99 [-Wreorder]\n'}
+[12.636397] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[12.636442] (lightning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~~~~~\n'}
+[12.636484] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]\n'}
+[12.636530] (lightning) StderrLine: {'line': b'   31 |     explicit OptimizerConfig(AlgorithmType algo_type,\n'}
+[12.636576] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~~~~~~~~\n'}
+[12.675003] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,\n'}
+[12.675178] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,\n'}
+[12.675249] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:1:\n'}
+[12.675303] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[12.675364] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[12.675420] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[12.675468] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[12.739402] (-) TimerEvent: {}
+[12.839599] (-) TimerEvent: {}
+[12.939794] (-) TimerEvent: {}
+[13.039992] (-) TimerEvent: {}
+[13.061927] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.cc:5:\n'}
+[13.062104] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[13.062167] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[13.062221] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[13.062281] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[13.140108] (-) TimerEvent: {}
+[13.240307] (-) TimerEvent: {}
+[13.340518] (-) TimerEvent: {}
+[13.359798] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.h:9,\n'}
+[13.359993] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc:5:\n'}
+[13.360062] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor \xe2\x80\x98lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)\xe2\x80\x99:\n'}
+[13.360127] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: \xe2\x80\x98lightning::Keyframe::state_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[13.360188] (lightning) StderrLine: {'line': b'   74 |     NavState state_;  // \xe5\x8d\xa1\xe5\xb0\x94\xe6\x9b\xbc\xe6\xbb\xa4\xe6\xb3\xa2\xe5\x99\xa8\xe7\x8a\xb6\xe6\x80\x81\n'}
+[13.360248] (lightning) StderrLine: {'line': b'      |              ^~~~~~\n'}
+[13.360458] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   \xe2\x80\x98lightning::SE3 lightning::Keyframe::pose_lio_\xe2\x80\x99 [-Wreorder]\n'}
+[13.360536] (lightning) StderrLine: {'line': b'   71 |     SE3 pose_lio_;  // \xe5\x89\x8d\xe7\xab\xaf\xe7\x9a\x84pose\n'}
+[13.360607] (lightning) StderrLine: {'line': b'      |         ^~~~~~~~~\n'}
+[13.360976] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]\n'}
+[13.361071] (lightning) StderrLine: {'line': b'   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)\n'}
+[13.361131] (lightning) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[13.378656] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:8,\n'}
+[13.378892] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5:\n'}
+[13.378965] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor \xe2\x80\x98lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)\xe2\x80\x99:\n'}
+[13.379035] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: \xe2\x80\x98lightning::Keyframe::state_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[13.379100] (lightning) StderrLine: {'line': b'   74 |     NavState state_;  // \xe5\x8d\xa1\xe5\xb0\x94\xe6\x9b\xbc\xe6\xbb\xa4\xe6\xb3\xa2\xe5\x99\xa8\xe7\x8a\xb6\xe6\x80\x81\n'}
+[13.379163] (lightning) StderrLine: {'line': b'      |              ^~~~~~\n'}
+[13.383403] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   \xe2\x80\x98lightning::SE3 lightning::Keyframe::pose_lio_\xe2\x80\x99 [-Wreorder]\n'}
+[13.383640] (lightning) StderrLine: {'line': b'   71 |     SE3 pose_lio_;  // \xe5\x89\x8d\xe7\xab\xaf\xe7\x9a\x84pose\n'}
+[13.383714] (lightning) StderrLine: {'line': b'      |         ^~~~~~~~~\n'}
+[13.383779] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]\n'}
+[13.383844] (lightning) StderrLine: {'line': b'   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)\n'}
+[13.383905] (lightning) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[13.407840] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,\n'}
+[13.408197] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,\n'}
+[13.408288] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5:\n'}
+[13.408380] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor \xe2\x80\x98lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\xe2\x80\x99:\n'}
+[13.408459] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: \xe2\x80\x98lightning::miao::OptimizerConfig::is_dense_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[13.408531] (lightning) StderrLine: {'line': b'   44 |     bool is_dense_ = true;\n'}
+[13.408594] (lightning) StderrLine: {'line': b'      |          ^~~~~~~~~\n'}
+[13.408654] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   \xe2\x80\x98lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\xe2\x80\x99 [-Wreorder]\n'}
+[13.408717] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[13.408779] (lightning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~~~~~\n'}
+[13.408841] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]\n'}
+[13.408901] (lightning) StderrLine: {'line': b'   31 |     explicit OptimizerConfig(AlgorithmType algo_type,\n'}
+[13.408961] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~~~~~~~~\n'}
+[13.441252] (-) TimerEvent: {}
+[13.451286] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,\n'}
+[13.451574] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,\n'}
+[13.451646] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5:\n'}
+[13.451725] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[13.451792] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[13.451855] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[13.451915] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[13.544412] (-) TimerEvent: {}
+[13.705434] (-) TimerEvent: {}
+[13.805709] (-) TimerEvent: {}
+[13.905941] (-) TimerEvent: {}
+[14.006184] (-) TimerEvent: {}
+[14.106444] (-) TimerEvent: {}
+[14.206701] (-) TimerEvent: {}
+[14.306975] (-) TimerEvent: {}
+[14.407227] (-) TimerEvent: {}
+[14.507443] (-) TimerEvent: {}
+[14.607689] (-) TimerEvent: {}
+[14.707925] (-) TimerEvent: {}
+[14.808174] (-) TimerEvent: {}
+[14.817110] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:7:\n'}
+[14.817535] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[14.817626] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[14.817710] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[14.817781] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[14.908313] (-) TimerEvent: {}
+[15.009430] (-) TimerEvent: {}
+[15.249795] (-) TimerEvent: {}
+[17.611439] (-) TimerEvent: {}
+[41.904742] (-) TimerEvent: {}
+[76.096366] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.h:16,\n'}
+[76.125975] (-) TimerEvent: {}
+[76.126022] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window.cc:1:\n'}
+[76.126138] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor \xe2\x80\x98lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)\xe2\x80\x99:\n'}
+[76.126215] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: \xe2\x80\x98lightning::Keyframe::state_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[76.126300] (lightning) StderrLine: {'line': b'   74 |     NavState state_;  // \xe5\x8d\xa1\xe5\xb0\x94\xe6\x9b\xbc\xe6\xbb\xa4\xe6\xb3\xa2\xe5\x99\xa8\xe7\x8a\xb6\xe6\x80\x81\n'}
+[76.126375] (lightning) StderrLine: {'line': b'      |              ^~~~~~\n'}
+[76.126446] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   \xe2\x80\x98lightning::SE3 lightning::Keyframe::pose_lio_\xe2\x80\x99 [-Wreorder]\n'}
+[76.126511] (lightning) StderrLine: {'line': b'   71 |     SE3 pose_lio_;  // \xe5\x89\x8d\xe7\xab\xaf\xe7\x9a\x84pose\n'}
+[76.126574] (lightning) StderrLine: {'line': b'      |         ^~~~~~~~~\n'}
+[76.126636] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]\n'}
+[76.126701] (lightning) StderrLine: {'line': b'   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)\n'}
+[76.126762] (lightning) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[76.226126] (-) TimerEvent: {}
+[76.326732] (-) TimerEvent: {}
+[76.440174] (-) TimerEvent: {}
+[76.549088] (-) TimerEvent: {}
+[76.664270] (-) TimerEvent: {}
+[76.814626] (-) TimerEvent: {}
+[77.422608] (-) TimerEvent: {}
+[78.588400] (-) TimerEvent: {}
+[79.267776] (-) TimerEvent: {}
+[80.391236] (-) TimerEvent: {}
+[80.983808] (-) TimerEvent: {}
+[82.024753] (-) TimerEvent: {}
+[83.095695] (-) TimerEvent: {}
+[84.219585] (-) TimerEvent: {}
+[86.170297] (-) TimerEvent: {}
+[87.425024] (-) TimerEvent: {}
+[89.248052] (-) TimerEvent: {}
+[90.943494] (-) TimerEvent: {}
+[91.735905] (-) TimerEvent: {}
+[91.839033] (-) TimerEvent: {}
+[91.962809] (-) TimerEvent: {}
+[92.871191] (-) TimerEvent: {}
+[94.391256] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc:2:\n'}
+[96.877013] (-) TimerEvent: {}
+[96.878806] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[96.879031] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[96.879180] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[96.879258] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[96.892623] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc: In member function \xe2\x80\x98void lightning::ui::UiCloud::Render()\xe2\x80\x99:\n'}
+[96.892785] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc:56:23: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98std::vector<Eigen::Matrix<float, 3, 1> >::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} [-Wsign-compare]\n'}
+[96.892832] (lightning) StderrLine: {'line': b'   56 |     for (int i = 0; i < xyz_data_.size(); ++i) {\n'}
+[96.892867] (lightning) StderrLine: {'line': b'      |                     ~~^~~~~~~~~~~~~~~~~~\n'}
+[96.892896] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc:66:31: warning: suggest parentheses around assignment used as truth value [-Wparentheses]\n'}
+[96.892935] (lightning) StderrLine: {'line': b'   66 |         } else if (use_color_ = UseColor::CUSTOM_COLOR) {\n'}
+[96.892968] (lightning) StderrLine: {'line': b'      |                    ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[96.977181] (-) TimerEvent: {}
+[97.077924] (-) TimerEvent: {}
+[97.178125] (-) TimerEvent: {}
+[97.248905] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,\n'}
+[97.253118] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pose_extrapolator.cc:2:\n'}
+[97.253244] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[97.253305] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[97.253368] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[97.253420] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[97.280076] (-) TimerEvent: {}
+[97.337089] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:8:\n'}
+[97.338795] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[97.338863] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[97.338901] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[97.338943] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[97.382025] (-) TimerEvent: {}
+[97.471097] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,\n'}
+[97.472137] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/params.cc:6:\n'}
+[97.472254] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[97.472297] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[97.472350] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[97.472393] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[97.484103] (-) TimerEvent: {}
+[97.494991] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function \xe2\x80\x98void lightning::PointCloudPreprocess::Process(const SharedPtr&, pcl::PointCloud<PointXYZIT>::Ptr&)\xe2\x80\x99:\n'}
+[97.495971] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:47:24: warning: comparison of integer expressions of different signedness: \xe2\x80\x98uint\xe2\x80\x99 {aka \xe2\x80\x98unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[97.496091] (lightning) StderrLine: {'line': b'   47 |     for (uint i = 0; i < plsize - 1; ++i) {\n'}
+[97.496139] (lightning) StderrLine: {'line': b'      |                      ~~^~~~~~~~~~~~\n'}
+[97.496178] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In lambda function:\n'}
+[97.496221] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:72:67: warning: suggest parentheses around \xe2\x80\x98&&\xe2\x80\x99 within \xe2\x80\x98||\xe2\x80\x99 [-Wparentheses]\n'}
+[97.496260] (lightning) StderrLine: {'line': b'   72 |             (abs(cloud_full_[i].z - cloud_full_[i - 1].z) > 1e-7) &&\n'}
+[97.496298] (lightning) StderrLine: {'line': b'      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\n'}
+[97.496343] (lightning) StderrLine: {'line': b'   73 |                 (cloud_full_[i].x * cloud_full_[i].x + cloud_full_[i].y * cloud_full_[i].y +\n'}
+[97.496382] (lightning) StderrLine: {'line': b'      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[97.512571] (lightning) StderrLine: {'line': b'   74 |                      cloud_full_[i].z * cloud_full_[i].z >\n'}
+[97.516241] (lightning) StderrLine: {'line': b'      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         \n'}
+[97.516343] (lightning) StderrLine: {'line': b'   75 |                  (blind_ * blind_))) {\n'}
+[97.516401] (lightning) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~~~~~                                \n'}
+[97.516454] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function \xe2\x80\x98void lightning::PointCloudPreprocess::Process(const SharedPtr&, pcl::PointCloud<PointXYZIT>::Ptr&)\xe2\x80\x99:\n'}
+[97.516508] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:82:24: warning: comparison of integer expressions of different signedness: \xe2\x80\x98uint\xe2\x80\x99 {aka \xe2\x80\x98unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[97.516567] (lightning) StderrLine: {'line': b'   82 |     for (uint i = 1; i < plsize; i++) {\n'}
+[97.516615] (lightning) StderrLine: {'line': b'      |                      ~~^~~~~~~~\n'}
+[97.516659] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:5:\n'}
+[97.516707] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[97.516759] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[97.516810] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[97.516863] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[97.553766] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function \xe2\x80\x98void lightning::PointCloudPreprocess::Oust64Handler(const SharedPtr&)\xe2\x80\x99:\n'}
+[97.572180] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:103:23: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98std::vector<ouster_ros::Point, Eigen::aligned_allocator<ouster_ros::Point> >::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} [-Wsign-compare]\n'}
+[99.347401] (-) TimerEvent: {}
+[99.348970] (lightning) StderrLine: {'line': b'  103 |     for (int i = 0; i < pl_orig.points.size(); i++) {\n'}
+[99.623997] (-) TimerEvent: {}
+[99.657523] (lightning) StderrLine: {'line': b'      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[100.419469] (-) TimerEvent: {}
+[101.270425] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function \xe2\x80\x98void lightning::PointCloudPreprocess::RoboSenseHandler(const SharedPtr&)\xe2\x80\x99:\n'}
+[111.091106] (-) TimerEvent: {}
+[117.569103] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:148:23: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98std::vector<PointRobotSense, Eigen::aligned_allocator<PointRobotSense> >::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} [-Wsign-compare]\n'}
+[127.215341] (-) TimerEvent: {}

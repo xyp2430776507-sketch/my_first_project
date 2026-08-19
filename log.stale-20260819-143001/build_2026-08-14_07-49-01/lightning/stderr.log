@@ -1,0 +1,640 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:507: UserWarning: The version specified ('') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+  warnings.warn(
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |     bool [01;35m[Kis_dense_[m[K = true;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.h:9[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:[m[K In constructor ‘[01m[Klightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::Keyframe::state_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   74 |     NavState [01;35m[Kstate_[m[K;  // 卡尔曼滤波器状态
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::SE3 lightning::Keyframe::pose_lio_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |     SE3 [01;35m[Kpose_lio_[m[K;  // 前端的pose
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |     [01;35m[KKeyframe[m[K(unsigned long id, CloudPtr cloud, NavState state)
+      |     [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:7[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:1[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |     bool [01;35m[Kis_dense_[m[K = true;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:1[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:8[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc:[m[K In member function ‘[01m[Kvoid lightning::g2p5::G2P5::RenderBack()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc:128:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  128 |             if ([01;35m[Kcur_idx == frontend_kf->GetID()[m[K) {
+      |                 [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:8[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:[m[K In constructor ‘[01m[Klightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::Keyframe::state_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   74 |     NavState [01;35m[Kstate_[m[K;  // 卡尔曼滤波器状态
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::SE3 lightning::Keyframe::pose_lio_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |     SE3 [01;35m[Kpose_lio_[m[K;  // 前端的pose
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |     [01;35m[KKeyframe[m[K(unsigned long id, CloudPtr cloud, NavState state)
+      |     [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |     bool [01;35m[Kis_dense_[m[K = true;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.h:47[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h:47[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:1[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/eskf.cc:6[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.h:18[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:[m[K In constructor ‘[01m[Klightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::Keyframe::state_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   74 |     NavState [01;35m[Kstate_[m[K;  // 卡尔曼滤波器状态
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::SE3 lightning::Keyframe::pose_lio_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |     SE3 [01;35m[Kpose_lio_[m[K;  // 前端的pose
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |     [01;35m[KKeyframe[m[K(unsigned long id, CloudPtr cloud, NavState state)
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/eskf.cc:[m[K In member function ‘[01m[Kvoid lightning::ESKF::Predict(const double&, const ProcessNoiseType&, const Vec3d&, const Vec3d&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/eskf.cc:45:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kx_before[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   45 |     NavState [01;35m[Kx_before[m[K = x_;
+      |              [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.h:16[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:10[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:[m[K In constructor ‘[01m[Klightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::Keyframe::state_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   74 |     NavState [01;35m[Kstate_[m[K;  // 卡尔曼滤波器状态
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::SE3 lightning::Keyframe::pose_lio_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |     SE3 [01;35m[Kpose_lio_[m[K;  // 前端的pose
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |     [01;35m[KKeyframe[m[K(unsigned long id, CloudPtr cloud, NavState state)
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:[m[K In member function ‘[01m[Kvoid lightning::loc::PGO::PubResult()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:60:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Krecent_lidar_loc_pose[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   60 |             SE3 [01;35m[Krecent_lidar_loc_pose[m[K = impl_->lidar_loc_pose_queue_.back().pose_;
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:53:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   53 |         double [01;35m[Kdt[m[K = result.timestamp_ - impl_->result_.timestamp_;
+      |                [01;35m[K^~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:108:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kextra_pose[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  108 |         SE3 [01;35m[Kextra_pose[m[K = result.pose_;
+      |             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:[m[K In member function ‘[01m[Kbool lightning::loc::PGO::ProcessDR(const lightning::NavState&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:146:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdelta_timestamp[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  146 |     double [01;35m[Kdelta_timestamp[m[K = 0;
+      |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:[m[K In member function ‘[01m[Kvoid lightning::loc::PGO::LogWindowState()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:327:36:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  327 |     int idx1 = [01;35m[K(window.size() - 5) >= 0[m[K ? (window.size() - 5) : -1;
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:328:36:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  328 |     int idx2 = [01;35m[K(window.size() - 4) >= 0[m[K ? (window.size() - 4) : -1;
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:329:36:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  329 |     int idx3 = [01;35m[K(window.size() - 3) >= 0[m[K ? (window.size() - 3) : -1;
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:330:36:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  330 |     int idx4 = [01;35m[K(window.size() - 2) >= 0[m[K ? (window.size() - 2) : -1;
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:331:36:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  331 |     int idx5 = [01;35m[K(window.size() - 1) >= 0[m[K ? (window.size() - 1) : -1;
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:328:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  328 |     int [01;35m[Kidx2[m[K = (window.size() - 4) >= 0 ? (window.size() - 4) : -1;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:329:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  329 |     int [01;35m[Kidx3[m[K = (window.size() - 3) >= 0 ? (window.size() - 3) : -1;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:330:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  330 |     int [01;35m[Kidx4[m[K = (window.size() - 2) >= 0 ? (window.size() - 2) : -1;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:331:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  331 |     int [01;35m[Kidx5[m[K = (window.size() - 1) >= 0 ? (window.size() - 1) : -1;
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:[m[K In member function ‘[01m[Kbool lightning::loc::PGO::ExtrapolateLocResult(lightning::loc::LocalizationResult&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:451:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_incre[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  451 |             const double [01;35m[Ktime_incre[m[K = dr_pose_queue.back().timestamp_ - output_result.timestamp_;
+      |                          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:[m[K In member function ‘[01m[Kvoid lightning::ui::PangolinWindowImpl::Reset(const std::vector<std::shared_ptr<lightning::Keyframe> >&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:55:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<std::shared_ptr<lightning::Keyframe> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   55 |     std::size_t i = [01;35m[Kkeyframes.size() > max_size_of_current_scan_[m[K ? keyframes.size() - max_size_of_current_scan_ : 0;
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:[m[K In member function ‘[01m[Kbool lightning::ui::PangolinWindowImpl::UpdateCurrentScan()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:164:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<std::shared_ptr<lightning::ui::UiCloud> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  164 |     while ([01;35m[Kscans_.size() >= max_size_of_current_scan_[m[K) {
+      |            [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:[m[K In member function ‘[01m[Kbool lightning::ui::PangolinWindowImpl::UpdateState()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:177:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpos[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  177 |     Vec3d [01;35m[Kpos[m[K = pose_.translation().eval();
+      |           [01;35m[K^~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:179:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  179 |     double [01;35m[Kroll[m[K = pose_.angleX();
+      |            [01;35m[K^~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:180:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  180 |     double [01;35m[Kpitch[m[K = pose_.angleY();
+      |            [01;35m[K^~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:181:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  181 |     double [01;35m[Kyaw[m[K = pose_.angleZ();
+      |            [01;35m[K^~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:[m[K In member function ‘[01m[Kvoid lightning::ui::PangolinWindowImpl::DrawAll()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<lightning::Keyframe> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  246 |             for (int i = 0; [01;35m[Ki < all_keyframes_.size() - 1[m[K; ++i) {
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:12[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:7[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:1[m[K:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h: In instantiation of ‘[01m[Kvoid pclomp::NormalDistributionsTransform<PointSource, PointTarget>::setInputTarget(const PointCloudTargetConstPtr&) [with PointSource = pcl::PointXYZ; PointTarget = pcl::PointXYZ; pclomp::NormalDistributionsTransform<PointSource, PointTarget>::PointCloudTargetConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >][m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:4:24:[m[K   required from here
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h:105:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcloud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  105 |   inline void setInputTarget([01;35m[Kconst PointCloudTargetConstPtr &cloud[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h:25[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.cc:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.h:47[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h:47[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp:1[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:10[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:7[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::processAxis(double, std::deque<double>&, int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:92:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   92 |         if ([01;35m[Khistory.size() >= config_.median_window_size[m[K && sample_count_ > 100) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kvoid lightning::IMUFilter::updateBuffer(const lightning::IMU&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:114:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  114 |         while ([01;35m[Kgyro_x_history_.size() > max_history[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::detectAndRemoveSpike(double, std::deque<double>&, int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:123:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  123 |         if ([01;35m[Khistory.size() < config_.median_window_size[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:7[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::medianFilter(double, std::deque<double>&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:152:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  152 |         if ([01;35m[Khistory.size() < config_.median_window_size[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::movingAverage(double, std::deque<double>&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:164:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  164 |         if ([01;35m[Khistory.size() < config_.moving_avg_window[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kvoid lightning::IMUFilter::updateStatistics(const lightning::IMU&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:200:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprev_mean[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  200 |             double [01;35m[Kprev_mean[m[K[3] = {gyro_mean_[0], gyro_mean_[1], gyro_mean_[2]};
+      |                    [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:2[m[K:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp: In instantiation of ‘[01m[Kdouble pclomp::NormalDistributionsTransform<PointSource, PointTarget>::computeDerivatives(Eigen::Matrix<double, 6, 1, 0, 6, 1>&, Eigen::Matrix<double, 6, 6, 0, 6, 6>&, pclomp::NormalDistributionsTransform<PointSource, PointTarget>::PointCloudSource&, Eigen::Matrix<double, 6, 1, 0, 6, 1>&, bool) [with PointSource = pcl::PointXYZ; PointTarget = pcl::PointXYZ; pclomp::NormalDistributionsTransform<PointSource, PointTarget>::PointCloudSource = pcl::PointCloud<pcl::PointXYZ>][m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:4:24:[m[K   required from here
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp:281:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  281 |   for (int idx = 0; [01;35m[Kidx < input_->points.size()[m[K; idx++) {
+      |                     [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp:303:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistances[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  303 |     auto &[01;35m[Kdistances[m[K    = distancess[thread_n];
+      |           [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.cc:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h:[m[K In constructor ‘[01m[Klightning::RosbagIO::RosbagIO(std::string, lightning::DatasetType)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h:38:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdataset_type[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   38 |     explicit RosbagIO(std::string bag_file, [01;35m[KDatasetType dataset_type = DatasetType::NCLT[m[K)
+      |                                             [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:1[m[K:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h: In instantiation of ‘[01m[Kvoid pclomp::NormalDistributionsTransform<PointSource, PointTarget>::setInputTarget(const PointCloudTargetConstPtr&) [with PointSource = pcl::PointXYZI; PointTarget = pcl::PointXYZI; pclomp::NormalDistributionsTransform<PointSource, PointTarget>::PointCloudTargetConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZI> >][m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:5:24:[m[K   required from here
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h:105:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcloud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  105 |   inline void setInputTarget([01;35m[Kconst PointCloudTargetConstPtr &cloud[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:2[m[K:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp: In instantiation of ‘[01m[Kdouble pclomp::NormalDistributionsTransform<PointSource, PointTarget>::computeDerivatives(Eigen::Matrix<double, 6, 1, 0, 6, 1>&, Eigen::Matrix<double, 6, 6, 0, 6, 6>&, pclomp::NormalDistributionsTransform<PointSource, PointTarget>::PointCloudSource&, Eigen::Matrix<double, 6, 1, 0, 6, 1>&, bool) [with PointSource = pcl::PointXYZI; PointTarget = pcl::PointXYZI; pclomp::NormalDistributionsTransform<PointSource, PointTarget>::PointCloudSource = pcl::PointCloud<pcl::PointXYZI>][m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:5:24:[m[K   required from here
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp:281:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  281 |   for (int idx = 0; [01;35m[Kidx < input_->points.size()[m[K; idx++) {
+      |                     [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp:303:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistances[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  303 |     auto &[01;35m[Kdistances[m[K    = distancess[thread_n];
+      |           [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:8[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |     bool [01;35m[Kis_dense_[m[K = true;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:8[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/params.cc:6[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/loc_system.h:17[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/loc_system.cc:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:[m[K In constructor ‘[01m[Klightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::Keyframe::state_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   74 |     NavState [01;35m[Kstate_[m[K;  // 卡尔曼滤波器状态
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::SE3 lightning::Keyframe::pose_lio_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |     SE3 [01;35m[Kpose_lio_[m[K;  // 前端的pose
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |     [01;35m[KKeyframe[m[K(unsigned long id, CloudPtr cloud, NavState state)
+      |     [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pose_extrapolator.cc:2[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization_result.cc:6[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.h:47[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp:1[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:12[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.h:7[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/loc_system.cc:6[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.h:16[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.cc:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window.h:8[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:20[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:[m[K In constructor ‘[01m[Klightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::Keyframe::state_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   74 |     NavState [01;35m[Kstate_[m[K;  // 卡尔曼滤波器状态
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::SE3 lightning::Keyframe::pose_lio_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |     SE3 [01;35m[Kpose_lio_[m[K;  // 前端的pose
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |     [01;35m[KKeyframe[m[K(unsigned long id, CloudPtr cloud, NavState state)
+      |     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:[m[K In member function ‘[01m[Kvoid lightning::LoopClosing::DetectLoopCandidates()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:107:70:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  107 |     if (last_loop_kf_ && [01;35m[K(cur_kf_->GetID() - last_loop_kf_->GetID()) <= options_.loop_kf_gap_[m[K) {
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:[m[K In lambda function:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:177:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::shared_ptr<lightning::Keyframe> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  177 |             if (id < 0 || [01;35m[Kid >= all_keyframes_.size()[m[K) {
+      |                           [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:4[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.h:7[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/loc_system.cc:6[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::processAxis(double, std::deque<double>&, int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:92:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   92 |         if ([01;35m[Khistory.size() >= config_.median_window_size[m[K && sample_count_ > 100) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kvoid lightning::IMUFilter::updateBuffer(const lightning::IMU&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:114:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  114 |         while ([01;35m[Kgyro_x_history_.size() > max_history[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::detectAndRemoveSpike(double, std::deque<double>&, int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:123:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  123 |         if ([01;35m[Khistory.size() < config_.median_window_size[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.h:7[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/loc_system.cc:6[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::medianFilter(double, std::deque<double>&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:152:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  152 |         if ([01;35m[Khistory.size() < config_.median_window_size[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::movingAverage(double, std::deque<double>&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:164:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  164 |         if ([01;35m[Khistory.size() < config_.moving_avg_window[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kvoid lightning::IMUFilter::updateStatistics(const lightning::IMU&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:200:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprev_mean[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  200 |             double [01;35m[Kprev_mean[m[K[3] = {gyro_mean_[0], gyro_mean_[1], gyro_mean_[2]};
+      |                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:[m[K In member function ‘[01m[Kvoid lightning::loc::LidarLoc::Align(const CloudPtr&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:584:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktry_self[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  584 |     bool [01;35m[Ktry_self[m[K = false;
+      |          [01;35m[K^~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:609:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscore_lo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  609 |     double [01;35m[Kscore_lo[m[K = fitness_score;
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:611:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kres_of_lo[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  611 |     SE3 [01;35m[Kres_of_lo[m[K = current_pose_esti;
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:612:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kres_of_dr[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  612 |     SE3 [01;35m[Kres_of_dr[m[K = current_pose_esti;
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:613:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kres_of_self[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  613 |     SE3 [01;35m[Kres_of_self[m[K = current_pose_esti;
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:614:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscore_dr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  614 |     double [01;35m[Kscore_dr[m[K = 0;
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:[m[K In member function ‘[01m[Kbool lightning::loc::LidarLoc::CheckStatic(double)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:895:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimestamp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  895 | bool LidarLoc::CheckStatic([01;35m[Kdouble timestamp[m[K) {
+      |                            [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:[m[K In member function ‘[01m[Kvoid lightning::loc::LidarLoc::UpdateState(const CloudPtr&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:911:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinput[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  911 | void LidarLoc::UpdateState([01;35m[Kconst CloudPtr& input[m[K) { last_timestamp_ = current_timestamp_; }
+      |                            [01;35m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:11[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:7[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:[m[K In constructor ‘[01m[Klightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::Keyframe::state_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   74 |     NavState [01;35m[Kstate_[m[K;  // 卡尔曼滤波器状态
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::SE3 lightning::Keyframe::pose_lio_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |     SE3 [01;35m[Kpose_lio_[m[K;  // 前端的pose
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |     [01;35m[KKeyframe[m[K(unsigned long id, CloudPtr cloud, NavState state)
+      |     [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.h:16[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.h:13[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.cpp:4[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:[m[K In function ‘[01m[Kvoid lightning::debug::SigHandle(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | inline void SigHandle([01;35m[Kint sig[m[K) {
+      |                       [01;35m[K~~~~^~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:[m[K In member function ‘[01m[Kvoid lightning::loc::PGOImpl::AddLidarOdomFactors()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:374:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klo_obs_weight[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  374 |         Vec6d [01;35m[Klo_obs_weight[m[K = lo_noise;
+      |               [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:[m[K In member function ‘[01m[Kvoid lightning::loc::PGOImpl::RemoveOutliers()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:499:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kremove_outlier[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  499 |     auto [01;35m[Kremove_outlier[m[K = [&cnt_outliers, this](miao::Edge* e) {
+      |          [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:[m[K In member function ‘[01m[Kvoid lightning::loc::PGOImpl::CollectOptimizationStatistics()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:560:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kloc_err[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  560 |     const double [01;35m[Kloc_err[m[K = std::sqrt(result_.lidar_loc_error_vert_ * result_.lidar_loc_error_vert_ +
+      |                  [01;35m[K^~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:563:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klo_err[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  563 |     const double [01;35m[Klo_err[m[K = std::sqrt(result_.lidar_odom_error_vert_ * result_.lidar_odom_error_vert_ +
+      |                  [01;35m[K^~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:[m[K In member function ‘[01m[Kvoid lightning::loc::PGOImpl::UpdateFinalResultByWindow()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:642:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfollowing_gps[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  642 |     bool [01;35m[Kfollowing_gps[m[K = false;
+      |          [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:643:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfollowing_lidar_loc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  643 |     bool [01;35m[Kfollowing_lidar_loc[m[K = false;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:644:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfollowing_lidar_odom[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  644 |     bool [01;35m[Kfollowing_lidar_odom[m[K = lf->lidar_odom_valid_;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:645:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfollowing_dr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  645 |     bool [01;35m[Kfollowing_dr[m[K = lf->dr_valid_;
+      |          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:[m[K In member function ‘[01m[Kvoid lightning::loc::PGOImpl::Marginalize(const PGOFramePtr&, const PGOFramePtr&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:846:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kframe_to_remove[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  846 | void PGOImpl::Marginalize([01;35m[Kconst PGOFramePtr& frame_to_remove[m[K, const PGOFramePtr& frame_to_keep) {
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:7[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::processAxis(double, std::deque<double>&, int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:92:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   92 |         if ([01;35m[Khistory.size() >= config_.median_window_size[m[K && sample_count_ > 100) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kvoid lightning::IMUFilter::updateBuffer(const lightning::IMU&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:114:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  114 |         while ([01;35m[Kgyro_x_history_.size() > max_history[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::detectAndRemoveSpike(double, std::deque<double>&, int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:123:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  123 |         if ([01;35m[Khistory.size() < config_.median_window_size[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:7[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::medianFilter(double, std::deque<double>&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:152:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  152 |         if ([01;35m[Khistory.size() < config_.median_window_size[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::movingAverage(double, std::deque<double>&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:164:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  164 |         if ([01;35m[Khistory.size() < config_.moving_avg_window[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kvoid lightning::IMUFilter::updateStatistics(const lightning::IMU&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:200:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprev_mean[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  200 |             double [01;35m[Kprev_mean[m[K[3] = {gyro_mean_[0], gyro_mean_[1], gyro_mean_[2]};
+      |                    [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:11[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.h:7[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.cpp:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:[m[K In constructor ‘[01m[Klightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::Keyframe::state_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   74 |     NavState [01;35m[Kstate_[m[K;  // 卡尔曼滤波器状态
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::SE3 lightning::Keyframe::pose_lio_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |     SE3 [01;35m[Kpose_lio_[m[K;  // 前端的pose
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   22 |     [01;35m[KKeyframe[m[K(unsigned long id, CloudPtr cloud, NavState state)
+      |     [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.h:7[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.cpp:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::processAxis(double, std::deque<double>&, int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:92:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   92 |         if ([01;35m[Khistory.size() >= config_.median_window_size[m[K && sample_count_ > 100) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kvoid lightning::IMUFilter::updateBuffer(const lightning::IMU&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:114:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  114 |         while ([01;35m[Kgyro_x_history_.size() > max_history[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::detectAndRemoveSpike(double, std::deque<double>&, int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:123:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  123 |         if ([01;35m[Khistory.size() < config_.median_window_size[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.h:7[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.cpp:5[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::medianFilter(double, std::deque<double>&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:152:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  152 |         if ([01;35m[Khistory.size() < config_.median_window_size[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kdouble lightning::IMUFilter::movingAverage(double, std::deque<double>&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:164:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  164 |         if ([01;35m[Khistory.size() < config_.moving_avg_window[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:[m[K In member function ‘[01m[Kvoid lightning::IMUFilter::updateStatistics(const lightning::IMU&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:200:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprev_mean[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  200 |             double [01;35m[Kprev_mean[m[K[3] = {gyro_mean_[0], gyro_mean_[1], gyro_mean_[2]};
+      |                    [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.cc:[m[K In member function ‘[01m[Kvoid lightning::TiledMap::UpdateVoxel(lightning::TiledMap::VoxelData&, bool)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.cc:563:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<Eigen::Matrix<float, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  563 |     if (!v.ndt_estimated_ && [01;35m[Kv.pts_.size() > ndt_map_options_.min_pts_in_voxel_[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.cc:569:50:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<Eigen::Matrix<float, 3, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  569 |     } else if (v.ndt_estimated_ && [01;35m[Kv.pts_.size() > ndt_map_options_.min_pts_in_voxel_[m[K) {
+      |                                    [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:[m[K In member function ‘[01m[Kbool lightning::LaserMapping::Run()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:189:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  189 |         for (int i = 0; [01;35m[Ki < scan_undistort_->size()[m[K; i++) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:272:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_translation[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  272 |     const double [01;35m[Kdelta_translation[m[K = (pred_state.pos_ - state_point_.pos_).norm();
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:274:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_velocity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  274 |     const double [01;35m[Kdelta_velocity[m[K = (pred_state.vel_ - state_point_.vel_).norm();
+      |                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:276:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  276 |     const double [01;35m[Kcurrent_speed[m[K = state_point_.vel_.norm();
+      |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:[m[K In member function ‘[01m[Kvoid lightning::LaserMapping::MakeKF()[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:392:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::__cxx11::list<std::shared_ptr<lightning::Keyframe> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  392 |     if ([01;35m[Kproj_kfs_.size() >= options_.max_proj_kfs_[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.cpp:9[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:[m[K In constructor ‘[01m[Klightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Klightning::miao::OptimizerConfig::is_dense_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   44 |     bool [01;35m[Kis_dense_[m[K = true;
+      |          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Klightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   39 |     LinearSolverType [01;35m[Klinear_solver_type_[m[K = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |     explicit [01;35m[KOptimizerConfig[m[K(AlgorithmType algo_type,
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7[m[K,
+                 from [01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.cpp:9[m[K:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:[m[K In member function ‘[01m[Kvirtual int lightning::miao::Graph::Optimize(int)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kinterations[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   80 |     virtual int Optimize([01;35m[Kint interations[m[K) { return 0; }
+      |                          [01;35m[K~~~~^~~~~~~~~~~[m[K
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:[m[K In member function ‘[01m[Kvoid lightning::LaserMapping::ObsModel(lightning::NavState&, lightning::ESKF::CustomObservationModel&)[m[K’:
+[01m[K/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:739:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<long unsigned int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  739 |     for (int i = 0; [01;35m[Ki < index.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~[m[K

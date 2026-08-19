@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/lib/xyp_mid360_navigation/odom_handedness_adapter.py
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/lib/xyp_mid360_navigation/plan_follow_waypoints.py
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/config/nav2_odom_mid360.yaml
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/launch/__pycache__/inspect_costmaps.launch.cpython-310.pyc
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/launch/__pycache__/navigation_chassis.launch.cpython-310.pyc
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/launch/inspect_costmaps.launch.py
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/launch/navigation_chassis.launch.py
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/ament_index/resource_index/package_run_dependencies/xyp_mid360_navigation
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/ament_index/resource_index/parent_prefix_path/xyp_mid360_navigation
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/environment/path.sh
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/environment/path.dsv
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/local_setup.bash
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/local_setup.sh
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/local_setup.zsh
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/local_setup.dsv
+-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/package.dsv
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/ament_index/resource_index/packages/xyp_mid360_navigation
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/cmake/xyp_mid360_navigationConfig.cmake
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/cmake/xyp_mid360_navigationConfig-version.cmake
+-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/package.xml

@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000069] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000145] (lightning) JobQueued: {'identifier': 'lightning', 'dependencies': OrderedDict()}
+[0.000168] (lightning) JobStarted: {'identifier': 'lightning'}
+[0.006238] (lightning) JobProgress: {'identifier': 'lightning', 'progress': 'cmake'}
+[0.007664] (lightning) JobProgress: {'identifier': 'lightning', 'progress': 'build'}
+[0.008540] (lightning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning', '--', '-j28', '-l28'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CMAKE_BUILD_PARALLEL_LEVEL', '2'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1298'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2288'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1258888'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:3674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0EfG4LC:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/2261,unix/KPLNB151:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '41a0992f09ec4f17bdf6cbbabdc6f9d5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099480] (-) TimerEvent: {}
+[0.114581] (lightning) StdoutLine: {'line': b'[  3%] Built target lightning__rosidl_generator_c\n'}
+[0.114850] (lightning) StdoutLine: {'line': b'[  3%] Built target livox_interfaces2__rs\n'}
+[0.115719] (lightning) StdoutLine: {'line': b'[  4%] Built target livox_interfaces2__cpp\n'}
+[0.116640] (lightning) StdoutLine: {'line': b'[  5%] Built target lightning__rs\n'}
+[0.116954] (lightning) StdoutLine: {'line': b'[  7%] Built target lightning__cpp\n'}
+[0.117104] (lightning) StdoutLine: {'line': b'[  9%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[0.118950] (lightning) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_symlink_livox_ros_driver2\n'}
+[0.125571] (lightning) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_symlink_lightning\n'}
+[0.126498] (lightning) StdoutLine: {'line': b'[ 10%] Built target miao.utils\n'}
+[0.127704] (lightning) StdoutLine: {'line': b'[ 17%] Built target miao.core\n'}
+[0.155245] (lightning) StdoutLine: {'line': b'[ 20%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[0.155769] (lightning) StdoutLine: {'line': b'[ 23%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[0.156119] (lightning) StdoutLine: {'line': b'[ 26%] Built target lightning__rosidl_typesupport_fastrtps_c\n'}
+[0.156944] (lightning) StdoutLine: {'line': b'[ 29%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[0.157151] (lightning) StdoutLine: {'line': b'[ 32%] Built target lightning__rosidl_typesupport_fastrtps_cpp\n'}
+[0.158044] (lightning) StdoutLine: {'line': b'[ 35%] Built target lightning__rosidl_typesupport_c\n'}
+[0.159026] (lightning) StdoutLine: {'line': b'[ 38%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[0.159740] (lightning) StdoutLine: {'line': b'[ 41%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.159860] (lightning) StdoutLine: {'line': b'[ 44%] Built target lightning__rosidl_typesupport_introspection_cpp\n'}
+[0.160673] (lightning) StdoutLine: {'line': b'[ 47%] Built target lightning__rosidl_typesupport_introspection_c\n'}
+[0.161963] (lightning) StdoutLine: {'line': b'[ 50%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[0.162518] (lightning) StdoutLine: {'line': b'[ 53%] Built target lightning__rosidl_typesupport_cpp\n'}
+[0.183065] (lightning) StdoutLine: {'line': b'[ 53%] Built target lightning\n'}
+[0.183215] (lightning) StdoutLine: {'line': b'[ 53%] Built target livox_interfaces2\n'}
+[0.199558] (-) TimerEvent: {}
+[0.201359] (lightning) StdoutLine: {'line': b'[ 54%] Built target lightning__py\n'}
+[0.201795] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning.libs\n'}
+[0.202082] (lightning) StdoutLine: {'line': b'[ 54%] Built target livox_interfaces2__py\n'}
+[0.221883] (lightning) StdoutLine: {'line': b'[ 56%] Built target livox_interfaces2__rosidl_generator_py\n'}
+[0.223388] (lightning) StdoutLine: {'line': b'[ 61%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/laser_mapping.cc.o\n'}
+[0.223562] (lightning) StdoutLine: {'line': b'[ 61%] Building CXX object src/CMakeFiles/lightning.libs.dir/common/params.cc.o\n'}
+[0.223635] (lightning) StdoutLine: {'line': b'[ 61%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/eskf.cc.o\n'}
+[0.223704] (lightning) StdoutLine: {'line': b'[ 61%] Built target lightning__rosidl_generator_py\n'}
+[0.223769] (lightning) StdoutLine: {'line': b'[ 61%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/pointcloud_preprocess.cc.o\n'}
+[0.223893] (lightning) StdoutLine: {'line': b'[ 61%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5.cc.o\n'}
+[0.224055] (lightning) StdoutLine: {'line': b'[ 62%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map.cc.o\n'}
+[0.224105] (lightning) StdoutLine: {'line': b'[ 63%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/loop_closing/loop_closing.cc.o\n'}
+[0.240802] (lightning) StdoutLine: {'line': b'[ 67%] Built target lightning__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.240968] (lightning) StdoutLine: {'line': b'[ 67%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/lidar_loc.cc.o\n'}
+[0.241023] (lightning) StdoutLine: {'line': b'[ 67%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[0.241069] (lightning) StdoutLine: {'line': b'[ 67%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization_result.cc.o\n'}
+[0.241191] (lightning) StdoutLine: {'line': b'[ 67%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp.o\n'}
+[0.241303] (lightning) StdoutLine: {'line': b'[ 69%] Built target lightning__rosidl_typesupport_c__pyext\n'}
+[0.241335] (lightning) StdoutLine: {'line': b'[ 70%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.241371] (lightning) StdoutLine: {'line': b'[ 71%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo.cc.o\n'}
+[0.241414] (lightning) StdoutLine: {'line': b'[ 72%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.241732] (lightning) StdoutLine: {'line': b'[ 72%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization.cpp.o\n'}
+[0.242654] (lightning) StdoutLine: {'line': b'[ 73%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/ndt_omp.cpp.o\n'}
+[0.242739] (lightning) StdoutLine: {'line': b'[ 74%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo_impl.cc.o\n'}
+[0.243013] (lightning) StdoutLine: {'line': b'[ 75%] Building CXX object src/CMakeFiles/lightning.libs.dir/utils/pointcloud_utils.cc.o\n'}
+[0.243511] (lightning) StdoutLine: {'line': b'[ 76%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pose_extrapolator.cc.o\n'}
+[0.244640] (lightning) StdoutLine: {'line': b'[ 77%] Built target lightning__rosidl_typesupport_introspection_c__pyext\n'}
+[0.247543] (lightning) StdoutLine: {'line': b'[ 78%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/pangolin_window.cc.o\n'}
+[0.247770] (lightning) StdoutLine: {'line': b'[ 78%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/pangolin_window_impl.cc.o\n'}
+[0.252042] (lightning) StdoutLine: {'line': b'[ 80%] Building CXX object src/CMakeFiles/lightning.libs.dir/wrapper/bag_io.cc.o\n'}
+[0.252341] (lightning) StdoutLine: {'line': b'[ 80%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/loc_system.cc.o\n'}
+[0.252429] (lightning) StdoutLine: {'line': b'[ 81%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/slam.cc.o\n'}
+[0.299669] (-) TimerEvent: {}
+[0.324897] (lightning) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:507: UserWarning: The version specified ('') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.\n"}
+[0.325058] (lightning) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.328295] (lightning) StdoutLine: {'line': b'running egg_info\n'}
+[0.329230] (lightning) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[0.329434] (lightning) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[0.329653] (lightning) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[0.332139] (lightning) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.332838] (lightning) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.341983] (lightning) StdoutLine: {'line': b'running egg_info\n'}
+[0.342783] (lightning) StdoutLine: {'line': b'writing lightning.egg-info/PKG-INFO\n'}
+[0.343007] (lightning) StdoutLine: {'line': b'writing dependency_links to lightning.egg-info/dependency_links.txt\n'}
+[0.343175] (lightning) StdoutLine: {'line': b'writing top-level names to lightning.egg-info/top_level.txt\n'}
+[0.345264] (lightning) StdoutLine: {'line': b"reading manifest file 'lightning.egg-info/SOURCES.txt'\n"}
+[0.345933] (lightning) StdoutLine: {'line': b"writing manifest file 'lightning.egg-info/SOURCES.txt'\n"}
+[0.367650] (lightning) StdoutLine: {'line': b'[ 81%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[0.374868] (lightning) StdoutLine: {'line': b'[ 81%] Built target ament_cmake_python_build_lightning_egg\n'}
+[0.399776] (-) TimerEvent: {}
+[0.499990] (-) TimerEvent: {}

@@ -1,0 +1,126 @@
+** WARNING ** io features related to pcap will be disabled
+CMake Warning at thirdparty/livox_ros_driver/CMakeLists.txt:25 (project):
+  VERSION keyword not followed by a value or was followed by a value that
+  expanded to nothing.
+
+
+/usr/include/apr-1.0
+apr-1
+/usr/lib/python3/dist-packages/setuptools/dist.py:507: UserWarning: The version specified ('') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+  warnings.warn(
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.h:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:5:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+   74 |     NavState state_;  // 卡尔曼滤波器状态
+      |              ^~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+   71 |     SE3 pose_lio_;  // 前端的pose
+      |         ^~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+      |     ^~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:12,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:7:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:7:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::processAxis(double, std::deque<double>&, int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:92:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+   92 |         if (history.size() >= config_.median_window_size && sample_count_ > 100) {
+      |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘void lightning::IMUFilter::updateBuffer(const lightning::IMU&)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:114:39: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  114 |         while (gyro_x_history_.size() > max_history) {
+      |                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::detectAndRemoveSpike(double, std::deque<double>&, int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:123:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  123 |         if (history.size() < config_.median_window_size) {
+      |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:7:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::medianFilter(double, std::deque<double>&)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:152:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  152 |         if (history.size() < config_.median_window_size) {
+      |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::movingAverage(double, std::deque<double>&)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:164:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  164 |         if (history.size() < config_.moving_avg_window) {
+      |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘void lightning::IMUFilter::updateStatistics(const lightning::IMU&)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:200:20: warning: unused variable ‘prev_mean’ [-Wunused-variable]
+  200 |             double prev_mean[3] = {gyro_mean_[0], gyro_mean_[1], gyro_mean_[2]};
+      |                    ^~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:8:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+   44 |     bool is_dense_ = true;
+      |          ^~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+      |                      ^~~~~~~~~~~~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+   31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+      |              ^~~~~~~~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:8:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+   80 |     virtual int Optimize(int interations) { return 0; }
+      |                          ~~~~^~~~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.h:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/app/run_slam_offline.cc:8:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+   74 |     NavState state_;  // 卡尔曼滤波器状态
+      |              ^~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+   71 |     SE3 pose_lio_;  // 前端的pose
+      |         ^~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+      |     ^~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.h:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/app/run_slam_online.cc:8:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+   74 |     NavState state_;  // 卡尔曼滤波器状态
+      |              ^~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+   71 |     SE3 pose_lio_;  // 前端的pose
+      |         ^~~~~~~~~
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+      |     ^~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h:25,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/app/run_slam_offline.cc:11:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h:25,
+                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/app/run_slam_online.cc:10:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+   27 | inline void SigHandle(int sig) {
+      |                       ~~~~^~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/app/run_slam_offline.cc:11:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h: In constructor ‘lightning::RosbagIO::RosbagIO(std::string, lightning::DatasetType)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h:38:57: warning: unused parameter ‘dataset_type’ [-Wunused-parameter]
+   38 |     explicit RosbagIO(std::string bag_file, DatasetType dataset_type = DatasetType::NCLT)
+      |                                             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/app/run_slam_online.cc:10:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h: In constructor ‘lightning::RosbagIO::RosbagIO(std::string, lightning::DatasetType)’:
+/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h:38:57: warning: unused parameter ‘dataset_type’ [-Wunused-parameter]
+   38 |     explicit RosbagIO(std::string bag_file, DatasetType dataset_type = DatasetType::NCLT)
+      |                                             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

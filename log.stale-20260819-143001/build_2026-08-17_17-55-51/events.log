@@ -1,0 +1,344 @@
+[0.000000] (-) TimerEvent: {}
+[0.000042] (-) JobUnselected: {'identifier': 'lightning'}
+[0.000058] (-) JobUnselected: {'identifier': 'lightning_real'}
+[0.000068] (-) JobUnselected: {'identifier': 'lightning_sim'}
+[0.000076] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000086] (xyp_mid360_navigation) JobQueued: {'identifier': 'xyp_mid360_navigation', 'dependencies': OrderedDict()}
+[0.000316] (xyp_mid360_navigation) JobStarted: {'identifier': 'xyp_mid360_navigation'}
+[0.005441] (xyp_mid360_navigation) JobProgress: {'identifier': 'xyp_mid360_navigation', 'progress': 'cmake'}
+[0.007147] (xyp_mid360_navigation) JobProgress: {'identifier': 'xyp_mid360_navigation', 'progress': 'build'}
+[0.007182] (xyp_mid360_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/xyp_mid360_navigation', '--', '-j28', '-l28'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/xyp_mid360_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '3500454'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '3501327'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3502482'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:233841802'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0vbB0Oz:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/3501304,unix/KPLNB151:/tmp/.ICE-unix/3501304'), ('INVOCATION_ID', '402358b4ecfa44ad9a5621631f067a89'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/xyp_mid360_navigation'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.030809] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099962] (-) TimerEvent: {}
+[0.127182] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.180953] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.182275] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[0.183145] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/xyp_mid360_navigation\n'}
+[0.200056] (-) TimerEvent: {}
+[0.300284] (-) TimerEvent: {}
+[0.400561] (-) TimerEvent: {}
+[0.500812] (-) TimerEvent: {}
+[0.601058] (-) TimerEvent: {}
+[0.701311] (-) TimerEvent: {}
+[0.801585] (-) TimerEvent: {}
+[0.901857] (-) TimerEvent: {}
+[1.002121] (-) TimerEvent: {}
+[1.102367] (-) TimerEvent: {}
+[1.202722] (-) TimerEvent: {}
+[1.302956] (-) TimerEvent: {}
+[1.403196] (-) TimerEvent: {}
+[1.503425] (-) TimerEvent: {}
+[1.603645] (-) TimerEvent: {}
+[1.703865] (-) TimerEvent: {}
+[1.804044] (-) TimerEvent: {}
+[1.904259] (-) TimerEvent: {}
+[2.004508] (-) TimerEvent: {}
+[2.104748] (-) TimerEvent: {}
+[2.205027] (-) TimerEvent: {}
+[2.305278] (-) TimerEvent: {}
+[2.405540] (-) TimerEvent: {}
+[2.505767] (-) TimerEvent: {}
+[2.606009] (-) TimerEvent: {}
+[2.706249] (-) TimerEvent: {}
+[2.806501] (-) TimerEvent: {}
+[2.906720] (-) TimerEvent: {}
+[3.006972] (-) TimerEvent: {}
+[3.107238] (-) TimerEvent: {}
+[3.207511] (-) TimerEvent: {}
+[3.307739] (-) TimerEvent: {}
+[3.407993] (-) TimerEvent: {}
+[3.508225] (-) TimerEvent: {}
+[3.608437] (-) TimerEvent: {}
+[3.708682] (-) TimerEvent: {}
+[3.808924] (-) TimerEvent: {}
+[3.909163] (-) TimerEvent: {}
+[4.009422] (-) TimerEvent: {}
+[4.109679] (-) TimerEvent: {}
+[4.209973] (-) TimerEvent: {}
+[4.310275] (-) TimerEvent: {}
+[4.410567] (-) TimerEvent: {}
+[4.510815] (-) TimerEvent: {}
+[4.611037] (-) TimerEvent: {}
+[4.711293] (-) TimerEvent: {}
+[4.811588] (-) TimerEvent: {}
+[4.911810] (-) TimerEvent: {}
+[5.012006] (-) TimerEvent: {}
+[5.112269] (-) TimerEvent: {}
+[5.212561] (-) TimerEvent: {}
+[5.312840] (-) TimerEvent: {}
+[5.413116] (-) TimerEvent: {}
+[5.513352] (-) TimerEvent: {}
+[5.613568] (-) TimerEvent: {}
+[5.713794] (-) TimerEvent: {}
+[5.814031] (-) TimerEvent: {}
+[5.914280] (-) TimerEvent: {}
+[6.014583] (-) TimerEvent: {}
+[6.114838] (-) TimerEvent: {}
+[6.215105] (-) TimerEvent: {}
+[6.315363] (-) TimerEvent: {}
+[6.415552] (-) TimerEvent: {}
+[6.515811] (-) TimerEvent: {}
+[6.616046] (-) TimerEvent: {}
+[6.716243] (-) TimerEvent: {}
+[6.816503] (-) TimerEvent: {}
+[6.916690] (-) TimerEvent: {}
+[7.016898] (-) TimerEvent: {}
+[7.117086] (-) TimerEvent: {}
+[7.217298] (-) TimerEvent: {}
+[7.317537] (-) TimerEvent: {}
+[7.417727] (-) TimerEvent: {}
+[7.517954] (-) TimerEvent: {}
+[7.618176] (-) TimerEvent: {}
+[7.718411] (-) TimerEvent: {}
+[7.818626] (-) TimerEvent: {}
+[7.918827] (-) TimerEvent: {}
+[8.019070] (-) TimerEvent: {}
+[8.119311] (-) TimerEvent: {}
+[8.219558] (-) TimerEvent: {}
+[8.319778] (-) TimerEvent: {}
+[8.419996] (-) TimerEvent: {}
+[8.520299] (-) TimerEvent: {}
+[8.620563] (-) TimerEvent: {}
+[8.720807] (-) TimerEvent: {}
+[8.821045] (-) TimerEvent: {}
+[8.921257] (-) TimerEvent: {}
+[9.021524] (-) TimerEvent: {}
+[9.121800] (-) TimerEvent: {}
+[9.222079] (-) TimerEvent: {}
+[9.322355] (-) TimerEvent: {}
+[9.422617] (-) TimerEvent: {}
+[9.522936] (-) TimerEvent: {}
+[9.623230] (-) TimerEvent: {}
+[9.723546] (-) TimerEvent: {}
+[9.823769] (-) TimerEvent: {}
+[9.923964] (-) TimerEvent: {}
+[10.024175] (-) TimerEvent: {}
+[10.124394] (-) TimerEvent: {}
+[10.224692] (-) TimerEvent: {}
+[10.324950] (-) TimerEvent: {}
+[10.425205] (-) TimerEvent: {}
+[10.525472] (-) TimerEvent: {}
+[10.625689] (-) TimerEvent: {}
+[10.725908] (-) TimerEvent: {}
+[10.826188] (-) TimerEvent: {}
+[10.926543] (-) TimerEvent: {}
+[11.026780] (-) TimerEvent: {}
+[11.127040] (-) TimerEvent: {}
+[11.227357] (-) TimerEvent: {}
+[11.327581] (-) TimerEvent: {}
+[11.427861] (-) TimerEvent: {}
+[11.528144] (-) TimerEvent: {}
+[11.628410] (-) TimerEvent: {}
+[11.728653] (-) TimerEvent: {}
+[11.828909] (-) TimerEvent: {}
+[11.929168] (-) TimerEvent: {}
+[12.029417] (-) TimerEvent: {}
+[12.129699] (-) TimerEvent: {}
+[12.229929] (-) TimerEvent: {}
+[12.330194] (-) TimerEvent: {}
+[12.430526] (-) TimerEvent: {}
+[12.530789] (-) TimerEvent: {}
+[12.631035] (-) TimerEvent: {}
+[12.731293] (-) TimerEvent: {}
+[12.831557] (-) TimerEvent: {}
+[12.931801] (-) TimerEvent: {}
+[13.032072] (-) TimerEvent: {}
+[13.132502] (-) TimerEvent: {}
+[13.232838] (-) TimerEvent: {}
+[13.333149] (-) TimerEvent: {}
+[13.433426] (-) TimerEvent: {}
+[13.533723] (-) TimerEvent: {}
+[13.633978] (-) TimerEvent: {}
+[13.734225] (-) TimerEvent: {}
+[13.834573] (-) TimerEvent: {}
+[13.934855] (-) TimerEvent: {}
+[14.035127] (-) TimerEvent: {}
+[14.135424] (-) TimerEvent: {}
+[14.235704] (-) TimerEvent: {}
+[14.336002] (-) TimerEvent: {}
+[14.436299] (-) TimerEvent: {}
+[14.536550] (-) TimerEvent: {}
+[14.636773] (-) TimerEvent: {}
+[14.737020] (-) TimerEvent: {}
+[14.837263] (-) TimerEvent: {}
+[14.937516] (-) TimerEvent: {}
+[15.037753] (-) TimerEvent: {}
+[15.138034] (-) TimerEvent: {}
+[15.238296] (-) TimerEvent: {}
+[15.338571] (-) TimerEvent: {}
+[15.438800] (-) TimerEvent: {}
+[15.539035] (-) TimerEvent: {}
+[15.639267] (-) TimerEvent: {}
+[15.739499] (-) TimerEvent: {}
+[15.839918] (-) TimerEvent: {}
+[15.940124] (-) TimerEvent: {}
+[16.040333] (-) TimerEvent: {}
+[16.140587] (-) TimerEvent: {}
+[16.240844] (-) TimerEvent: {}
+[16.341069] (-) TimerEvent: {}
+[16.441272] (-) TimerEvent: {}
+[16.541519] (-) TimerEvent: {}
+[16.641804] (-) TimerEvent: {}
+[16.742001] (-) TimerEvent: {}
+[16.842284] (-) TimerEvent: {}
+[16.942507] (-) TimerEvent: {}
+[17.042680] (-) TimerEvent: {}
+[17.142872] (-) TimerEvent: {}
+[17.243089] (-) TimerEvent: {}
+[17.343344] (-) TimerEvent: {}
+[17.443557] (-) TimerEvent: {}
+[17.543830] (-) TimerEvent: {}
+[17.644076] (-) TimerEvent: {}
+[17.744317] (-) TimerEvent: {}
+[17.844600] (-) TimerEvent: {}
+[17.944845] (-) TimerEvent: {}
+[18.045075] (-) TimerEvent: {}
+[18.145304] (-) TimerEvent: {}
+[18.245543] (-) TimerEvent: {}
+[18.345823] (-) TimerEvent: {}
+[18.446064] (-) TimerEvent: {}
+[18.546292] (-) TimerEvent: {}
+[18.646521] (-) TimerEvent: {}
+[18.746741] (-) TimerEvent: {}
+[18.846962] (-) TimerEvent: {}
+[18.947215] (-) TimerEvent: {}
+[19.047463] (-) TimerEvent: {}
+[19.147711] (-) TimerEvent: {}
+[19.247948] (-) TimerEvent: {}
+[19.348196] (-) TimerEvent: {}
+[19.448627] (-) TimerEvent: {}
+[19.548903] (-) TimerEvent: {}
+[19.649117] (-) TimerEvent: {}
+[19.749311] (-) TimerEvent: {}
+[19.849537] (-) TimerEvent: {}
+[19.949761] (-) TimerEvent: {}
+[20.049984] (-) TimerEvent: {}
+[20.150189] (-) TimerEvent: {}
+[20.250410] (-) TimerEvent: {}
+[20.350633] (-) TimerEvent: {}
+[20.450839] (-) TimerEvent: {}
+[20.551057] (-) TimerEvent: {}
+[20.651354] (-) TimerEvent: {}
+[20.751606] (-) TimerEvent: {}
+[20.851833] (-) TimerEvent: {}
+[20.952026] (-) TimerEvent: {}
+[21.052266] (-) TimerEvent: {}
+[21.152507] (-) TimerEvent: {}
+[21.252724] (-) TimerEvent: {}
+[21.352945] (-) TimerEvent: {}
+[21.453164] (-) TimerEvent: {}
+[21.553454] (-) TimerEvent: {}
+[21.653683] (-) TimerEvent: {}
+[21.753926] (-) TimerEvent: {}
+[21.854155] (-) TimerEvent: {}
+[21.954370] (-) TimerEvent: {}
+[22.054546] (-) TimerEvent: {}
+[22.154755] (-) TimerEvent: {}
+[22.254980] (-) TimerEvent: {}
+[22.355209] (-) TimerEvent: {}
+[22.455469] (-) TimerEvent: {}
+[22.555704] (-) TimerEvent: {}
+[22.655892] (-) TimerEvent: {}
+[22.756153] (-) TimerEvent: {}
+[22.856411] (-) TimerEvent: {}
+[22.956649] (-) TimerEvent: {}
+[23.056867] (-) TimerEvent: {}
+[23.157107] (-) TimerEvent: {}
+[23.257469] (-) TimerEvent: {}
+[23.357709] (-) TimerEvent: {}
+[23.457933] (-) TimerEvent: {}
+[23.558173] (-) TimerEvent: {}
+[23.658407] (-) TimerEvent: {}
+[23.758632] (-) TimerEvent: {}
+[23.858826] (-) TimerEvent: {}
+[23.959039] (-) TimerEvent: {}
+[24.059244] (-) TimerEvent: {}
+[24.159473] (-) TimerEvent: {}
+[24.259715] (-) TimerEvent: {}
+[24.359952] (-) TimerEvent: {}
+[24.460243] (-) TimerEvent: {}
+[24.560563] (-) TimerEvent: {}
+[24.660864] (-) TimerEvent: {}
+[24.761074] (-) TimerEvent: {}
+[24.861350] (-) TimerEvent: {}
+[24.961585] (-) TimerEvent: {}
+[25.061771] (-) TimerEvent: {}
+[25.161998] (-) TimerEvent: {}
+[25.262282] (-) TimerEvent: {}
+[25.362541] (-) TimerEvent: {}
+[25.462718] (-) TimerEvent: {}
+[25.562949] (-) TimerEvent: {}
+[25.663231] (-) TimerEvent: {}
+[25.763457] (-) TimerEvent: {}
+[25.863702] (-) TimerEvent: {}
+[25.963941] (-) TimerEvent: {}
+[26.064193] (-) TimerEvent: {}
+[26.164443] (-) TimerEvent: {}
+[26.264661] (-) TimerEvent: {}
+[26.364870] (-) TimerEvent: {}
+[26.465104] (-) TimerEvent: {}
+[26.565330] (-) TimerEvent: {}
+[26.665586] (-) TimerEvent: {}
+[26.765866] (-) TimerEvent: {}
+[26.866086] (-) TimerEvent: {}
+[26.966286] (-) TimerEvent: {}
+[27.066534] (-) TimerEvent: {}
+[27.166774] (-) TimerEvent: {}
+[27.267038] (-) TimerEvent: {}
+[27.367269] (-) TimerEvent: {}
+[27.467514] (-) TimerEvent: {}
+[27.567752] (-) TimerEvent: {}
+[27.668027] (-) TimerEvent: {}
+[27.768315] (-) TimerEvent: {}
+[27.868617] (-) TimerEvent: {}
+[27.968882] (-) TimerEvent: {}
+[28.069162] (-) TimerEvent: {}
+[28.169446] (-) TimerEvent: {}
+[28.269697] (-) TimerEvent: {}
+[28.369940] (-) TimerEvent: {}
+[28.470193] (-) TimerEvent: {}
+[28.570432] (-) TimerEvent: {}
+[28.670647] (-) TimerEvent: {}
+[28.770826] (-) TimerEvent: {}
+[28.871084] (-) TimerEvent: {}
+[28.971324] (-) TimerEvent: {}
+[29.071605] (-) TimerEvent: {}
+[29.171886] (-) TimerEvent: {}
+[29.272151] (-) TimerEvent: {}
+[29.372420] (-) TimerEvent: {}
+[29.472694] (-) TimerEvent: {}
+[29.572928] (-) TimerEvent: {}
+[29.673180] (-) TimerEvent: {}
+[29.773437] (-) TimerEvent: {}
+[29.873699] (-) TimerEvent: {}
+[29.973974] (-) TimerEvent: {}
+[30.030318] (xyp_mid360_navigation) CommandEnded: {'returncode': 0}
+[30.032102] (xyp_mid360_navigation) JobProgress: {'identifier': 'xyp_mid360_navigation', 'progress': 'install'}
+[30.042663] (xyp_mid360_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/xyp_mid360_navigation'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/xyp_mid360_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '3500454'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '3501327'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3502482'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:233841802'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0vbB0Oz:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/3501304,unix/KPLNB151:/tmp/.ICE-unix/3501304'), ('INVOCATION_ID', '402358b4ecfa44ad9a5621631f067a89'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/xyp_mid360_navigation'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.053121] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.053817] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[30.054128] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/lib/xyp_mid360_navigation/odom_handedness_adapter.py\n'}
+[30.054493] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/config/nav2_odom_mid360.yaml\n'}
+[30.054907] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/launch/__pycache__/inspect_costmaps.launch.cpython-310.pyc\n'}
+[30.055154] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/launch/__pycache__/navigation_chassis.launch.cpython-310.pyc\n'}
+[30.055356] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/launch/inspect_costmaps.launch.py\n'}
+[30.055549] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/launch/navigation_chassis.launch.py\n'}
+[30.055739] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/ament_index/resource_index/package_run_dependencies/xyp_mid360_navigation\n'}
+[30.055920] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/ament_index/resource_index/parent_prefix_path/xyp_mid360_navigation\n'}
+[30.056102] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/environment/ament_prefix_path.sh\n'}
+[30.056281] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/environment/ament_prefix_path.dsv\n'}
+[30.056463] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/environment/path.sh\n'}
+[30.056665] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/environment/path.dsv\n'}
+[30.056844] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/local_setup.bash\n'}
+[30.057006] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/local_setup.sh\n'}
+[30.057276] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/local_setup.zsh\n'}
+[30.057386] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/local_setup.dsv\n'}
+[30.057502] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/package.dsv\n'}
+[30.069651] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/ament_index/resource_index/packages/xyp_mid360_navigation\n'}
+[30.070001] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/cmake/xyp_mid360_navigationConfig.cmake\n'}
+[30.070149] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/cmake/xyp_mid360_navigationConfig-version.cmake\n'}
+[30.070274] (xyp_mid360_navigation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/xyp_mid360_navigation/share/xyp_mid360_navigation/package.xml\n'}
+[30.071643] (xyp_mid360_navigation) CommandEnded: {'returncode': 0}
+[30.074067] (-) TimerEvent: {}
+[30.089461] (xyp_mid360_navigation) JobEnded: {'identifier': 'xyp_mid360_navigation', 'rc': 0}
+[30.089956] (-) EventReactorShutdown: {}

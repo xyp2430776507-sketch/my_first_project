@@ -1,0 +1,1100 @@
+[0.009s] Invoking command in '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning -- -j28 -l28
+[0.074s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.113s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.143s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.199s] -- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+[0.200s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[0.357s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.364s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.364s] ** WARNING ** io features related to pcap will be disabled
+[0.425s] -- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+[0.425s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[0.523s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.530s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.535s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.596s] -- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+[0.597s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[0.688s] -- Found Qhull version 8.0.2
+[0.747s] -- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+[0.747s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[0.836s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.893s] -- Could NOT find MPI_C (missing: MPI_C_HEADER_DIR MPI_C_WORKS) 
+[0.893s] -- Could NOT find MPI (missing: MPI_C_FOUND C) 
+[0.984s] -- looking for PCL_COMMON
+[0.985s] -- looking for PCL_KDTREE
+[0.985s] -- looking for PCL_OCTREE
+[0.985s] -- looking for PCL_SEARCH
+[0.985s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.985s] -- looking for PCL_FILTERS
+[0.985s] -- looking for PCL_2D
+[0.986s] -- looking for PCL_GEOMETRY
+[0.986s] -- looking for PCL_IO
+[0.986s] -- looking for PCL_FEATURES
+[0.986s] -- looking for PCL_ML
+[0.987s] -- looking for PCL_SEGMENTATION
+[0.987s] -- looking for PCL_VISUALIZATION
+[0.987s] -- looking for PCL_SURFACE
+[0.987s] -- looking for PCL_REGISTRATION
+[0.988s] -- looking for PCL_KEYPOINTS
+[0.988s] -- looking for PCL_TRACKING
+[0.988s] -- looking for PCL_RECOGNITION
+[0.988s] -- looking for PCL_STEREO
+[0.989s] -- looking for PCL_APPS
+[0.990s] -- looking for PCL_IN_HAND_SCANNER
+[0.990s] -- looking for PCL_MODELER
+[0.991s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.991s] -- looking for PCL_OUTOFCORE
+[0.992s] -- looking for PCL_PEOPLE
+[1.000s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.000s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.103s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.134s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.136s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.141s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.183s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.184s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.369s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.381s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.393s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[1.396s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.451s] -- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[1.466s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.718s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.085s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.255s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.280s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.280s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.280s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.393s] CMake Warning at thirdparty/livox_ros_driver/CMakeLists.txt:25 (project):
+[2.393s]   VERSION keyword not followed by a value or was followed by a value that
+[2.393s]   expanded to nothing.
+[2.393s] 
+[2.393s] 
+[2.393s] -- livox_ros_driver2 version: 
+[2.393s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.409s] /usr/include/apr-1.0
+[2.409s] apr-1
+[2.826s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.924s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.968s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.968s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.968s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.074s] -- Configuring done
+[3.511s] -- Generating done
+[3.579s] -- Build files have been written to: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning
+[3.619s] Consolidate compiler generated dependencies of target lightning__rosidl_generator_c
+[3.619s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_c
+[3.624s] Consolidate compiler generated dependencies of target miao.utils
+[3.625s] [  1%] Built target lightning__cpp
+[3.626s] [  2%] Built target lightning__rs
+[3.629s] [  5%] Built target livox_interfaces2__rosidl_generator_c
+[3.633s] [  8%] Built target lightning__rosidl_generator_c
+[3.634s] [  9%] Built target livox_interfaces2__rs
+[3.634s] [  9%] Built target livox_interfaces2__cpp
+[3.640s] [ 10%] Building CXX object src/core/miao/utils/CMakeFiles/miao.utils.dir/sampler.cc.o
+[3.640s] [ 10%] Built target ament_cmake_python_symlink_lightning
+[3.640s] [ 10%] Built target ament_cmake_python_symlink_livox_ros_driver2
+[3.641s] Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_cpp
+[3.642s] Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_cpp
+[3.642s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_c
+[3.645s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[3.645s] Consolidate compiler generated dependencies of target miao.core
+[3.646s] Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_cpp
+[3.647s] Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_c
+[3.648s] Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_c
+[3.649s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_c
+[3.649s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[3.653s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_cpp
+[3.653s] Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_c
+[3.654s] [ 11%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o
+[3.655s] [ 12%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lightning/srv/detail/loc_cmd__type_support.cpp.o
+[3.655s] [ 13%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lightning/srv/detail/dds_fastrtps/loc_cmd__type_support.cpp.o
+[3.655s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[3.655s] [ 14%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o
+[3.656s] [ 15%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o
+[3.656s] [ 16%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lightning/srv/detail/save_map__type_support.cpp.o
+[3.659s] [ 16%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o
+[3.659s] [ 16%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lightning/srv/detail/dds_fastrtps/save_map__type_support.cpp.o
+[3.659s] [ 16%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lightning/srv/loc_cmd__type_support.cpp.o
+[3.664s] [ 17%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lightning/srv/save_map__type_support.cpp.o
+[3.664s] [ 20%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[3.664s] [ 21%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lightning/srv/detail/save_map__type_support_c.cpp.o
+[3.664s] [ 22%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/graph/graph.cc.o
+[3.664s] [ 22%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lightning/srv/detail/loc_cmd__type_support_c.cpp.o
+[3.664s] [ 22%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o
+[3.664s] [ 25%] Built target lightning__rosidl_typesupport_introspection_c
+[3.664s] [ 25%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/graph/optimizer.cc.o
+[3.664s] [ 26%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/common/string_tools.cc.o
+[3.665s] [ 27%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o
+[3.665s] [ 28%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o
+[3.667s] [ 29%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o
+[3.668s] [ 29%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/optimization_algorithm.cc.o
+[3.669s] [ 30%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o
+[3.671s] [ 31%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_c.dir/rosidl_typesupport_c/lightning/srv/save_map__type_support.cpp.o
+[3.674s] [ 32%] Building CXX object CMakeFiles/lightning__rosidl_typesupport_c.dir/rosidl_typesupport_c/lightning/srv/loc_cmd__type_support.cpp.o
+[3.674s] [ 32%] Building CXX object thirdparty/livox_ros_driver/CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o
+[3.674s] [ 33%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/math/marginal_covariance_cholesky.cc.o
+[3.694s] [ 34%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_gauss_newton.cc.o
+[3.697s] [ 34%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so
+[3.716s] [ 35%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_lm.cc.o
+[3.717s] [ 36%] Linking CXX shared library liblightning__rosidl_typesupport_c.so
+[3.756s] [ 37%] Built target livox_interfaces2__rosidl_typesupport_c
+[3.766s] [ 38%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/opti_algo/opti_algo_dogleg.cc.o
+[3.782s] [ 38%] Built target lightning__rosidl_typesupport_c
+[3.802s] [ 38%] Building CXX object src/core/miao/core/CMakeFiles/miao.core.dir/solver/solver.cc.o
+[3.885s] /usr/lib/python3/dist-packages/setuptools/dist.py:507: UserWarning: The version specified ('') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+[3.885s]   warnings.warn(
+[3.891s] running egg_info
+[3.891s] writing livox_ros_driver2.egg-info/PKG-INFO
+[3.891s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[3.891s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[3.894s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[3.895s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[3.920s] running egg_info
+[3.921s] writing lightning.egg-info/PKG-INFO
+[3.923s] writing dependency_links to lightning.egg-info/dependency_links.txt
+[3.923s] writing top-level names to lightning.egg-info/top_level.txt
+[3.924s] reading manifest file 'lightning.egg-info/SOURCES.txt'
+[3.925s] writing manifest file 'lightning.egg-info/SOURCES.txt'
+[3.935s] [ 38%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[3.966s] [ 38%] Built target ament_cmake_python_build_lightning_egg
+[3.973s] [ 38%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[4.012s] [ 39%] Linking CXX shared library liblightning__rosidl_typesupport_cpp.so
+[4.025s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[4.058s] [ 41%] Built target lightning__rosidl_typesupport_cpp
+[4.066s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+[4.066s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:5:
+[4.066s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+[4.066s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+[4.066s]    44 |     bool is_dense_ = true;
+[4.066s]       |          ^~~~~~~~~
+[4.066s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+[4.066s]    39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[4.066s]       |                      ^~~~~~~~~~~~~~~~~~~
+[4.066s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+[4.066s]    31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+[4.066s]       |              ^~~~~~~~~~~~~~~
+[4.086s] [ 42%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[4.101s] [ 43%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[4.127s] [ 43%] Linking CXX shared library liblightning__rosidl_typesupport_introspection_cpp.so
+[4.148s] [ 44%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[4.166s] [ 45%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[4.178s] [ 46%] Linking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[4.180s] [ 47%] Built target lightning__rosidl_typesupport_introspection_cpp
+[4.195s] [ 48%] Linking CXX shared library liblightning__rosidl_typesupport_fastrtps_cpp.so
+[4.225s] [ 49%] Linking CXX shared library liblightning__rosidl_typesupport_fastrtps_c.so
+[4.239s] [ 50%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[4.256s] [ 50%] Built target livox_interfaces2
+[4.258s] [ 51%] Built target lightning__rosidl_typesupport_fastrtps_cpp
+[4.274s] [ 51%] Built target livox_interfaces2__py
+[4.278s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.cc:5:
+[4.278s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+[4.278s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+[4.278s]    80 |     virtual int Optimize(int interations) { return 0; }
+[4.278s]       |                          ~~~~^~~~~~~~~~~
+[4.285s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_py
+[4.298s] [ 51%] Linking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[4.305s] [ 52%] Built target lightning__rosidl_typesupport_fastrtps_c
+[4.323s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+[4.323s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:5:
+[4.323s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+[4.324s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+[4.324s]    80 |     virtual int Optimize(int interations) { return 0; }
+[4.324s]       |                          ~~~~^~~~~~~~~~~
+[4.324s] [ 52%] Built target lightning
+[4.332s] [ 54%] Built target livox_interfaces2__rosidl_generator_py
+[4.340s] Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[4.342s] [ 55%] Built target lightning__py
+[4.342s] Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[4.343s] Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_c__pyext
+[4.351s] Consolidate compiler generated dependencies of target lightning__rosidl_generator_py
+[4.351s] [ 56%] Linking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.351s] [ 56%] Linking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.351s] [ 57%] Linking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.362s] [ 58%] Linking C shared library rosidl_generator_py/lightning/liblightning__rosidl_generator_py.so
+[4.380s] [ 59%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[4.392s] [ 60%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[4.392s] [ 61%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[4.400s] [ 62%] Built target lightning__rosidl_generator_py
+[4.409s] Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_c__pyext
+[4.409s] Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_c__pyext
+[4.411s] Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_c__pyext
+[4.417s] [ 62%] Linking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.417s] [ 63%] Linking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.423s] [ 63%] Linking C shared library rosidl_generator_py/lightning/lightning_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.449s] [ 63%] Built target lightning__rosidl_typesupport_c__pyext
+[4.463s] [ 64%] Built target lightning__rosidl_typesupport_fastrtps_c__pyext
+[4.463s] [ 65%] Built target lightning__rosidl_typesupport_introspection_c__pyext
+[4.628s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/solver/solver.h:9,
+[4.629s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/solver/solver.cc:5:
+[4.629s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+[4.629s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+[4.629s]    80 |     virtual int Optimize(int interations) { return 0; }
+[4.629s]       |                          ~~~~^~~~~~~~~~~
+[4.669s] [ 65%] Linking CXX shared library libmiao.utils.so
+[4.723s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+[4.723s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_lm.cc:7:
+[4.723s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+[4.724s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+[4.724s]    44 |     bool is_dense_ = true;
+[4.724s]       |          ^~~~~~~~~
+[4.724s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+[4.724s]    39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[4.724s]       |                      ^~~~~~~~~~~~~~~~~~~
+[4.724s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+[4.724s]    31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+[4.724s]       |              ^~~~~~~~~~~~~~~
+[4.734s] [ 65%] Built target miao.utils
+[4.737s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+[4.737s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_lm.cc:7:
+[4.737s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+[4.737s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+[4.737s]    80 |     virtual int Optimize(int interations) { return 0; }
+[4.737s]       |                          ~~~~^~~~~~~~~~~
+[4.773s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+[4.773s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_dogleg.cc:6:
+[4.773s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+[4.773s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+[4.773s]    44 |     bool is_dense_ = true;
+[4.773s]       |          ^~~~~~~~~
+[4.773s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+[4.773s]    39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[4.774s]       |                      ^~~~~~~~~~~~~~~~~~~
+[4.774s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+[4.774s]    31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+[4.774s]       |              ^~~~~~~~~~~~~~~
+[4.787s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+[4.787s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_dogleg.cc:6:
+[4.788s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+[4.788s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+[4.788s]    80 |     virtual int Optimize(int interations) { return 0; }
+[4.788s]       |                          ~~~~^~~~~~~~~~~
+[4.880s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+[4.880s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/optimization_algorithm.cc:6:
+[4.880s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+[4.880s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+[4.880s]    44 |     bool is_dense_ = true;
+[4.880s]       |          ^~~~~~~~~
+[4.880s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+[4.880s]    39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[4.880s]       |                      ^~~~~~~~~~~~~~~~~~~
+[4.880s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+[4.880s]    31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+[4.880s]       |              ^~~~~~~~~~~~~~~
+[4.894s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+[4.894s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/optimization_algorithm.cc:6:
+[4.894s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+[4.894s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+[4.895s]    80 |     virtual int Optimize(int interations) { return 0; }
+[4.895s]       |                          ~~~~^~~~~~~~~~~
+[5.073s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+[5.073s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_gauss_newton.cc:5:
+[5.073s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+[5.073s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+[5.073s]    44 |     bool is_dense_ = true;
+[5.073s]       |          ^~~~~~~~~
+[5.073s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+[5.073s]    39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[5.073s]       |                      ^~~~~~~~~~~~~~~~~~~
+[5.073s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+[5.073s]    31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+[5.073s]       |              ^~~~~~~~~~~~~~~
+[5.087s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+[5.087s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/opti_algo_gauss_newton.cc:5:
+[5.087s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+[5.087s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+[5.087s]    80 |     virtual int Optimize(int interations) { return 0; }
+[5.087s]       |                          ~~~~^~~~~~~~~~~
+[5.256s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc: In member function ‘virtual bool lightning::miao::Optimizer::AddVertex(std::shared_ptr<lightning::miao::Vertex>)’:
+[5.256s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.cc:288:62: warning: comparison of integer expressions of different signedness: ‘std::unordered_map<int, std::shared_ptr<lightning::miao::Vertex> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[5.256s]   288 |         if (config_.max_vertex_size_ > 0 && vertices_.size() == config_.max_vertex_size_) {
+[5.256s]       |                                             ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[6.067s] [ 66%] Linking CXX shared library libmiao.core.so
+[6.137s] [ 66%] Built target miao.core
+[6.225s] Consolidate compiler generated dependencies of target lightning.libs
+[6.265s] [ 66%] Building CXX object src/CMakeFiles/lightning.libs.dir/common/nav_state.cc.o
+[6.268s] [ 67%] Building CXX object src/CMakeFiles/lightning.libs.dir/common/options.cc.o
+[6.280s] [ 68%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/eskf.cc.o
+[6.281s] [ 69%] Building CXX object src/CMakeFiles/lightning.libs.dir/io/yaml_io.cc.o
+[6.281s] [ 69%] Building CXX object src/CMakeFiles/lightning.libs.dir/common/params.cc.o
+[6.281s] [ 70%] Building CXX object src/CMakeFiles/lightning.libs.dir/io/file_io.cc.o
+[6.291s] [ 71%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/laser_mapping.cc.o
+[6.296s] [ 71%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/pointcloud_preprocess.cc.o
+[6.298s] [ 72%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/loop_closing/loop_closing.cc.o
+[6.300s] [ 73%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5_map.cc.o
+[6.304s] [ 73%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5.cc.o
+[6.305s] [ 74%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map.cc.o
+[6.308s] [ 75%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5_subgrid.cc.o
+[6.310s] [ 76%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map_chunk.cc.o
+[6.311s] [ 76%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization_result.cc.o
+[6.316s] [ 77%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/lidar_loc.cc.o
+[6.320s] [ 78%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/ndt_omp.cpp.o
+[6.325s] [ 79%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo.cc.o
+[6.325s] [ 79%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp.o
+[6.327s] [ 80%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo_impl.cc.o
+[6.331s] [ 82%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization.cpp.o
+[6.331s] [ 82%] Building CXX object src/CMakeFiles/lightning.libs.dir/utils/timer.cc.o
+[6.331s] [ 82%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pose_extrapolator.cc.o
+[6.331s] [ 83%] Building CXX object src/CMakeFiles/lightning.libs.dir/utils/pointcloud_utils.cc.o
+[6.339s] [ 83%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/pangolin_window.cc.o
+[6.345s] [ 84%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/pangolin_window_impl.cc.o
+[6.350s] [ 85%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/ui_cloud.cc.o
+[6.358s] [ 86%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/ui_car.cc.o
+[6.706s] [ 86%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/ui_trajectory.cc.o
+[7.296s] [ 87%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/slam.cc.o
+[7.388s] [ 88%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/loc_system.cc.o
+[7.797s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/io/file_io.cc: In function ‘bool lightning::RemoveIfExist(const string&)’:
+[7.798s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/io/file_io.cc:17:15: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+[7.798s]    17 |         system(("rm -f " + path).c_str());
+[7.798s]       |         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[7.881s] [ 89%] Building CXX object src/CMakeFiles/lightning.libs.dir/wrapper/bag_io.cc.o
+[8.128s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_trajectory.cc: In member function ‘void lightning::ui::UiTrajectory::AddPt(const SE3&)’:
+[8.128s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_trajectory.cc:10:21: warning: comparison of integer expressions of different signedness: ‘std::vector<Eigen::Matrix<float, 3, 1> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[8.129s]    10 |     if (pos_.size() > max_size_) {
+[8.129s]       |         ~~~~~~~~~~~~^~~~~~~~~~~
+[8.967s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5_map.cc: In member function ‘void lightning::g2p5::G2P5Map::SetMissPoint(const float&, const float&, const float&, const float&, float, float)’:
+[8.967s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5_map.cc:215:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<int, 2, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+[8.968s]   215 |     for (int i = 0; i < updated_pts.size(); ++i) {
+[8.968s]       |                     ~~^~~~~~~~~~~~~~~~~~~~
+[9.984s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.cc:5:
+[9.984s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[9.984s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[9.984s]    27 | inline void SigHandle(int sig) {
+[9.984s]       |                       ~~~~^~~
+[10.189s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+[10.189s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,
+[10.189s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7,
+[10.189s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1:
+[10.189s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+[10.190s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+[10.190s]    44 |     bool is_dense_ = true;
+[10.190s]       |          ^~~~~~~~~
+[10.190s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+[10.190s]    39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[10.190s]       |                      ^~~~~~~~~~~~~~~~~~~
+[10.190s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+[10.190s]    31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+[10.190s]       |              ^~~~~~~~~~~~~~~
+[10.222s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+[10.222s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,
+[10.223s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7,
+[10.223s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1:
+[10.223s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+[10.223s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+[10.223s]    80 |     virtual int Optimize(int interations) { return 0; }
+[10.223s]       |                          ~~~~^~~~~~~~~~~
+[10.404s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.h:9,
+[10.405s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc:5:
+[10.405s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+[10.405s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+[10.405s]    74 |     NavState state_;  // 卡尔曼滤波器状态
+[10.405s]       |              ^~~~~~
+[10.405s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+[10.405s]    71 |     SE3 pose_lio_;  // 前端的pose
+[10.405s]       |         ^~~~~~~~~
+[10.405s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+[10.405s]    22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+[10.405s]       |     ^~~~~~~~
+[10.467s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:8,
+[10.467s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5:
+[10.467s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+[10.467s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+[10.467s]    74 |     NavState state_;  // 卡尔曼滤波器状态
+[10.467s]       |              ^~~~~~
+[10.467s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+[10.467s]    71 |     SE3 pose_lio_;  // 前端的pose
+[10.467s]       |         ^~~~~~~~~
+[10.467s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+[10.467s]    22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+[10.467s]       |     ^~~~~~~~
+[10.494s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+[10.494s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,
+[10.494s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5:
+[10.494s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+[10.495s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+[10.495s]    44 |     bool is_dense_ = true;
+[10.495s]       |          ^~~~~~~~~
+[10.495s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+[10.495s]    39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[10.495s]       |                      ^~~~~~~~~~~~~~~~~~~
+[10.495s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+[10.495s]    31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+[10.495s]       |              ^~~~~~~~~~~~~~~
+[10.533s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+[10.533s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,
+[10.534s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5:
+[10.534s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+[10.534s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+[10.534s]    80 |     virtual int Optimize(int interations) { return 0; }
+[10.534s]       |                          ~~~~^~~~~~~~~~~
+[10.777s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+[10.777s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,
+[10.777s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:1:
+[10.777s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+[10.778s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+[10.778s]    44 |     bool is_dense_ = true;
+[10.778s]       |          ^~~~~~~~~
+[10.778s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+[10.778s]    39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[10.778s]       |                      ^~~~~~~~~~~~~~~~~~~
+[10.778s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+[10.778s]    31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+[10.778s]       |              ^~~~~~~~~~~~~~~
+[10.811s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+[10.811s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,
+[10.811s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:1:
+[10.811s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+[10.812s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+[10.812s]    80 |     virtual int Optimize(int interations) { return 0; }
+[10.812s]       |                          ~~~~^~~~~~~~~~~
+[11.310s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:7:
+[11.310s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[11.311s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[11.311s]    27 | inline void SigHandle(int sig) {
+[11.311s]       |                       ~~~~^~~
+[11.491s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.h:16,
+[11.491s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window.cc:1:
+[11.491s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+[11.491s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+[11.491s]    74 |     NavState state_;  // 卡尔曼滤波器状态
+[11.491s]       |              ^~~~~~
+[11.492s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+[11.492s]    71 |     SE3 pose_lio_;  // 前端的pose
+[11.492s]       |         ^~~~~~~~~
+[11.492s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+[11.492s]    22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+[11.492s]       |     ^~~~~~~~
+[11.507s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc:2:
+[11.507s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[11.507s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[11.507s]    27 | inline void SigHandle(int sig) {
+[11.507s]       |                       ~~~~^~~
+[11.553s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc: In member function ‘void lightning::ui::UiCloud::Render()’:
+[11.553s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc:56:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<float, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+[11.553s]    56 |     for (int i = 0; i < xyz_data_.size(); ++i) {
+[11.554s]       |                     ~~^~~~~~~~~~~~~~~~~~
+[11.557s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc:66:31: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+[11.557s]    66 |         } else if (use_color_ = UseColor::CUSTOM_COLOR) {
+[11.557s]       |                    ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+[12.349s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc: In member function ‘void lightning::g2p5::G2P5::RenderBack()’:
+[12.349s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc:128:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+[12.349s]   128 |             if (cur_idx == frontend_kf->GetID()) {
+[12.349s]       |                 ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+[12.392s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+[12.392s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.h:16,
+[12.392s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.cc:5:
+[12.392s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[12.392s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[12.392s]    27 | inline void SigHandle(int sig) {
+[12.392s]       |                       ~~~~^~~
+[12.510s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+[12.510s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/params.cc:6:
+[12.510s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[12.510s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[12.510s]    27 | inline void SigHandle(int sig) {
+[12.510s]       |                       ~~~~^~~
+[12.977s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:8:
+[12.978s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[12.978s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[12.978s]    27 | inline void SigHandle(int sig) {
+[12.978s]       |                       ~~~~^~~
+[13.000s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/loc_system.h:17,
+[13.000s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/loc_system.cc:5:
+[13.000s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+[13.000s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+[13.000s]    74 |     NavState state_;  // 卡尔曼滤波器状态
+[13.000s]       |              ^~~~~~
+[13.000s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+[13.001s]    71 |     SE3 pose_lio_;  // 前端的pose
+[13.001s]       |         ^~~~~~~~~
+[13.001s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+[13.001s]    22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+[13.001s]       |     ^~~~~~~~
+[13.217s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+[13.218s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pose_extrapolator.cc:2:
+[13.218s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[13.218s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[13.218s]    27 | inline void SigHandle(int sig) {
+[13.218s]       |                       ~~~~^~~
+[13.228s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.h:16,
+[13.228s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:10:
+[13.228s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+[13.228s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+[13.228s]    74 |     NavState state_;  // 卡尔曼滤波器状态
+[13.228s]       |              ^~~~~~
+[13.228s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+[13.228s]    71 |     SE3 pose_lio_;  // 前端的pose
+[13.228s]       |         ^~~~~~~~~
+[13.228s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+[13.228s]    22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+[13.228s]       |     ^~~~~~~~
+[13.279s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc: In member function ‘void lightning::ui::PangolinWindowImpl::Reset(const std::vector<std::shared_ptr<lightning::Keyframe> >&)’:
+[13.279s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:55:38: warning: comparison of integer expressions of different signedness: ‘std::vector<std::shared_ptr<lightning::Keyframe> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[13.279s]    55 |     std::size_t i = keyframes.size() > max_size_of_current_scan_ ? keyframes.size() - max_size_of_current_scan_ : 0;
+[13.279s]       |                     ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[13.287s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc: In member function ‘bool lightning::ui::PangolinWindowImpl::UpdateCurrentScan()’:
+[13.287s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:164:26: warning: comparison of integer expressions of different signedness: ‘std::deque<std::shared_ptr<lightning::ui::UiCloud> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[13.287s]   164 |     while (scans_.size() >= max_size_of_current_scan_) {
+[13.287s]       |            ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[13.290s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc: In member function ‘bool lightning::ui::PangolinWindowImpl::UpdateState()’:
+[13.290s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:177:11: warning: variable ‘pos’ set but not used [-Wunused-but-set-variable]
+[13.290s]   177 |     Vec3d pos = pose_.translation().eval();
+[13.290s]       |           ^~~
+[13.290s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:179:12: warning: unused variable ‘roll’ [-Wunused-variable]
+[13.290s]   179 |     double roll = pose_.angleX();
+[13.290s]       |            ^~~~
+[13.290s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:180:12: warning: unused variable ‘pitch’ [-Wunused-variable]
+[13.290s]   180 |     double pitch = pose_.angleY();
+[13.290s]       |            ^~~~~
+[13.290s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:181:12: warning: unused variable ‘yaw’ [-Wunused-variable]
+[13.290s]   181 |     double yaw = pose_.angleZ();
+[13.290s]       |            ^~~
+[13.291s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc: In member function ‘void lightning::ui::PangolinWindowImpl::DrawAll()’:
+[13.291s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:246:31: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<lightning::Keyframe> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+[13.291s]   246 |             for (int i = 0; i < all_keyframes_.size() - 1; ++i) {
+[13.291s]       |                             ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[13.369s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.h:18,
+[13.369s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:5:
+[13.369s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+[13.369s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+[13.369s]    74 |     NavState state_;  // 卡尔曼滤波器状态
+[13.369s]       |              ^~~~~~
+[13.370s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+[13.370s]    71 |     SE3 pose_lio_;  // 前端的pose
+[13.370s]       |         ^~~~~~~~~
+[13.370s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+[13.370s]    22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+[13.370s]       |     ^~~~~~~~
+[13.386s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:5:
+[13.386s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[13.386s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[13.386s]    27 | inline void SigHandle(int sig) {
+[13.387s]       |                       ~~~~^~~
+[13.422s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+[13.422s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/eskf.cc:6:
+[13.422s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[13.422s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[13.422s]    27 | inline void SigHandle(int sig) {
+[13.422s]       |                       ~~~~^~~
+[13.578s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+[13.578s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.h:47,
+[13.578s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h:47,
+[13.578s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:1:
+[13.578s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[13.578s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[13.578s]    27 | inline void SigHandle(int sig) {
+[13.578s]       |                       ~~~~^~~
+[13.579s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+[13.579s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization_result.cc:6:
+[13.579s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[13.579s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[13.579s]    27 | inline void SigHandle(int sig) {
+[13.580s]       |                       ~~~~^~~
+[13.598s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:12,
+[13.599s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.h:7,
+[13.599s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/loc_system.cc:6:
+[13.599s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[13.599s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[13.599s]    27 | inline void SigHandle(int sig) {
+[13.599s]       |                       ~~~~^~~
+[13.783s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+[13.783s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.h:47,
+[13.784s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp:1:
+[13.784s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[13.784s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[13.784s]    27 | inline void SigHandle(int sig) {
+[13.784s]       |                       ~~~~^~~
+[13.808s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+[13.808s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.h:16,
+[13.808s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.h:13,
+[13.808s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.cpp:4:
+[13.808s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[13.808s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[13.808s]    27 | inline void SigHandle(int sig) {
+[13.808s]       |                       ~~~~^~~
+[13.882s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc: In member function ‘void lightning::LoopClosing::DetectLoopCandidates()’:
+[13.882s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:107:70: warning: comparison of integer expressions of different signedness: ‘long unsigned int’ and ‘int’ [-Wsign-compare]
+[13.882s]   107 |     if (last_loop_kf_ && (cur_kf_->GetID() - last_loop_kf_->GetID()) <= options_.loop_kf_gap_) {
+[13.882s]       |                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+[13.905s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc: In lambda function:
+[13.905s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:177:30: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<lightning::Keyframe> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+[13.905s]   177 |             if (id < 0 || id >= all_keyframes_.size()) {
+[13.905s]       |                           ~~~^~~~~~~~~~~~~~~~~~~~~~~~
+[14.109s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/eskf.cc: In member function ‘void lightning::ESKF::Predict(const double&, const ProcessNoiseType&, const Vec3d&, const Vec3d&)’:
+[14.109s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/eskf.cc:45:14: warning: variable ‘x_before’ set but not used [-Wunused-but-set-variable]
+[14.109s]    45 |     NavState x_before = x_;
+[14.109s]       |              ^~~~~~~~
+[14.155s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function ‘void lightning::PointCloudPreprocess::Process(const SharedPtr&, pcl::PointCloud<PointXYZIT>::Ptr&)’:
+[14.155s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:47:24: warning: comparison of integer expressions of different signedness: ‘uint’ {aka ‘unsigned int’} and ‘int’ [-Wsign-compare]
+[14.155s]    47 |     for (uint i = 0; i < plsize - 1; ++i) {
+[14.156s]       |                      ~~^~~~~~~~~~~~
+[14.156s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In lambda function:
+[14.156s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:72:67: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+[14.156s]    72 |             (abs(cloud_full_[i].z - cloud_full_[i - 1].z) > 1e-7) &&
+[14.156s]       |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+[14.156s]    73 |                 (cloud_full_[i].x * cloud_full_[i].x + cloud_full_[i].y * cloud_full_[i].y +
+[14.156s]       |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.156s]    74 |                      cloud_full_[i].z * cloud_full_[i].z >
+[14.157s]       |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         
+[14.157s]    75 |                  (blind_ * blind_))) {
+[14.157s]       |                  ~~~~~~~~~~~~~~~~~~                                
+[14.157s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function ‘void lightning::PointCloudPreprocess::Process(const SharedPtr&, pcl::PointCloud<PointXYZIT>::Ptr&)’:
+[14.157s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:82:24: warning: comparison of integer expressions of different signedness: ‘uint’ {aka ‘unsigned int’} and ‘int’ [-Wsign-compare]
+[14.157s]    82 |     for (uint i = 1; i < plsize; i++) {
+[14.157s]       |                      ~~^~~~~~~~
+[14.167s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function ‘void lightning::PointCloudPreprocess::Oust64Handler(const SharedPtr&)’:
+[14.167s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:103:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<ouster_ros::Point, Eigen::aligned_allocator<ouster_ros::Point> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+[14.167s]   103 |     for (int i = 0; i < pl_orig.points.size(); i++) {
+[14.167s]       |                     ~~^~~~~~~~~~~~~~~~~~~~~~~
+[14.175s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function ‘void lightning::PointCloudPreprocess::RoboSenseHandler(const SharedPtr&)’:
+[14.175s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:148:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<PointRobotSense, Eigen::aligned_allocator<PointRobotSense> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+[14.175s]   148 |     for (int i = 0; i < pl_orig.points.size(); i++) {
+[14.175s]       |                     ~~^~~~~~~~~~~~~~~~~~~~~~~
+[14.183s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function ‘void lightning::PointCloudPreprocess::VelodyneHandler(const SharedPtr&)’:
+[14.183s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:202:16: warning: variable ‘yaw_end’ set but not used [-Wunused-but-set-variable]
+[14.183s]   202 |         double yaw_end = yaw_first;
+[14.183s]       |                ^~~~~~~
+[14.242s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:12,
+[14.242s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:7:
+[14.242s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[14.242s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[14.242s]    27 | inline void SigHandle(int sig) {
+[14.243s]       |                       ~~~~^~~
+[14.383s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc: In member function ‘void lightning::loc::PGO::PubResult()’:
+[14.383s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:60:17: warning: variable ‘recent_lidar_loc_pose’ set but not used [-Wunused-but-set-variable]
+[14.383s]    60 |             SE3 recent_lidar_loc_pose = impl_->lidar_loc_pose_queue_.back().pose_;
+[14.383s]       |                 ^~~~~~~~~~~~~~~~~~~~~
+[14.383s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:53:16: warning: unused variable ‘dt’ [-Wunused-variable]
+[14.383s]    53 |         double dt = result.timestamp_ - impl_->result_.timestamp_;
+[14.383s]       |                ^~
+[14.383s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:108:13: warning: variable ‘extra_pose’ set but not used [-Wunused-but-set-variable]
+[14.383s]   108 |         SE3 extra_pose = result.pose_;
+[14.383s]       |             ^~~~~~~~~~
+[14.384s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc: In member function ‘bool lightning::loc::PGO::ProcessDR(const lightning::NavState&)’:
+[14.384s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:146:12: warning: variable ‘delta_timestamp’ set but not used [-Wunused-but-set-variable]
+[14.384s]   146 |     double delta_timestamp = 0;
+[14.384s]       |            ^~~~~~~~~~~~~~~
+[14.390s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18,
+[14.391s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15,
+[14.391s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.h:7,
+[14.391s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/loc_system.cc:6:
+[14.391s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::processAxis(double, std::deque<double>&, int)’:
+[14.391s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:92:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[14.391s]    92 |         if (history.size() >= config_.median_window_size && sample_count_ > 100) {
+[14.391s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.391s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘void lightning::IMUFilter::updateBuffer(const lightning::IMU&)’:
+[14.391s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:114:39: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[14.391s]   114 |         while (gyro_x_history_.size() > max_history) {
+[14.391s]       |                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[14.391s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::detectAndRemoveSpike(double, std::deque<double>&, int)’:
+[14.391s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:123:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[14.391s]   123 |         if (history.size() < config_.median_window_size) {
+[14.391s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.394s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18,
+[14.394s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15,
+[14.394s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.h:7,
+[14.394s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/loc_system.cc:6:
+[14.394s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::medianFilter(double, std::deque<double>&)’:
+[14.394s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:152:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[14.394s]   152 |         if (history.size() < config_.median_window_size) {
+[14.394s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.394s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::movingAverage(double, std::deque<double>&)’:
+[14.394s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:164:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[14.394s]   164 |         if (history.size() < config_.moving_avg_window) {
+[14.394s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.394s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:11,
+[14.394s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:7:
+[14.394s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+[14.394s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+[14.394s]    74 |     NavState state_;  // 卡尔曼滤波器状态
+[14.395s]       |              ^~~~~~
+[14.395s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+[14.395s]    71 |     SE3 pose_lio_;  // 前端的pose
+[14.395s]       |         ^~~~~~~~~
+[14.395s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+[14.395s]    22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+[14.395s]       |     ^~~~~~~~
+[14.395s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘void lightning::IMUFilter::updateStatistics(const lightning::IMU&)’:
+[14.395s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:200:20: warning: unused variable ‘prev_mean’ [-Wunused-variable]
+[14.395s]   200 |             double prev_mean[3] = {gyro_mean_[0], gyro_mean_[1], gyro_mean_[2]};
+[14.395s]       |                    ^~~~~~~~~
+[14.400s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc: In member function ‘void lightning::loc::PGO::LogWindowState()’:
+[14.400s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:327:36: warning: comparison of unsigned expression in ‘>= 0’ is always true [-Wtype-limits]
+[14.400s]   327 |     int idx1 = (window.size() - 5) >= 0 ? (window.size() - 5) : -1;
+[14.400s]       |                ~~~~~~~~~~~~~~~~~~~~^~~~
+[14.400s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:328:36: warning: comparison of unsigned expression in ‘>= 0’ is always true [-Wtype-limits]
+[14.400s]   328 |     int idx2 = (window.size() - 4) >= 0 ? (window.size() - 4) : -1;
+[14.400s]       |                ~~~~~~~~~~~~~~~~~~~~^~~~
+[14.400s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:329:36: warning: comparison of unsigned expression in ‘>= 0’ is always true [-Wtype-limits]
+[14.400s]   329 |     int idx3 = (window.size() - 3) >= 0 ? (window.size() - 3) : -1;
+[14.400s]       |                ~~~~~~~~~~~~~~~~~~~~^~~~
+[14.400s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:330:36: warning: comparison of unsigned expression in ‘>= 0’ is always true [-Wtype-limits]
+[14.401s]   330 |     int idx4 = (window.size() - 2) >= 0 ? (window.size() - 2) : -1;
+[14.401s]       |                ~~~~~~~~~~~~~~~~~~~~^~~~
+[14.401s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:331:36: warning: comparison of unsigned expression in ‘>= 0’ is always true [-Wtype-limits]
+[14.401s]   331 |     int idx5 = (window.size() - 1) >= 0 ? (window.size() - 1) : -1;
+[14.401s]       |                ~~~~~~~~~~~~~~~~~~~~^~~~
+[14.406s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:328:9: warning: unused variable ‘idx2’ [-Wunused-variable]
+[14.406s]   328 |     int idx2 = (window.size() - 4) >= 0 ? (window.size() - 4) : -1;
+[14.406s]       |         ^~~~
+[14.406s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:329:9: warning: unused variable ‘idx3’ [-Wunused-variable]
+[14.406s]   329 |     int idx3 = (window.size() - 3) >= 0 ? (window.size() - 3) : -1;
+[14.406s]       |         ^~~~
+[14.406s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:330:9: warning: unused variable ‘idx4’ [-Wunused-variable]
+[14.407s]   330 |     int idx4 = (window.size() - 2) >= 0 ? (window.size() - 2) : -1;
+[14.407s]       |         ^~~~
+[14.407s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:331:9: warning: unused variable ‘idx5’ [-Wunused-variable]
+[14.407s]   331 |     int idx5 = (window.size() - 1) >= 0 ? (window.size() - 1) : -1;
+[14.407s]       |         ^~~~
+[14.407s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc: In member function ‘bool lightning::loc::PGO::ExtrapolateLocResult(lightning::loc::LocalizationResult&)’:
+[14.407s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:451:26: warning: unused variable ‘time_incre’ [-Wunused-variable]
+[14.407s]   451 |             const double time_incre = dr_pose_queue.back().timestamp_ - output_result.timestamp_;
+[14.407s]       |                          ^~~~~~~~~~
+[14.658s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+[14.658s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h:25,
+[14.658s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.cc:5:
+[14.659s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[14.659s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[14.659s]    27 | inline void SigHandle(int sig) {
+[14.659s]       |                       ~~~~^~~
+[14.790s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18,
+[14.790s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15,
+[14.790s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:7:
+[14.790s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::processAxis(double, std::deque<double>&, int)’:
+[14.790s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:92:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[14.790s]    92 |         if (history.size() >= config_.median_window_size && sample_count_ > 100) {
+[14.790s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.790s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘void lightning::IMUFilter::updateBuffer(const lightning::IMU&)’:
+[14.790s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:114:39: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[14.790s]   114 |         while (gyro_x_history_.size() > max_history) {
+[14.790s]       |                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[14.790s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::detectAndRemoveSpike(double, std::deque<double>&, int)’:
+[14.790s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:123:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[14.791s]   123 |         if (history.size() < config_.median_window_size) {
+[14.791s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.791s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18,
+[14.791s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15,
+[14.791s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:7:
+[14.791s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::medianFilter(double, std::deque<double>&)’:
+[14.791s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:152:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[14.791s]   152 |         if (history.size() < config_.median_window_size) {
+[14.791s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.791s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::movingAverage(double, std::deque<double>&)’:
+[14.791s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:164:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[14.791s]   164 |         if (history.size() < config_.moving_avg_window) {
+[14.791s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.792s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘void lightning::IMUFilter::updateStatistics(const lightning::IMU&)’:
+[14.792s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:200:20: warning: unused variable ‘prev_mean’ [-Wunused-variable]
+[14.792s]   200 |             double prev_mean[3] = {gyro_mean_[0], gyro_mean_[1], gyro_mean_[2]};
+[14.792s]       |                    ^~~~~~~~~
+[15.101s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:11,
+[15.102s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.h:7,
+[15.102s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.cpp:5:
+[15.102s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+[15.102s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+[15.102s]    74 |     NavState state_;  // 卡尔曼滤波器状态
+[15.102s]       |              ^~~~~~
+[15.102s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+[15.102s]    71 |     SE3 pose_lio_;  // 前端的pose
+[15.102s]       |         ^~~~~~~~~
+[15.102s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+[15.102s]    22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+[15.102s]       |     ^~~~~~~~
+[15.121s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.cc: In member function ‘void lightning::TiledMap::UpdateVoxel(lightning::TiledMap::VoxelData&, bool)’:
+[15.121s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.cc:563:44: warning: comparison of integer expressions of different signedness: ‘std::vector<Eigen::Matrix<float, 3, 1> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[15.121s]   563 |     if (!v.ndt_estimated_ && v.pts_.size() > ndt_map_options_.min_pts_in_voxel_) {
+[15.122s]       |                              ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[15.122s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.cc:569:50: warning: comparison of integer expressions of different signedness: ‘std::vector<Eigen::Matrix<float, 3, 1> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[15.122s]   569 |     } else if (v.ndt_estimated_ && v.pts_.size() > ndt_map_options_.min_pts_in_voxel_) {
+[15.122s]       |                                    ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[15.239s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18,
+[15.239s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15,
+[15.239s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:7:
+[15.239s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::processAxis(double, std::deque<double>&, int)’:
+[15.240s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:92:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[15.240s]    92 |         if (history.size() >= config_.median_window_size && sample_count_ > 100) {
+[15.240s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[15.240s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘void lightning::IMUFilter::updateBuffer(const lightning::IMU&)’:
+[15.240s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:114:39: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[15.240s]   114 |         while (gyro_x_history_.size() > max_history) {
+[15.240s]       |                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[15.240s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::detectAndRemoveSpike(double, std::deque<double>&, int)’:
+[15.240s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:123:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[15.240s]   123 |         if (history.size() < config_.median_window_size) {
+[15.240s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[15.241s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18,
+[15.242s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15,
+[15.242s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:7:
+[15.242s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::medianFilter(double, std::deque<double>&)’:
+[15.242s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:152:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[15.242s]   152 |         if (history.size() < config_.median_window_size) {
+[15.242s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[15.242s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::movingAverage(double, std::deque<double>&)’:
+[15.242s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:164:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[15.242s]   164 |         if (history.size() < config_.moving_avg_window) {
+[15.242s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[15.242s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘void lightning::IMUFilter::updateStatistics(const lightning::IMU&)’:
+[15.243s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:200:20: warning: unused variable ‘prev_mean’ [-Wunused-variable]
+[15.243s]   200 |             double prev_mean[3] = {gyro_mean_[0], gyro_mean_[1], gyro_mean_[2]};
+[15.243s]       |                    ^~~~~~~~~
+[15.257s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.cc:5:
+[15.257s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h: In constructor ‘lightning::RosbagIO::RosbagIO(std::string, lightning::DatasetType)’:
+[15.257s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h:38:57: warning: unused parameter ‘dataset_type’ [-Wunused-parameter]
+[15.257s]    38 |     explicit RosbagIO(std::string bag_file, DatasetType dataset_type = DatasetType::NCLT)
+[15.257s]       |                                             ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[15.330s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:1:
+[15.330s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h: In instantiation of ‘void pclomp::NormalDistributionsTransform<PointSource, PointTarget>::setInputTarget(const PointCloudTargetConstPtr&) [with PointSource = pcl::PointXYZ; PointTarget = pcl::PointXYZ; pclomp::NormalDistributionsTransform<PointSource, PointTarget>::PointCloudTargetConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZ> >]’:
+[15.330s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:4:24:   required from here
+[15.330s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h:105:62: warning: unused parameter ‘cloud’ [-Wunused-parameter]
+[15.330s]   105 |   inline void setInputTarget(const PointCloudTargetConstPtr &cloud) {
+[15.330s]       |                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+[15.422s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+[15.422s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.h:47,
+[15.422s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h:47,
+[15.422s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp:1,
+[15.422s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:10:
+[15.423s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[15.423s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[15.423s]    27 | inline void SigHandle(int sig) {
+[15.423s]       |                       ~~~~^~~
+[15.537s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18,
+[15.537s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15,
+[15.537s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.h:7,
+[15.537s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.cpp:5:
+[15.537s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::processAxis(double, std::deque<double>&, int)’:
+[15.537s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:92:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[15.537s]    92 |         if (history.size() >= config_.median_window_size && sample_count_ > 100) {
+[15.537s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[15.537s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘void lightning::IMUFilter::updateBuffer(const lightning::IMU&)’:
+[15.537s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:114:39: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[15.537s]   114 |         while (gyro_x_history_.size() > max_history) {
+[15.537s]       |                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[15.537s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::detectAndRemoveSpike(double, std::deque<double>&, int)’:
+[15.538s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:123:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[15.538s]   123 |         if (history.size() < config_.median_window_size) {
+[15.538s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[15.538s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_processing.hpp:18,
+[15.538s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:15,
+[15.538s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.h:7,
+[15.538s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.cpp:5:
+[15.538s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::medianFilter(double, std::deque<double>&)’:
+[15.538s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:152:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[15.538s]   152 |         if (history.size() < config_.median_window_size) {
+[15.538s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[15.538s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘double lightning::IMUFilter::movingAverage(double, std::deque<double>&)’:
+[15.538s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:164:28: warning: comparison of integer expressions of different signedness: ‘std::deque<double>::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[15.538s]   164 |         if (history.size() < config_.moving_avg_window) {
+[15.539s]       |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[15.539s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h: In member function ‘void lightning::IMUFilter::updateStatistics(const lightning::IMU&)’:
+[15.539s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/imu_filter.h:200:20: warning: unused variable ‘prev_mean’ [-Wunused-variable]
+[15.539s]   200 |             double prev_mean[3] = {gyro_mean_[0], gyro_mean_[1], gyro_mean_[2]};
+[15.539s]       |                    ^~~~~~~~~
+[16.072s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+[16.072s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,
+[16.072s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:8:
+[16.072s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+[16.072s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+[16.072s]    44 |     bool is_dense_ = true;
+[16.072s]       |          ^~~~~~~~~
+[16.072s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+[16.072s]    39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[16.072s]       |                      ^~~~~~~~~~~~~~~~~~~
+[16.072s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+[16.073s]    31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+[16.073s]       |              ^~~~~~~~~~~~~~~
+[16.089s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+[16.089s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,
+[16.090s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:8:
+[16.090s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+[16.090s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+[16.090s]    80 |     virtual int Optimize(int interations) { return 0; }
+[16.090s]       |                          ~~~~^~~~~~~~~~~
+[16.443s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:2:
+[16.443s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp: In instantiation of ‘double pclomp::NormalDistributionsTransform<PointSource, PointTarget>::computeDerivatives(Eigen::Matrix<double, 6, 1, 0, 6, 1>&, Eigen::Matrix<double, 6, 6, 0, 6, 6>&, pclomp::NormalDistributionsTransform<PointSource, PointTarget>::PointCloudSource&, Eigen::Matrix<double, 6, 1, 0, 6, 1>&, bool) [with PointSource = pcl::PointXYZ; PointTarget = pcl::PointXYZ; pclomp::NormalDistributionsTransform<PointSource, PointTarget>::PointCloudSource = pcl::PointCloud<pcl::PointXYZ>]’:
+[16.443s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:4:24:   required from here
+[16.443s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp:281:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+[16.443s]   281 |   for (int idx = 0; idx < input_->points.size(); idx++) {
+[16.444s]       |                     ~~~~^~~~~~~~~~~~~~~~~~~~~~~
+[16.446s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,
+[16.446s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:4:
+[16.446s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function ‘void lightning::debug::SigHandle(int)’:
+[16.446s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter ‘sig’ [-Wunused-parameter]
+[16.446s]    27 | inline void SigHandle(int sig) {
+[16.446s]       |                       ~~~~^~~
+[16.468s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp:303:11: warning: unused variable ‘distances’ [-Wunused-variable]
+[16.468s]   303 |     auto &distances    = distancess[thread_n];
+[16.468s]       |           ^~~~~~~~~
+[16.621s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:1:
+[16.621s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h: In instantiation of ‘void pclomp::NormalDistributionsTransform<PointSource, PointTarget>::setInputTarget(const PointCloudTargetConstPtr&) [with PointSource = pcl::PointXYZI; PointTarget = pcl::PointXYZI; pclomp::NormalDistributionsTransform<PointSource, PointTarget>::PointCloudTargetConstPtr = std::shared_ptr<const pcl::PointCloud<pcl::PointXYZI> >]’:
+[16.621s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:5:24:   required from here
+[16.621s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h:105:62: warning: unused parameter ‘cloud’ [-Wunused-parameter]
+[16.621s]   105 |   inline void setInputTarget(const PointCloudTargetConstPtr &cloud) {
+[16.621s]       |                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+[16.631s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:2:
+[16.631s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp: In instantiation of ‘double pclomp::NormalDistributionsTransform<PointSource, PointTarget>::computeDerivatives(Eigen::Matrix<double, 6, 1, 0, 6, 1>&, Eigen::Matrix<double, 6, 6, 0, 6, 6>&, pclomp::NormalDistributionsTransform<PointSource, PointTarget>::PointCloudSource&, Eigen::Matrix<double, 6, 1, 0, 6, 1>&, bool) [with PointSource = pcl::PointXYZI; PointTarget = pcl::PointXYZI; pclomp::NormalDistributionsTransform<PointSource, PointTarget>::PointCloudSource = pcl::PointCloud<pcl::PointXYZI>]’:
+[16.631s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:5:24:   required from here
+[16.631s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp:281:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<pcl::PointXYZI, Eigen::aligned_allocator<pcl::PointXYZI> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+[16.631s]   281 |   for (int idx = 0; idx < input_->points.size(); idx++) {
+[16.631s]       |                     ~~~~^~~~~~~~~~~~~~~~~~~~~~~
+[16.634s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp_impl.hpp:303:11: warning: unused variable ‘distances’ [-Wunused-variable]
+[16.634s]   303 |     auto &distances    = distancess[thread_n];
+[16.634s]       |           ^~~~~~~~~
+[16.792s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc: In member function ‘bool lightning::LaserMapping::Run()’:
+[16.792s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:189:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+[16.792s]   189 |         for (int i = 0; i < scan_undistort_->size(); i++) {
+[16.792s]       |                         ~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[16.811s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:272:18: warning: unused variable ‘delta_translation’ [-Wunused-variable]
+[16.811s]   272 |     const double delta_translation = (pred_state.pos_ - state_point_.pos_).norm();
+[16.811s]       |                  ^~~~~~~~~~~~~~~~~
+[16.811s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:274:18: warning: unused variable ‘delta_velocity’ [-Wunused-variable]
+[16.811s]   274 |     const double delta_velocity = (pred_state.vel_ - state_point_.vel_).norm();
+[16.811s]       |                  ^~~~~~~~~~~~~~
+[16.811s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:276:18: warning: unused variable ‘current_speed’ [-Wunused-variable]
+[16.811s]   276 |     const double current_speed = state_point_.vel_.norm();
+[16.811s]       |                  ^~~~~~~~~~~~~
+[16.816s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc: In member function ‘void lightning::LaserMapping::MakeKF()’:
+[16.816s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:392:26: warning: comparison of integer expressions of different signedness: ‘std::__cxx11::list<std::shared_ptr<lightning::Keyframe> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[16.816s]   392 |     if (proj_kfs_.size() >= options_.max_proj_kfs_) {
+[16.816s]       |         ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[17.196s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc: In member function ‘void lightning::LaserMapping::ObsModel(lightning::NavState&, lightning::ESKF::CustomObservationModel&)’:
+[17.196s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:739:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<long unsigned int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+[17.196s]   739 |     for (int i = 0; i < index.size(); ++i) {
+[17.196s]       |                     ~~^~~~~~~~~~~~~~
+[17.206s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc: In member function ‘void lightning::loc::PGOImpl::AddLidarOdomFactors()’:
+[17.206s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:374:15: warning: variable ‘lo_obs_weight’ set but not used [-Wunused-but-set-variable]
+[17.206s]   374 |         Vec6d lo_obs_weight = lo_noise;
+[17.206s]       |               ^~~~~~~~~~~~~
+[17.216s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc: In member function ‘void lightning::loc::PGOImpl::RemoveOutliers()’:
+[17.216s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:499:10: warning: variable ‘remove_outlier’ set but not used [-Wunused-but-set-variable]
+[17.216s]   499 |     auto remove_outlier = [&cnt_outliers, this](miao::Edge* e) {
+[17.216s]       |          ^~~~~~~~~~~~~~
+[17.218s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc: In member function ‘void lightning::loc::PGOImpl::CollectOptimizationStatistics()’:
+[17.219s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:560:18: warning: unused variable ‘loc_err’ [-Wunused-variable]
+[17.219s]   560 |     const double loc_err = std::sqrt(result_.lidar_loc_error_vert_ * result_.lidar_loc_error_vert_ +
+[17.219s]       |                  ^~~~~~~
+[17.219s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:563:18: warning: unused variable ‘lo_err’ [-Wunused-variable]
+[17.219s]   563 |     const double lo_err = std::sqrt(result_.lidar_odom_error_vert_ * result_.lidar_odom_error_vert_ +
+[17.219s]       |                  ^~~~~~
+[17.219s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc: In member function ‘void lightning::loc::PGOImpl::UpdateFinalResultByWindow()’:
+[17.220s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:642:10: warning: unused variable ‘following_gps’ [-Wunused-variable]
+[17.220s]   642 |     bool following_gps = false;
+[17.220s]       |          ^~~~~~~~~~~~~
+[17.220s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:643:10: warning: unused variable ‘following_lidar_loc’ [-Wunused-variable]
+[17.220s]   643 |     bool following_lidar_loc = false;
+[17.220s]       |          ^~~~~~~~~~~~~~~~~~~
+[17.220s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:644:10: warning: unused variable ‘following_lidar_odom’ [-Wunused-variable]
+[17.220s]   644 |     bool following_lidar_odom = lf->lidar_odom_valid_;
+[17.220s]       |          ^~~~~~~~~~~~~~~~~~~~
+[17.220s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:645:10: warning: unused variable ‘following_dr’ [-Wunused-variable]
+[17.220s]   645 |     bool following_dr = lf->dr_valid_;
+[17.220s]       |          ^~~~~~~~~~~~
+[17.222s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc: In member function ‘void lightning::loc::PGOImpl::Marginalize(const PGOFramePtr&, const PGOFramePtr&)’:
+[17.222s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:846:46: warning: unused parameter ‘frame_to_remove’ [-Wunused-parameter]
+[17.222s]   846 | void PGOImpl::Marginalize(const PGOFramePtr& frame_to_remove, const PGOFramePtr& frame_to_keep) {
+[17.222s]       |                           ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+[17.382s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,
+[17.382s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,
+[17.382s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7,
+[17.382s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.cpp:9:
+[17.382s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor ‘lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)’:
+[17.382s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: ‘lightning::miao::OptimizerConfig::is_dense_’ will be initialized after [-Wreorder]
+[17.382s]    44 |     bool is_dense_ = true;
+[17.382s]       |          ^~~~~~~~~
+[17.382s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   ‘lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_’ [-Wreorder]
+[17.382s]    39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;
+[17.382s]       |                      ^~~~~~~~~~~~~~~~~~~
+[17.382s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]
+[17.383s]    31 |     explicit OptimizerConfig(AlgorithmType algo_type,
+[17.383s]       |              ^~~~~~~~~~~~~~~
+[17.404s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,
+[17.404s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,
+[17.404s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7,
+[17.404s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization.cpp:9:
+[17.404s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function ‘virtual int lightning::miao::Graph::Optimize(int)’:
+[17.404s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter ‘interations’ [-Wunused-parameter]
+[17.405s]    80 |     virtual int Optimize(int interations) { return 0; }
+[17.405s]       |                          ~~~~^~~~~~~~~~~
+[17.584s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window.h:8,
+[17.584s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:20:
+[17.584s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor ‘lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)’:
+[17.584s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: ‘lightning::Keyframe::state_’ will be initialized after [-Wreorder]
+[17.584s]    74 |     NavState state_;  // 卡尔曼滤波器状态
+[17.584s]       |              ^~~~~~
+[17.584s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   ‘lightning::SE3 lightning::Keyframe::pose_lio_’ [-Wreorder]
+[17.584s]    71 |     SE3 pose_lio_;  // 前端的pose
+[17.585s]       |         ^~~~~~~~~
+[17.585s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]
+[17.585s]    22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)
+[17.585s]       |     ^~~~~~~~
+[17.957s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:13,
+[17.958s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:7:
+[17.958s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/ivox3d/ivox3d.h: In instantiation of ‘bool lightning::IVox<dim, node_type, PointType>::GetClosestPoint(const PointType&, lightning::IVox<dim, node_type, PointType>::PointVector&, int, double) [with int dim = 3; lightning::IVoxNodeType node_type = lightning::IVoxNodeType::DEFAULT; PointType = PointXYZIT; lightning::IVox<dim, node_type, PointType>::PointVector = std::vector<PointXYZIT, Eigen::aligned_allocator<PointXYZIT> >]’:
+[17.958s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:641:39:   required from here
+[17.958s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/ivox3d/ivox3d.h:165:27: warning: comparison of integer expressions of different signedness: ‘std::vector<lightning::IVoxNode<PointXYZIT, 3>::DistPoint, std::allocator<lightning::IVoxNode<PointXYZIT, 3>::DistPoint> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+[17.958s]   165 |     if (candidates.size() <= max_num) {
+[17.958s]       |         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[18.073s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:6:
+[18.073s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp: In instantiation of ‘bool lightning::math::esti_plane(Eigen::Matrix<Type, 4, 1>&, const PointVector&, const T&) [with T = float; lightning::PointVector = std::vector<PointXYZIT, Eigen::aligned_allocator<PointXYZIT> >]’:
+[18.073s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:649:41:   required from here
+[18.073s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:388:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<PointXYZIT, Eigen::aligned_allocator<PointXYZIT> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+[18.073s]   388 |         for (int j = 0; j < point.size(); j++) {
+[18.073s]       |                         ~~^~~~~~~~~~~~~~
+[18.389s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc: In member function ‘void lightning::loc::LidarLoc::Align(const CloudPtr&)’:
+[18.390s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:584:10: warning: unused variable ‘try_self’ [-Wunused-variable]
+[18.390s]   584 |     bool try_self = false;
+[18.390s]       |          ^~~~~~~~
+[18.390s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:609:12: warning: unused variable ‘score_lo’ [-Wunused-variable]
+[18.390s]   609 |     double score_lo = fitness_score;
+[18.390s]       |            ^~~~~~~~
+[18.390s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:611:9: warning: variable ‘res_of_lo’ set but not used [-Wunused-but-set-variable]
+[18.390s]   611 |     SE3 res_of_lo = current_pose_esti;
+[18.390s]       |         ^~~~~~~~~
+[18.391s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:612:9: warning: variable ‘res_of_dr’ set but not used [-Wunused-but-set-variable]
+[18.391s]   612 |     SE3 res_of_dr = current_pose_esti;
+[18.391s]       |         ^~~~~~~~~
+[18.391s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:613:9: warning: variable ‘res_of_self’ set but not used [-Wunused-but-set-variable]
+[18.391s]   613 |     SE3 res_of_self = current_pose_esti;
+[18.391s]       |         ^~~~~~~~~~~
+[18.391s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:614:12: warning: unused variable ‘score_dr’ [-Wunused-variable]
+[18.391s]   614 |     double score_dr = 0;
+[18.391s]       |            ^~~~~~~~
+[18.465s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/solver/block_solver.h:15,
+[18.465s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/opti_algo/algo_select.h:11,
+[18.465s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:13:
+[18.465s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/solver/linear_solver.h: In instantiation of ‘bool lightning::miao::LinearSolver<MatrixType>::Solve(const MatXd&, double*, double*) [with MatrixType = Eigen::Matrix<double, 6, 6, 0, 6, 6>; lightning::MatXd = Eigen::Matrix<double, -1, -1>]’:
+[18.466s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/solver/linear_solver.h:51:18:   required from here
+[18.466s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/solver/linear_solver.h:51:48: warning: unused parameter ‘A’ [-Wunused-parameter]
+[18.466s]    51 |     virtual bool Solve(const lightning::MatXd& A, double* x, double* b) { return true; }
+[18.466s]       |                        ~~~~~~~~~~~~~~~~~~~~~~~~^
+[18.466s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/solver/linear_solver.h:51:59: warning: unused parameter ‘x’ [-Wunused-parameter]
+[18.466s]    51 |     virtual bool Solve(const lightning::MatXd& A, double* x, double* b) { return true; }
+[18.466s]       |                                                   ~~~~~~~~^
+[18.466s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/solver/linear_solver.h:51:70: warning: unused parameter ‘b’ [-Wunused-parameter]
+[18.466s]    51 |     virtual bool Solve(const lightning::MatXd& A, double* x, double* b) { return true; }
+[18.466s]       |                                                              ~~~~~~~~^
+[18.512s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc: In member function ‘bool lightning::loc::LidarLoc::CheckStatic(double)’:
+[18.512s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:895:35: warning: unused parameter ‘timestamp’ [-Wunused-parameter]
+[18.512s]   895 | bool LidarLoc::CheckStatic(double timestamp) {
+[18.513s]       |                            ~~~~~~~^~~~~~~~~
+[18.513s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc: In member function ‘void lightning::loc::LidarLoc::UpdateState(const CloudPtr&)’:
+[18.513s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/lidar_loc.cc:911:44: warning: unused parameter ‘input’ [-Wunused-parameter]
+[18.513s]   911 | void LidarLoc::UpdateState(const CloudPtr& input) { last_timestamp_ = current_timestamp_; }
+[18.513s]       |                            ~~~~~~~~~~~~~~~~^~~~~
+[60.542s] In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/ivox3d/ivox3d.h:13,
+[60.544s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:13,
+[60.544s]                  from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:7:
+[60.544s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/ivox3d/ivox3d_node.hpp: In instantiation of ‘lightning::IVoxNode<PointT, dim>::IVoxNode(const PointT&, const float&) [with PointT = PointXYZIT; int dim = 3]’:
+[60.544s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/ivox3d/ivox3d.h:267:43:   required from ‘lightning::IVox<3, lightning::IVoxNodeType::DEFAULT, PointXYZIT>::AddPoints(const PointVector&)::<lambda(const auto:55&)> [with auto:55 = PointXYZIT]’
+[60.544s] /usr/include/c++/11/bits/stl_algo.h:3820:5:   required from ‘_Funct std::for_each(_IIter, _IIter, _Funct) [with _IIter = __gnu_cxx::__normal_iterator<const PointXYZIT*, std::vector<PointXYZIT, Eigen::aligned_allocator<PointXYZIT> > >; _Funct = lightning::IVox<3, lightning::IVoxNodeType::DEFAULT, PointXYZIT>::AddPoints(const PointVector&)::<lambda(const auto:55&)>]’
+[60.544s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/ivox3d/ivox3d.h:259:18:   required from ‘void lightning::IVox<dim, node_type, PointType>::AddPoints(const PointVector&) [with int dim = 3; lightning::IVoxNodeType node_type = lightning::IVoxNodeType::DEFAULT; PointType = PointXYZIT; lightning::IVox<dim, node_type, PointType>::PointVector = std::vector<PointXYZIT, Eigen::aligned_allocator<PointXYZIT> >]’
+[60.545s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:192:25:   required from here
+[60.545s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/ivox3d/ivox3d_node.hpp:20:28: warning: unused parameter ‘center’ [-Wunused-parameter]
+[60.545s]    20 |     IVoxNode(const PointT& center, const float& side_length) {}  /// same with phc
+[60.545s]       |              ~~~~~~~~~~~~~~^~~~~~
+[60.545s] /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/ivox3d/ivox3d_node.hpp:20:49: warning: unused parameter ‘side_length’ [-Wunused-parameter]
+[60.545s]    20 |     IVoxNode(const PointT& center, const float& side_length) {}  /// same with phc
+[60.545s]       |                                    ~~~~~~~~~~~~~^~~~~~~~~~~

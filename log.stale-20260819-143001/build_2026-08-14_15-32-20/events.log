@@ -1,0 +1,338 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (-) JobUnselected: {'identifier': 'lightning'}
+[0.000856] (-) JobUnselected: {'identifier': 'lightning_sim'}
+[0.000890] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000915] (lightning_real) JobQueued: {'identifier': 'lightning_real', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2')])}
+[0.001080] (lightning_real) JobStarted: {'identifier': 'lightning_real'}
+[0.008136] (lightning_real) JobProgress: {'identifier': 'lightning_real', 'progress': 'cmake'}
+[0.009039] (lightning_real) JobProgress: {'identifier': 'lightning_real', 'progress': 'build'}
+[0.009795] (lightning_real) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_real', '--', '-j28', '-l28'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_real', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'wayland'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1319'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1695'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11030'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('ROS_DISTRO', 'humble'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:5678'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0ETYS5O:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/1671,unix/KPLNB151:/tmp/.ICE-unix/1671'), ('INVOCATION_ID', '08e038dd9b564bc1a1c69d6c854f79e8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QUXZT3'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_real'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning:/opt/ros/humble')]), 'shell': False}
+[0.051978] (lightning_real) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target livox_custom_to_pointcloud2\n'}
+[0.062836] (lightning_real) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/livox_custom_to_pointcloud2.dir/src/livox_custom_to_pointcloud2.cpp.o\n'}
+[0.099761] (-) TimerEvent: {}
+[0.199918] (-) TimerEvent: {}
+[0.300063] (-) TimerEvent: {}
+[0.400211] (-) TimerEvent: {}
+[0.500381] (-) TimerEvent: {}
+[0.600552] (-) TimerEvent: {}
+[0.700715] (-) TimerEvent: {}
+[0.800880] (-) TimerEvent: {}
+[0.901045] (-) TimerEvent: {}
+[1.001212] (-) TimerEvent: {}
+[1.101387] (-) TimerEvent: {}
+[1.201559] (-) TimerEvent: {}
+[1.301731] (-) TimerEvent: {}
+[1.401898] (-) TimerEvent: {}
+[1.502066] (-) TimerEvent: {}
+[1.602228] (-) TimerEvent: {}
+[1.702392] (-) TimerEvent: {}
+[1.802560] (-) TimerEvent: {}
+[1.902728] (-) TimerEvent: {}
+[2.002911] (-) TimerEvent: {}
+[2.103088] (-) TimerEvent: {}
+[2.203267] (-) TimerEvent: {}
+[2.303436] (-) TimerEvent: {}
+[2.403614] (-) TimerEvent: {}
+[2.503779] (-) TimerEvent: {}
+[2.603949] (-) TimerEvent: {}
+[2.704104] (-) TimerEvent: {}
+[2.804272] (-) TimerEvent: {}
+[2.904430] (-) TimerEvent: {}
+[3.004598] (-) TimerEvent: {}
+[3.104771] (-) TimerEvent: {}
+[3.204927] (-) TimerEvent: {}
+[3.305083] (-) TimerEvent: {}
+[3.405249] (-) TimerEvent: {}
+[3.505408] (-) TimerEvent: {}
+[3.605560] (-) TimerEvent: {}
+[3.705717] (-) TimerEvent: {}
+[3.805880] (-) TimerEvent: {}
+[3.906045] (-) TimerEvent: {}
+[4.006214] (-) TimerEvent: {}
+[4.106370] (-) TimerEvent: {}
+[4.206607] (-) TimerEvent: {}
+[4.306787] (-) TimerEvent: {}
+[4.406949] (-) TimerEvent: {}
+[4.507132] (-) TimerEvent: {}
+[4.607292] (-) TimerEvent: {}
+[4.707450] (-) TimerEvent: {}
+[4.807615] (-) TimerEvent: {}
+[4.907804] (-) TimerEvent: {}
+[5.008025] (-) TimerEvent: {}
+[5.108262] (-) TimerEvent: {}
+[5.144858] (lightning_real) StdoutLine: {'line': b'[100%] Linking CXX executable livox_custom_to_pointcloud2\n'}
+[5.208350] (-) TimerEvent: {}
+[5.308508] (-) TimerEvent: {}
+[5.408671] (-) TimerEvent: {}
+[5.410555] (lightning_real) StdoutLine: {'line': b'[100%] Built target livox_custom_to_pointcloud2\n'}
+[5.420040] (lightning_real) CommandEnded: {'returncode': 0}
+[5.421004] (lightning_real) JobProgress: {'identifier': 'lightning_real', 'progress': 'install'}
+[5.427212] (lightning_real) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_real'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_real', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'wayland'), ('NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S', 'e7fc907079d6797973cb63f97d2562c965aad8d33f52fb726005bf6702f30afc'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/lib:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1319'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1695'), ('IM_CONFIG_CHECK_ENV', '1'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11030'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install'), ('CODEX_PERMISSION_PROFILE', ':workspace'), ('ROS_DISTRO', 'humble'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:5678'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('NODE_REPL_TRUSTED_CODE_PATHS', '/home/kepler/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0ETYS5O:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/1671,unix/KPLNB151:/tmp/.ICE-unix/1671'), ('INVOCATION_ID', '08e038dd9b564bc1a1c69d6c854f79e8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('BROWSER_USE_AVAILABLE_BACKENDS', 'chrome,iab'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QUXZT3'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning_real'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/livox_ros_driver2:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim:/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning:/opt/ros/humble')]), 'shell': False}
+[5.432323] (lightning_real) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.432901] (lightning_real) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.433115] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/lib/lightning_real/livox_custom_to_pointcloud2\n'}
+[5.433413] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/launch/view_mid360.launch.py\n'}
+[5.433836] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/rviz/mid360_raw.rviz\n'}
+[5.434058] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/ament_index/resource_index/package_run_dependencies/lightning_real\n'}
+[5.434390] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/ament_index/resource_index/parent_prefix_path/lightning_real\n'}
+[5.434564] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/environment/ament_prefix_path.sh\n'}
+[5.434681] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/environment/ament_prefix_path.dsv\n'}
+[5.434735] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/environment/path.sh\n'}
+[5.434824] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/environment/path.dsv\n'}
+[5.435116] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/local_setup.bash\n'}
+[5.435200] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/local_setup.sh\n'}
+[5.435254] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/local_setup.zsh\n'}
+[5.435300] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/local_setup.dsv\n'}
+[5.435346] (lightning_real) StdoutLine: {'line': b'-- Symlinking: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/package.dsv\n'}
+[5.442925] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/ament_index/resource_index/packages/lightning_real\n'}
+[5.443084] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/cmake/lightning_realConfig.cmake\n'}
+[5.443125] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/cmake/lightning_realConfig-version.cmake\n'}
+[5.443165] (lightning_real) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_real/share/lightning_real/package.xml\n'}
+[5.508793] (-) TimerEvent: {}
+[5.609013] (-) TimerEvent: {}
+[5.709194] (-) TimerEvent: {}
+[5.809396] (-) TimerEvent: {}
+[5.909676] (-) TimerEvent: {}
+[6.009929] (-) TimerEvent: {}
+[6.110260] (-) TimerEvent: {}
+[6.210514] (-) TimerEvent: {}
+[6.310710] (-) TimerEvent: {}
+[6.410871] (-) TimerEvent: {}
+[6.511102] (-) TimerEvent: {}
+[6.611364] (-) TimerEvent: {}
+[6.711666] (-) TimerEvent: {}
+[6.811916] (-) TimerEvent: {}
+[6.912169] (-) TimerEvent: {}
+[7.012320] (-) TimerEvent: {}
+[7.112545] (-) TimerEvent: {}
+[7.212766] (-) TimerEvent: {}
+[7.312987] (-) TimerEvent: {}
+[7.413198] (-) TimerEvent: {}
+[7.513420] (-) TimerEvent: {}
+[7.613651] (-) TimerEvent: {}
+[7.713807] (-) TimerEvent: {}
+[7.813991] (-) TimerEvent: {}
+[7.914233] (-) TimerEvent: {}
+[8.014458] (-) TimerEvent: {}
+[8.114722] (-) TimerEvent: {}
+[8.214924] (-) TimerEvent: {}
+[8.315111] (-) TimerEvent: {}
+[8.415359] (-) TimerEvent: {}
+[8.515575] (-) TimerEvent: {}
+[8.615829] (-) TimerEvent: {}
+[8.716087] (-) TimerEvent: {}
+[8.816330] (-) TimerEvent: {}
+[8.916506] (-) TimerEvent: {}
+[9.016710] (-) TimerEvent: {}
+[9.116923] (-) TimerEvent: {}
+[9.217200] (-) TimerEvent: {}
+[9.317459] (-) TimerEvent: {}
+[9.417713] (-) TimerEvent: {}
+[9.517904] (-) TimerEvent: {}
+[9.618177] (-) TimerEvent: {}
+[9.718449] (-) TimerEvent: {}
+[9.818691] (-) TimerEvent: {}
+[9.918967] (-) TimerEvent: {}
+[10.019207] (-) TimerEvent: {}
+[10.119411] (-) TimerEvent: {}
+[10.219605] (-) TimerEvent: {}
+[10.319841] (-) TimerEvent: {}
+[10.420067] (-) TimerEvent: {}
+[10.520410] (-) TimerEvent: {}
+[10.620621] (-) TimerEvent: {}
+[10.720867] (-) TimerEvent: {}
+[10.821070] (-) TimerEvent: {}
+[10.921453] (-) TimerEvent: {}
+[11.021729] (-) TimerEvent: {}
+[11.121967] (-) TimerEvent: {}
+[11.222178] (-) TimerEvent: {}
+[11.322384] (-) TimerEvent: {}
+[11.422581] (-) TimerEvent: {}
+[11.522803] (-) TimerEvent: {}
+[11.623023] (-) TimerEvent: {}
+[11.723253] (-) TimerEvent: {}
+[11.823503] (-) TimerEvent: {}
+[11.923738] (-) TimerEvent: {}
+[12.023947] (-) TimerEvent: {}
+[12.124165] (-) TimerEvent: {}
+[12.224416] (-) TimerEvent: {}
+[12.324667] (-) TimerEvent: {}
+[12.424917] (-) TimerEvent: {}
+[12.525099] (-) TimerEvent: {}
+[12.625252] (-) TimerEvent: {}
+[12.725416] (-) TimerEvent: {}
+[12.825625] (-) TimerEvent: {}
+[12.925910] (-) TimerEvent: {}
+[13.026203] (-) TimerEvent: {}
+[13.126420] (-) TimerEvent: {}
+[13.226626] (-) TimerEvent: {}
+[13.326834] (-) TimerEvent: {}
+[13.427046] (-) TimerEvent: {}
+[13.527278] (-) TimerEvent: {}
+[13.627493] (-) TimerEvent: {}
+[13.727750] (-) TimerEvent: {}
+[13.828002] (-) TimerEvent: {}
+[13.928248] (-) TimerEvent: {}
+[14.028498] (-) TimerEvent: {}
+[14.128767] (-) TimerEvent: {}
+[14.229034] (-) TimerEvent: {}
+[14.329251] (-) TimerEvent: {}
+[14.429585] (-) TimerEvent: {}
+[14.529857] (-) TimerEvent: {}
+[14.630063] (-) TimerEvent: {}
+[14.730235] (-) TimerEvent: {}
+[14.830440] (-) TimerEvent: {}
+[14.930649] (-) TimerEvent: {}
+[15.030851] (-) TimerEvent: {}
+[15.131086] (-) TimerEvent: {}
+[15.231343] (-) TimerEvent: {}
+[15.331585] (-) TimerEvent: {}
+[15.431824] (-) TimerEvent: {}
+[15.532044] (-) TimerEvent: {}
+[15.632301] (-) TimerEvent: {}
+[15.732513] (-) TimerEvent: {}
+[15.832729] (-) TimerEvent: {}
+[15.932910] (-) TimerEvent: {}
+[16.033089] (-) TimerEvent: {}
+[16.133333] (-) TimerEvent: {}
+[16.233564] (-) TimerEvent: {}
+[16.333798] (-) TimerEvent: {}
+[16.434025] (-) TimerEvent: {}
+[16.534184] (-) TimerEvent: {}
+[16.634345] (-) TimerEvent: {}
+[16.734555] (-) TimerEvent: {}
+[16.834816] (-) TimerEvent: {}
+[16.935082] (-) TimerEvent: {}
+[17.035331] (-) TimerEvent: {}
+[17.135536] (-) TimerEvent: {}
+[17.235724] (-) TimerEvent: {}
+[17.335942] (-) TimerEvent: {}
+[17.436188] (-) TimerEvent: {}
+[17.536413] (-) TimerEvent: {}
+[17.636640] (-) TimerEvent: {}
+[17.736862] (-) TimerEvent: {}
+[17.837036] (-) TimerEvent: {}
+[17.937253] (-) TimerEvent: {}
+[18.037517] (-) TimerEvent: {}
+[18.137802] (-) TimerEvent: {}
+[18.238103] (-) TimerEvent: {}
+[18.338369] (-) TimerEvent: {}
+[18.438583] (-) TimerEvent: {}
+[18.538847] (-) TimerEvent: {}
+[18.639111] (-) TimerEvent: {}
+[18.739366] (-) TimerEvent: {}
+[18.839645] (-) TimerEvent: {}
+[18.939937] (-) TimerEvent: {}
+[19.040270] (-) TimerEvent: {}
+[19.140522] (-) TimerEvent: {}
+[19.240807] (-) TimerEvent: {}
+[19.341111] (-) TimerEvent: {}
+[19.441395] (-) TimerEvent: {}
+[19.541671] (-) TimerEvent: {}
+[19.641937] (-) TimerEvent: {}
+[19.742164] (-) TimerEvent: {}
+[19.842450] (-) TimerEvent: {}
+[19.942744] (-) TimerEvent: {}
+[20.043022] (-) TimerEvent: {}
+[20.143260] (-) TimerEvent: {}
+[20.243512] (-) TimerEvent: {}
+[20.343723] (-) TimerEvent: {}
+[20.443963] (-) TimerEvent: {}
+[20.544287] (-) TimerEvent: {}
+[20.644534] (-) TimerEvent: {}
+[20.744777] (-) TimerEvent: {}
+[20.845096] (-) TimerEvent: {}
+[20.945363] (-) TimerEvent: {}
+[21.045548] (-) TimerEvent: {}
+[21.145756] (-) TimerEvent: {}
+[21.245964] (-) TimerEvent: {}
+[21.346187] (-) TimerEvent: {}
+[21.446444] (-) TimerEvent: {}
+[21.546679] (-) TimerEvent: {}
+[21.646888] (-) TimerEvent: {}
+[21.747127] (-) TimerEvent: {}
+[21.847403] (-) TimerEvent: {}
+[21.947641] (-) TimerEvent: {}
+[22.047862] (-) TimerEvent: {}
+[22.148060] (-) TimerEvent: {}
+[22.248213] (-) TimerEvent: {}
+[22.348447] (-) TimerEvent: {}
+[22.448696] (-) TimerEvent: {}
+[22.548928] (-) TimerEvent: {}
+[22.649144] (-) TimerEvent: {}
+[22.749383] (-) TimerEvent: {}
+[22.849596] (-) TimerEvent: {}
+[22.949785] (-) TimerEvent: {}
+[23.050031] (-) TimerEvent: {}
+[23.150235] (-) TimerEvent: {}
+[23.250498] (-) TimerEvent: {}
+[23.350751] (-) TimerEvent: {}
+[23.450964] (-) TimerEvent: {}
+[23.551176] (-) TimerEvent: {}
+[23.651350] (-) TimerEvent: {}
+[23.751571] (-) TimerEvent: {}
+[23.851850] (-) TimerEvent: {}
+[23.952108] (-) TimerEvent: {}
+[24.052352] (-) TimerEvent: {}
+[24.152513] (-) TimerEvent: {}
+[24.252697] (-) TimerEvent: {}
+[24.352951] (-) TimerEvent: {}
+[24.453226] (-) TimerEvent: {}
+[24.553531] (-) TimerEvent: {}
+[24.653742] (-) TimerEvent: {}
+[24.753954] (-) TimerEvent: {}
+[24.854211] (-) TimerEvent: {}
+[24.954487] (-) TimerEvent: {}
+[25.054769] (-) TimerEvent: {}
+[25.155105] (-) TimerEvent: {}
+[25.255383] (-) TimerEvent: {}
+[25.355623] (-) TimerEvent: {}
+[25.455850] (-) TimerEvent: {}
+[25.556132] (-) TimerEvent: {}
+[25.656372] (-) TimerEvent: {}
+[25.756575] (-) TimerEvent: {}
+[25.856833] (-) TimerEvent: {}
+[25.957088] (-) TimerEvent: {}
+[26.057340] (-) TimerEvent: {}
+[26.157575] (-) TimerEvent: {}
+[26.257846] (-) TimerEvent: {}
+[26.358117] (-) TimerEvent: {}
+[26.458389] (-) TimerEvent: {}
+[26.558643] (-) TimerEvent: {}
+[26.658844] (-) TimerEvent: {}
+[26.759031] (-) TimerEvent: {}
+[26.859236] (-) TimerEvent: {}
+[26.959449] (-) TimerEvent: {}
+[27.059673] (-) TimerEvent: {}
+[27.159943] (-) TimerEvent: {}
+[27.260208] (-) TimerEvent: {}
+[27.360429] (-) TimerEvent: {}
+[27.460737] (-) TimerEvent: {}
+[27.561020] (-) TimerEvent: {}
+[27.661330] (-) TimerEvent: {}
+[27.775982] (-) TimerEvent: {}
+[27.876210] (-) TimerEvent: {}
+[27.976400] (-) TimerEvent: {}
+[28.076602] (-) TimerEvent: {}
+[28.176857] (-) TimerEvent: {}
+[28.277121] (-) TimerEvent: {}
+[28.377431] (-) TimerEvent: {}
+[28.477709] (-) TimerEvent: {}
+[28.577968] (-) TimerEvent: {}
+[28.678253] (-) TimerEvent: {}
+[28.778517] (-) TimerEvent: {}
+[28.878764] (-) TimerEvent: {}
+[28.979034] (-) TimerEvent: {}
+[29.079295] (-) TimerEvent: {}
+[29.179473] (-) TimerEvent: {}
+[29.279638] (-) TimerEvent: {}
+[29.379854] (-) TimerEvent: {}
+[29.480126] (-) TimerEvent: {}
+[29.580390] (-) TimerEvent: {}
+[29.680647] (-) TimerEvent: {}
+[29.780874] (-) TimerEvent: {}
+[29.881114] (-) TimerEvent: {}
+[29.981348] (-) TimerEvent: {}
+[30.027247] (lightning_real) CommandEnded: {'returncode': 0}
+[30.047010] (lightning_real) JobEnded: {'identifier': 'lightning_real', 'rc': 0}
+[30.047492] (-) EventReactorShutdown: {}

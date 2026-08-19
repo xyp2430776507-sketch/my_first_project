@@ -1,0 +1,19 @@
+1787025472.1529706 [INFO] [launch]: All log files can be found below /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/log/ros_runtime/2026-08-18-11-57-52-152419-KPLNB151-2
+1787025472.1530526 [INFO] [launch]: Default logging verbosity is set to INFO
+1787025472.3112566 [INFO] [ign gazebo-1]: process started with pid [21]
+1787025472.3113742 [INFO] [parameter_bridge-2]: process started with pid [24]
+1787025472.3114216 [INFO] [static_transform_publisher-3]: process started with pid [26]
+1787025472.3114586 [INFO] [sim_cloud_adapter-4]: process started with pid [28]
+1787025472.3114974 [INFO] [ros2-5]: process started with pid [30]
+1787025474.5093381 [ERROR] [ign gazebo-1]: process has died [pid 21, exit code 1, cmd 'ruby /usr/bin/ign gazebo -r -s /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/worlds/baseline_world.sdf --force-version 6'].
+1787025474.5096560 [INFO] [launch]: process[ign gazebo-1] was required: shutting down launched system
+1787025474.5113239 [INFO] [ros2-5]: sending signal 'SIGINT' to process[ros2-5]
+1787025474.5117998 [INFO] [sim_cloud_adapter-4]: sending signal 'SIGINT' to process[sim_cloud_adapter-4]
+1787025474.5122476 [INFO] [static_transform_publisher-3]: sending signal 'SIGINT' to process[static_transform_publisher-3]
+1787025474.5128047 [INFO] [parameter_bridge-2]: sending signal 'SIGINT' to process[parameter_bridge-2]
+1787025474.6234877 [INFO] [parameter_bridge-2]: process has finished cleanly [pid 24]
+1787025474.6244190 [INFO] [sim_cloud_adapter-4]: process has finished cleanly [pid 28]
+1787025474.6267703 [INFO] [static_transform_publisher-3]: process has finished cleanly [pid 26]
+1787025479.5161250 [ERROR] [ros2-5]: process[ros2-5] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1787025479.5164533 [INFO] [ros2-5]: sending signal 'SIGTERM' to process[ros2-5]
+1787025479.5177863 [ERROR] [ros2-5]: process has died [pid 30, exit code -15, cmd 'ros2 run lightning run_slam_online --config=/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/config/lightning_sim.yaml'].

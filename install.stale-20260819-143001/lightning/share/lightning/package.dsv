@@ -1,0 +1,11 @@
+source;share/lightning/hook/cmake_prefix_path.ps1
+source;share/lightning/hook/cmake_prefix_path.dsv
+source;share/lightning/hook/cmake_prefix_path.sh
+source;share/lightning/hook/ld_library_path_lib.ps1
+source;share/lightning/hook/ld_library_path_lib.dsv
+source;share/lightning/hook/ld_library_path_lib.sh
+source;share/lightning/local_setup.bash
+source;share/lightning/local_setup.dsv
+source;share/lightning/local_setup.ps1
+source;share/lightning/local_setup.sh
+source;share/lightning/local_setup.zsh

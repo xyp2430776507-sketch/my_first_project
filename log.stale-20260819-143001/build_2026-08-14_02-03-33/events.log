@@ -1,0 +1,442 @@
+[0.000000] (-) TimerEvent: {}
+[0.000149] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000364] (lightning) JobQueued: {'identifier': 'lightning', 'dependencies': OrderedDict()}
+[0.000511] (lightning) JobStarted: {'identifier': 'lightning'}
+[0.007261] (lightning) JobProgress: {'identifier': 'lightning', 'progress': 'cmake'}
+[0.008611] (lightning) JobProgress: {'identifier': 'lightning', 'progress': 'build'}
+[0.009456] (lightning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning', '--', '-j28', '-l28'], 'cwd': '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CMAKE_BUILD_PARALLEL_LEVEL', '2'), ('CODEX_CI', '1'), ('LANGUAGE', 'en_US:en'), ('USER', 'kepler'), ('LC_TIME', 'zh_CN.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kepler'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1298'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2288'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1250366'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'kepler'), ('JOURNAL_STREAM', '8:3674'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'kepler'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/kepler/.codex/tmp/arg0/codex-arg0ezg0w1:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kepler/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/KPLNB151:@/tmp/.ICE-unix/2261,unix/KPLNB151:/tmp/.ICE-unix/2261'), ('INVOCATION_ID', '41a0992f09ec4f17bdf6cbbabdc6f9d5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019ffbeb-4675-7a31-8a26-7ced22558d72'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/build/lightning'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.083868] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning__rosidl_generator_c\n'}
+[0.084014] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_c\n'}
+[0.084171] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target miao.utils\n'}
+[0.092067] (lightning) StdoutLine: {'line': b'[  1%] Built target lightning__cpp\n'}
+[0.092333] (lightning) StdoutLine: {'line': b'[  4%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[0.093277] (lightning) StdoutLine: {'line': b'[  5%] Built target livox_interfaces2__cpp\n'}
+[0.093390] (lightning) StdoutLine: {'line': b'[  5%] Built target livox_interfaces2__rs\n'}
+[0.093438] (lightning) StdoutLine: {'line': b'[  6%] Built target lightning__rs\n'}
+[0.094636] (lightning) StdoutLine: {'line': b'[  9%] Built target lightning__rosidl_generator_c\n'}
+[0.095145] (lightning) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_symlink_lightning\n'}
+[0.096021] (lightning) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_symlink_livox_ros_driver2\n'}
+[0.096280] (lightning) StdoutLine: {'line': b'[ 10%] Built target miao.utils\n'}
+[0.099854] (-) TimerEvent: {}
+[0.100132] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target miao.core\n'}
+[0.101561] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_cpp\n'}
+[0.101661] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_cpp\n'}
+[0.101942] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_cpp\n'}
+[0.102331] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[0.103142] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[0.103198] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.103415] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_c\n'}
+[0.104575] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[0.105174] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_c\n'}
+[0.105435] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_c\n'}
+[0.105491] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[0.106941] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_c\n'}
+[0.109696] (lightning) StdoutLine: {'line': b'[ 13%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[0.109838] (lightning) StdoutLine: {'line': b'[ 16%] Built target lightning__rosidl_typesupport_cpp\n'}
+[0.110399] (lightning) StdoutLine: {'line': b'[ 19%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[0.111467] (lightning) StdoutLine: {'line': b'[ 22%] Built target lightning__rosidl_typesupport_introspection_cpp\n'}
+[0.111978] (lightning) StdoutLine: {'line': b'[ 26%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[0.112071] (lightning) StdoutLine: {'line': b'[ 28%] Built target lightning__rosidl_typesupport_fastrtps_cpp\n'}
+[0.112224] (lightning) StdoutLine: {'line': b'[ 35%] Built target miao.core\n'}
+[0.112348] (lightning) StdoutLine: {'line': b'[ 38%] Built target lightning__rosidl_typesupport_introspection_c\n'}
+[0.113015] (lightning) StdoutLine: {'line': b'[ 41%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[0.113233] (lightning) StdoutLine: {'line': b'[ 44%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[0.114058] (lightning) StdoutLine: {'line': b'[ 47%] Built target lightning__rosidl_typesupport_c\n'}
+[0.114470] (lightning) StdoutLine: {'line': b'[ 50%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[0.118597] (lightning) StdoutLine: {'line': b'[ 53%] Built target lightning__rosidl_typesupport_fastrtps_c\n'}
+[0.134225] (lightning) StdoutLine: {'line': b'[ 53%] Built target livox_interfaces2\n'}
+[0.137584] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning.libs\n'}
+[0.137689] (lightning) StdoutLine: {'line': b'[ 53%] Built target lightning\n'}
+[0.154112] (lightning) StdoutLine: {'line': b'[ 53%] Built target livox_interfaces2__py\n'}
+[0.158525] (lightning) StdoutLine: {'line': b'[ 54%] Built target lightning__py\n'}
+[0.158705] (lightning) StdoutLine: {'line': b'[ 55%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/pointcloud_preprocess.cc.o\n'}
+[0.158780] (lightning) StdoutLine: {'line': b'[ 55%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/laser_mapping.cc.o\n'}
+[0.159666] (lightning) StdoutLine: {'line': b'[ 55%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/g2p5/g2p5.cc.o\n'}
+[0.159794] (lightning) StdoutLine: {'line': b'[ 56%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/maps/tiled_map.cc.o\n'}
+[0.159964] (lightning) StdoutLine: {'line': b'[ 57%] Building CXX object src/CMakeFiles/lightning.libs.dir/common/params.cc.o\n'}
+[0.160100] (lightning) StdoutLine: {'line': b'[ 58%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/lio/eskf.cc.o\n'}
+[0.160349] (lightning) StdoutLine: {'line': b'[ 59%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/loop_closing/loop_closing.cc.o\n'}
+[0.166187] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_py\n'}
+[0.171494] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning__rosidl_generator_py\n'}
+[0.171687] (lightning) StdoutLine: {'line': b'[ 59%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization_result.cc.o\n'}
+[0.172612] (lightning) StdoutLine: {'line': b'[ 60%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo_impl.cc.o\n'}
+[0.172797] (lightning) StdoutLine: {'line': b'[ 61%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pose_extrapolator.cc.o\n'}
+[0.172855] (lightning) StdoutLine: {'line': b'[ 63%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/lidar_loc.cc.o\n'}
+[0.172901] (lightning) StdoutLine: {'line': b'[ 63%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/ndt_omp.cpp.o\n'}
+[0.173139] (lightning) StdoutLine: {'line': b'[ 63%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp.o\n'}
+[0.173252] (lightning) StdoutLine: {'line': b'[ 63%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/pangolin_window.cc.o\n'}
+[0.174132] (lightning) StdoutLine: {'line': b'[ 63%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/localization.cpp.o\n'}
+[0.174265] (lightning) StdoutLine: {'line': b'[ 64%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/ui_cloud.cc.o\n'}
+[0.174341] (lightning) StdoutLine: {'line': b'[ 66%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/localization/pose_graph/pgo.cc.o\n'}
+[0.174409] (lightning) StdoutLine: {'line': b'[ 66%] Building CXX object src/CMakeFiles/lightning.libs.dir/utils/pointcloud_utils.cc.o\n'}
+[0.174652] (lightning) StdoutLine: {'line': b'[ 67%] Building CXX object src/CMakeFiles/lightning.libs.dir/ui/pangolin_window_impl.cc.o\n'}
+[0.174717] (lightning) StdoutLine: {'line': b'[ 68%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/slam.cc.o\n'}
+[0.175711] (lightning) StdoutLine: {'line': b'[ 69%] Building CXX object src/CMakeFiles/lightning.libs.dir/core/system/loc_system.cc.o\n'}
+[0.176491] (lightning) StdoutLine: {'line': b'[ 70%] Building CXX object src/CMakeFiles/lightning.libs.dir/wrapper/bag_io.cc.o\n'}
+[0.176966] (lightning) StdoutLine: {'line': b'[ 72%] Built target livox_interfaces2__rosidl_generator_py\n'}
+[0.181302] (lightning) StdoutLine: {'line': b'[ 74%] Built target lightning__rosidl_generator_py\n'}
+[0.188497] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.192169] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[0.192959] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.193048] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.200579] (-) TimerEvent: {}
+[0.204194] (lightning) StdoutLine: {'line': b'[ 75%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.205410] (lightning) StdoutLine: {'line': b'[ 77%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[0.206389] (lightning) StdoutLine: {'line': b'[ 79%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[0.206486] (lightning) StdoutLine: {'line': b'[ 80%] Built target lightning__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.216576] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_introspection_c__pyext\n'}
+[0.216747] (lightning) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target lightning__rosidl_typesupport_c__pyext\n'}
+[0.226527] (lightning) StdoutLine: {'line': b'[ 82%] Built target lightning__rosidl_typesupport_introspection_c__pyext\n'}
+[0.226675] (lightning) StdoutLine: {'line': b'[ 82%] Built target lightning__rosidl_typesupport_c__pyext\n'}
+[0.288032] (lightning) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:507: UserWarning: The version specified ('') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.\n"}
+[0.288205] (lightning) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.288444] (lightning) StdoutLine: {'line': b'running egg_info\n'}
+[0.289368] (lightning) StdoutLine: {'line': b'writing livox_ros_driver2.egg-info/PKG-INFO\n'}
+[0.289558] (lightning) StdoutLine: {'line': b'writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt\n'}
+[0.289694] (lightning) StdoutLine: {'line': b'writing top-level names to livox_ros_driver2.egg-info/top_level.txt\n'}
+[0.292000] (lightning) StdoutLine: {'line': b"reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.292668] (lightning) StdoutLine: {'line': b"writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'\n"}
+[0.300679] (-) TimerEvent: {}
+[0.306180] (lightning) StdoutLine: {'line': b'running egg_info\n'}
+[0.308177] (lightning) StdoutLine: {'line': b'writing lightning.egg-info/PKG-INFO\n'}
+[0.308308] (lightning) StdoutLine: {'line': b'writing dependency_links to lightning.egg-info/dependency_links.txt\n'}
+[0.308391] (lightning) StdoutLine: {'line': b'writing top-level names to lightning.egg-info/top_level.txt\n'}
+[0.309875] (lightning) StdoutLine: {'line': b"reading manifest file 'lightning.egg-info/SOURCES.txt'\n"}
+[0.310752] (lightning) StdoutLine: {'line': b"writing manifest file 'lightning.egg-info/SOURCES.txt'\n"}
+[0.319941] (lightning) StdoutLine: {'line': b'[ 82%] Built target ament_cmake_python_build_livox_ros_driver2_egg\n'}
+[0.336892] (lightning) StdoutLine: {'line': b'[ 82%] Built target ament_cmake_python_build_lightning_egg\n'}
+[0.400783] (-) TimerEvent: {}
+[0.500958] (-) TimerEvent: {}
+[0.601128] (-) TimerEvent: {}
+[0.701287] (-) TimerEvent: {}
+[0.801468] (-) TimerEvent: {}
+[0.901646] (-) TimerEvent: {}
+[1.001813] (-) TimerEvent: {}
+[1.101990] (-) TimerEvent: {}
+[1.202168] (-) TimerEvent: {}
+[1.302358] (-) TimerEvent: {}
+[1.402553] (-) TimerEvent: {}
+[1.502765] (-) TimerEvent: {}
+[1.602963] (-) TimerEvent: {}
+[1.703159] (-) TimerEvent: {}
+[1.803343] (-) TimerEvent: {}
+[1.903555] (-) TimerEvent: {}
+[2.003775] (-) TimerEvent: {}
+[2.103967] (-) TimerEvent: {}
+[2.204309] (-) TimerEvent: {}
+[2.304531] (-) TimerEvent: {}
+[2.404774] (-) TimerEvent: {}
+[2.504996] (-) TimerEvent: {}
+[2.605187] (-) TimerEvent: {}
+[2.705376] (-) TimerEvent: {}
+[2.805567] (-) TimerEvent: {}
+[2.905836] (-) TimerEvent: {}
+[3.006051] (-) TimerEvent: {}
+[3.106259] (-) TimerEvent: {}
+[3.206512] (-) TimerEvent: {}
+[3.306706] (-) TimerEvent: {}
+[3.406900] (-) TimerEvent: {}
+[3.507064] (-) TimerEvent: {}
+[3.607261] (-) TimerEvent: {}
+[3.707456] (-) TimerEvent: {}
+[3.807678] (-) TimerEvent: {}
+[3.809915] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,\n'}
+[3.810098] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,\n'}
+[3.810170] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7,\n'}
+[3.810227] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1:\n'}
+[3.810282] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor \xe2\x80\x98lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\xe2\x80\x99:\n'}
+[3.810355] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: \xe2\x80\x98lightning::miao::OptimizerConfig::is_dense_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[3.810414] (lightning) StderrLine: {'line': b'   44 |     bool is_dense_ = true;\n'}
+[3.810469] (lightning) StderrLine: {'line': b'      |          ^~~~~~~~~\n'}
+[3.810521] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   \xe2\x80\x98lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\xe2\x80\x99 [-Wreorder]\n'}
+[3.810577] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[3.810631] (lightning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~~~~~\n'}
+[3.810685] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]\n'}
+[3.810736] (lightning) StderrLine: {'line': b'   31 |     explicit OptimizerConfig(AlgorithmType algo_type,\n'}
+[3.810797] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~~~~~~~~\n'}
+[3.845540] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,\n'}
+[3.845726] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,\n'}
+[3.845788] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.h:7,\n'}
+[3.845840] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:1:\n'}
+[3.845888] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[3.845940] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.845996] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[3.846049] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[3.905906] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,\n'}
+[3.906131] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,\n'}
+[3.906206] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:1:\n'}
+[3.906276] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor \xe2\x80\x98lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\xe2\x80\x99:\n'}
+[3.906342] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: \xe2\x80\x98lightning::miao::OptimizerConfig::is_dense_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[3.906403] (lightning) StderrLine: {'line': b'   44 |     bool is_dense_ = true;\n'}
+[3.906461] (lightning) StderrLine: {'line': b'      |          ^~~~~~~~~\n'}
+[3.906519] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   \xe2\x80\x98lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\xe2\x80\x99 [-Wreorder]\n'}
+[3.906582] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[3.906646] (lightning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~~~~~\n'}
+[3.906706] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]\n'}
+[3.906771] (lightning) StderrLine: {'line': b'   31 |     explicit OptimizerConfig(AlgorithmType algo_type,\n'}
+[3.906831] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~~~~~~~~\n'}
+[3.907764] (-) TimerEvent: {}
+[3.943233] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,\n'}
+[3.943408] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.h:16,\n'}
+[3.943480] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo_impl.cc:1:\n'}
+[3.943534] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[3.943583] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.943630] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[3.943677] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[4.007886] (-) TimerEvent: {}
+[4.108058] (-) TimerEvent: {}
+[4.208253] (-) TimerEvent: {}
+[4.309359] (-) TimerEvent: {}
+[4.336805] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.h:9,\n'}
+[4.337867] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc:5:\n'}
+[4.337946] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor \xe2\x80\x98lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)\xe2\x80\x99:\n'}
+[4.338026] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: \xe2\x80\x98lightning::Keyframe::state_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[4.338088] (lightning) StderrLine: {'line': b'   74 |     NavState state_;  // \xe5\x8d\xa1\xe5\xb0\x94\xe6\x9b\xbc\xe6\xbb\xa4\xe6\xb3\xa2\xe5\x99\xa8\xe7\x8a\xb6\xe6\x80\x81\n'}
+[4.338145] (lightning) StderrLine: {'line': b'      |              ^~~~~~\n'}
+[4.338200] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   \xe2\x80\x98lightning::SE3 lightning::Keyframe::pose_lio_\xe2\x80\x99 [-Wreorder]\n'}
+[4.338268] (lightning) StderrLine: {'line': b'   71 |     SE3 pose_lio_;  // \xe5\x89\x8d\xe7\xab\xaf\xe7\x9a\x84pose\n'}
+[4.338323] (lightning) StderrLine: {'line': b'      |         ^~~~~~~~~\n'}
+[4.338374] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]\n'}
+[4.338426] (lightning) StderrLine: {'line': b'   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)\n'}
+[4.338484] (lightning) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[4.409463] (-) TimerEvent: {}
+[4.509851] (-) TimerEvent: {}
+[4.610055] (-) TimerEvent: {}
+[4.684243] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc:2:\n'}
+[4.684432] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[4.684494] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[4.684554] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[4.684610] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[4.710167] (-) TimerEvent: {}
+[4.718156] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:8,\n'}
+[4.718344] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5:\n'}
+[4.718406] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor \xe2\x80\x98lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)\xe2\x80\x99:\n'}
+[4.718479] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: \xe2\x80\x98lightning::Keyframe::state_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[4.718536] (lightning) StderrLine: {'line': b'   74 |     NavState state_;  // \xe5\x8d\xa1\xe5\xb0\x94\xe6\x9b\xbc\xe6\xbb\xa4\xe6\xb3\xa2\xe5\x99\xa8\xe7\x8a\xb6\xe6\x80\x81\n'}
+[4.718587] (lightning) StderrLine: {'line': b'      |              ^~~~~~\n'}
+[4.718637] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   \xe2\x80\x98lightning::SE3 lightning::Keyframe::pose_lio_\xe2\x80\x99 [-Wreorder]\n'}
+[4.718698] (lightning) StderrLine: {'line': b'   71 |     SE3 pose_lio_;  // \xe5\x89\x8d\xe7\xab\xaf\xe7\x9a\x84pose\n'}
+[4.718749] (lightning) StderrLine: {'line': b'      |         ^~~~~~~~~\n'}
+[4.718796] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]\n'}
+[4.718845] (lightning) StderrLine: {'line': b'   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)\n'}
+[4.718892] (lightning) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[4.730376] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc: In member function \xe2\x80\x98void lightning::ui::UiCloud::Render()\xe2\x80\x99:\n'}
+[4.730676] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc:56:23: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98std::vector<Eigen::Matrix<float, 3, 1> >::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} [-Wsign-compare]\n'}
+[4.730825] (lightning) StderrLine: {'line': b'   56 |     for (int i = 0; i < xyz_data_.size(); ++i) {\n'}
+[4.730919] (lightning) StderrLine: {'line': b'      |                     ~~^~~~~~~~~~~~~~~~~~\n'}
+[4.731012] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/ui_cloud.cc:66:31: warning: suggest parentheses around assignment used as truth value [-Wparentheses]\n'}
+[4.731102] (lightning) StderrLine: {'line': b'   66 |         } else if (use_color_ = UseColor::CUSTOM_COLOR) {\n'}
+[4.731185] (lightning) StderrLine: {'line': b'      |                    ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[4.746687] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:8,\n'}
+[4.746914] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,\n'}
+[4.746990] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5:\n'}
+[4.747052] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h: In constructor \xe2\x80\x98lightning::miao::OptimizerConfig::OptimizerConfig(lightning::miao::AlgorithmType, lightning::miao::LinearSolverType, bool)\xe2\x80\x99:\n'}
+[4.747108] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:44:10: warning: \xe2\x80\x98lightning::miao::OptimizerConfig::is_dense_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[4.747202] (lightning) StderrLine: {'line': b'   44 |     bool is_dense_ = true;\n'}
+[4.747255] (lightning) StderrLine: {'line': b'      |          ^~~~~~~~~\n'}
+[4.747302] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:39:22: warning:   \xe2\x80\x98lightning::miao::LinearSolverType lightning::miao::OptimizerConfig::linear_solver_type_\xe2\x80\x99 [-Wreorder]\n'}
+[4.747352] (lightning) StderrLine: {'line': b'   39 |     LinearSolverType linear_solver_type_ = LinearSolverType::LINEAR_SOLVER_SPARSE_EIGEN;\n'}
+[4.747404] (lightning) StderrLine: {'line': b'      |                      ^~~~~~~~~~~~~~~~~~~\n'}
+[4.747451] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/common/config.h:31:14: warning:   when initialized here [-Wreorder]\n'}
+[4.747498] (lightning) StderrLine: {'line': b'   31 |     explicit OptimizerConfig(AlgorithmType algo_type,\n'}
+[4.747545] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~~~~~~~~\n'}
+[4.789121] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/optimizer.h:9,\n'}
+[4.789315] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.h:12,\n'}
+[4.789376] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/loop_closing/loop_closing.cc:5:\n'}
+[4.789429] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h: In member function \xe2\x80\x98virtual int lightning::miao::Graph::Optimize(int)\xe2\x80\x99:\n'}
+[4.789476] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/miao/core/graph/graph.h:80:30: warning: unused parameter \xe2\x80\x98interations\xe2\x80\x99 [-Wunused-parameter]\n'}
+[4.789522] (lightning) StderrLine: {'line': b'   80 |     virtual int Optimize(int interations) { return 0; }\n'}
+[4.789569] (lightning) StderrLine: {'line': b'      |                          ~~~~^~~~~~~~~~~\n'}
+[4.810282] (-) TimerEvent: {}
+[4.910548] (-) TimerEvent: {}
+[5.010801] (-) TimerEvent: {}
+[5.111058] (-) TimerEvent: {}
+[5.211287] (-) TimerEvent: {}
+[5.312225] (-) TimerEvent: {}
+[5.412437] (-) TimerEvent: {}
+[5.512647] (-) TimerEvent: {}
+[5.612843] (-) TimerEvent: {}
+[5.726398] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,\n'}
+[5.742559] (-) TimerEvent: {}
+[5.742627] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/eskf.cc:6:\n'}
+[5.743148] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[5.743507] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.743849] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[5.743902] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[5.842685] (-) TimerEvent: {}
+[5.884936] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:5:\n'}
+[5.885098] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[5.885138] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[5.885171] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[5.885201] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[5.942803] (-) TimerEvent: {}
+[5.996880] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.h:16,\n'}
+[5.997073] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window.cc:1:\n'}
+[5.997138] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor \xe2\x80\x98lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)\xe2\x80\x99:\n'}
+[5.997453] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: \xe2\x80\x98lightning::Keyframe::state_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[5.997598] (lightning) StderrLine: {'line': b'   74 |     NavState state_;  // \xe5\x8d\xa1\xe5\xb0\x94\xe6\x9b\xbc\xe6\xbb\xa4\xe6\xb3\xa2\xe5\x99\xa8\xe7\x8a\xb6\xe6\x80\x81\n'}
+[5.997651] (lightning) StderrLine: {'line': b'      |              ^~~~~~\n'}
+[5.997700] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   \xe2\x80\x98lightning::SE3 lightning::Keyframe::pose_lio_\xe2\x80\x99 [-Wreorder]\n'}
+[5.997750] (lightning) StderrLine: {'line': b'   71 |     SE3 pose_lio_;  // \xe5\x89\x8d\xe7\xab\xaf\xe7\x9a\x84pose\n'}
+[5.997798] (lightning) StderrLine: {'line': b'      |         ^~~~~~~~~\n'}
+[5.997846] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]\n'}
+[5.997899] (lightning) StderrLine: {'line': b'   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)\n'}
+[5.997944] (lightning) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[6.012663] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/ui/pangolin_window_impl.cc:7:\n'}
+[6.013274] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[6.013361] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[6.013432] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[6.013499] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[6.042918] (-) TimerEvent: {}
+[6.116748] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,\n'}
+[6.116953] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.h:47,\n'}
+[6.117042] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.cpp:1:\n'}
+[6.117109] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[6.117214] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[6.117279] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[6.117344] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[6.143056] (-) TimerEvent: {}
+[6.243291] (-) TimerEvent: {}
+[6.343516] (-) TimerEvent: {}
+[6.443753] (-) TimerEvent: {}
+[6.504058] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,\n'}
+[6.504323] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.h:25,\n'}
+[6.504403] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/wrapper/bag_io.cc:5:\n'}
+[6.504473] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[6.504542] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[6.504609] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[6.504673] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[6.547347] (-) TimerEvent: {}
+[6.649737] (-) TimerEvent: {}
+[6.821192] (-) TimerEvent: {}
+[7.878364] (-) TimerEvent: {}
+[9.061049] (-) TimerEvent: {}
+[10.696848] (-) TimerEvent: {}
+[12.456085] (-) TimerEvent: {}
+[14.064889] (-) TimerEvent: {}
+[15.909854] (-) TimerEvent: {}
+[17.730785] (-) TimerEvent: {}
+[18.078102] (-) TimerEvent: {}
+[23.119101] (-) TimerEvent: {}
+[36.623022] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc: In member function \xe2\x80\x98void lightning::g2p5::G2P5::RenderBack()\xe2\x80\x99:\n'}
+[40.957211] (-) TimerEvent: {}
+[40.963114] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/g2p5/g2p5.cc:128:25: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98long unsigned int\xe2\x80\x99 [-Wsign-compare]\n'}
+[40.973133] (lightning) StderrLine: {'line': b'  128 |             if (cur_idx == frontend_kf->GetID()) {\n'}
+[40.979793] (lightning) StderrLine: {'line': b'      |                 ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[40.993098] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pgo.cc:8:\n'}
+[40.993414] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[40.993484] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[40.993539] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[40.993592] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[41.057307] (-) TimerEvent: {}
+[41.091605] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/eskf.cc: In member function \xe2\x80\x98void lightning::ESKF::Predict(const double&, const ProcessNoiseType&, const Vec3d&, const Vec3d&)\xe2\x80\x99:\n'}
+[41.091875] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/eskf.cc:45:14: warning: variable \xe2\x80\x98x_before\xe2\x80\x99 set but not used [-Wunused-but-set-variable]\n'}
+[41.091938] (lightning) StderrLine: {'line': b'   45 |     NavState x_before = x_;\n'}
+[41.091994] (lightning) StderrLine: {'line': b'      |              ^~~~~~~~\n'}
+[41.094352] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,\n'}
+[41.094541] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/params.cc:6:\n'}
+[41.094600] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[41.094658] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[41.094712] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[41.094763] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[41.157410] (-) TimerEvent: {}
+[41.257600] (-) TimerEvent: {}
+[41.274379] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,\n'}
+[41.274572] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/voxel_grid_covariance_omp.h:47,\n'}
+[41.274632] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.h:47,\n'}
+[41.274672] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/lidar_loc/pclomp/ndt_omp.cpp:1:\n'}
+[41.274709] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[41.274745] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[41.274787] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[41.274833] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[41.361495] (-) TimerEvent: {}
+[41.463863] (-) TimerEvent: {}
+[41.567991] (-) TimerEvent: {}
+[41.647037] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,\n'}
+[41.648379] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/localization_result.cc:6:\n'}
+[41.648500] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[41.648562] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[41.648629] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[41.648680] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[41.667385] (-) TimerEvent: {}
+[41.685306] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.h:11,\n'}
+[41.685673] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/laser_mapping.cc:7:\n'}
+[41.685752] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor \xe2\x80\x98lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)\xe2\x80\x99:\n'}
+[41.685808] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: \xe2\x80\x98lightning::Keyframe::state_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[41.685860] (lightning) StderrLine: {'line': b'   74 |     NavState state_;  // \xe5\x8d\xa1\xe5\xb0\x94\xe6\x9b\xbc\xe6\xbb\xa4\xe6\xb3\xa2\xe5\x99\xa8\xe7\x8a\xb6\xe6\x80\x81\n'}
+[41.685919] (lightning) StderrLine: {'line': b'      |              ^~~~~~\n'}
+[41.685967] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   \xe2\x80\x98lightning::SE3 lightning::Keyframe::pose_lio_\xe2\x80\x99 [-Wreorder]\n'}
+[41.686026] (lightning) StderrLine: {'line': b'   71 |     SE3 pose_lio_;  // \xe5\x89\x8d\xe7\xab\xaf\xe7\x9a\x84pose\n'}
+[41.686077] (lightning) StderrLine: {'line': b'      |         ^~~~~~~~~\n'}
+[41.686124] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]\n'}
+[41.686171] (lightning) StderrLine: {'line': b'   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)\n'}
+[41.686220] (lightning) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[41.767490] (-) TimerEvent: {}
+[41.780538] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,\n'}
+[41.780728] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/localization/pose_graph/pose_extrapolator.cc:2:\n'}
+[41.780790] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[41.780858] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[41.780907] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[41.780956] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[41.841026] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function \xe2\x80\x98void lightning::PointCloudPreprocess::Process(const SharedPtr&, pcl::PointCloud<PointXYZIT>::Ptr&)\xe2\x80\x99:\n'}
+[41.842089] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:47:24: warning: comparison of integer expressions of different signedness: \xe2\x80\x98uint\xe2\x80\x99 {aka \xe2\x80\x98unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[41.842153] (lightning) StderrLine: {'line': b'   47 |     for (uint i = 0; i < plsize - 1; ++i) {\n'}
+[41.842204] (lightning) StderrLine: {'line': b'      |                      ~~^~~~~~~~~~~~\n'}
+[41.842253] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In lambda function:\n'}
+[41.842304] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:72:67: warning: suggest parentheses around \xe2\x80\x98&&\xe2\x80\x99 within \xe2\x80\x98||\xe2\x80\x99 [-Wparentheses]\n'}
+[41.842353] (lightning) StderrLine: {'line': b'   72 |             (abs(cloud_full_[i].z - cloud_full_[i - 1].z) > 1e-7) &&\n'}
+[41.842403] (lightning) StderrLine: {'line': b'      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\n'}
+[41.842461] (lightning) StderrLine: {'line': b'   73 |                 (cloud_full_[i].x * cloud_full_[i].x + cloud_full_[i].y * cloud_full_[i].y +\n'}
+[41.842508] (lightning) StderrLine: {'line': b'      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[41.842555] (lightning) StderrLine: {'line': b'   74 |                      cloud_full_[i].z * cloud_full_[i].z >\n'}
+[41.842609] (lightning) StderrLine: {'line': b'      |                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         \n'}
+[41.842659] (lightning) StderrLine: {'line': b'   75 |                  (blind_ * blind_))) {\n'}
+[41.842707] (lightning) StderrLine: {'line': b'      |                  ~~~~~~~~~~~~~~~~~~                                \n'}
+[41.842754] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function \xe2\x80\x98void lightning::PointCloudPreprocess::Process(const SharedPtr&, pcl::PointCloud<PointXYZIT>::Ptr&)\xe2\x80\x99:\n'}
+[41.842803] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:82:24: warning: comparison of integer expressions of different signedness: \xe2\x80\x98uint\xe2\x80\x99 {aka \xe2\x80\x98unsigned int\xe2\x80\x99} and \xe2\x80\x98int\xe2\x80\x99 [-Wsign-compare]\n'}
+[41.842854] (lightning) StderrLine: {'line': b'   82 |     for (uint i = 1; i < plsize; i++) {\n'}
+[41.842906] (lightning) StderrLine: {'line': b'      |                      ~~^~~~~~~~\n'}
+[41.851509] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function \xe2\x80\x98void lightning::PointCloudPreprocess::Oust64Handler(const SharedPtr&)\xe2\x80\x99:\n'}
+[41.851702] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:103:23: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98std::vector<ouster_ros::Point, Eigen::aligned_allocator<ouster_ros::Point> >::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} [-Wsign-compare]\n'}
+[41.851773] (lightning) StderrLine: {'line': b'  103 |     for (int i = 0; i < pl_orig.points.size(); i++) {\n'}
+[41.851824] (lightning) StderrLine: {'line': b'      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[41.867596] (-) TimerEvent: {}
+[41.872971] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function \xe2\x80\x98void lightning::PointCloudPreprocess::RoboSenseHandler(const SharedPtr&)\xe2\x80\x99:\n'}
+[41.873155] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:148:23: warning: comparison of integer expressions of different signedness: \xe2\x80\x98int\xe2\x80\x99 and \xe2\x80\x98std::vector<PointRobotSense, Eigen::aligned_allocator<PointRobotSense> >::size_type\xe2\x80\x99 {aka \xe2\x80\x98long unsigned int\xe2\x80\x99} [-Wsign-compare]\n'}
+[41.873224] (lightning) StderrLine: {'line': b'  148 |     for (int i = 0; i < pl_orig.points.size(); i++) {\n'}
+[41.873277] (lightning) StderrLine: {'line': b'      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~\n'}
+[41.882157] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc: In member function \xe2\x80\x98void lightning::PointCloudPreprocess::VelodyneHandler(const SharedPtr&)\xe2\x80\x99:\n'}
+[41.882428] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lio/pointcloud_preprocess.cc:202:16: warning: variable \xe2\x80\x98yaw_end\xe2\x80\x99 set but not used [-Wunused-but-set-variable]\n'}
+[41.882525] (lightning) StderrLine: {'line': b'  202 |         double yaw_end = yaw_first;\n'}
+[41.882595] (lightning) StderrLine: {'line': b'      |                ^~~~~~~\n'}
+[41.960620] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/lightning_math.hpp:22,\n'}
+[41.960930] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.h:16,\n'}
+[41.961010] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/maps/tiled_map.cc:5:\n'}
+[41.961077] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h: In function \xe2\x80\x98void lightning::debug::SigHandle(int)\xe2\x80\x99:\n'}
+[41.961140] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/options.h:27:27: warning: unused parameter \xe2\x80\x98sig\xe2\x80\x99 [-Wunused-parameter]\n'}
+[41.961201] (lightning) StderrLine: {'line': b'   27 | inline void SigHandle(int sig) {\n'}
+[41.961261] (lightning) StderrLine: {'line': b'      |                       ~~~~^~~\n'}
+[41.967943] (-) TimerEvent: {}
+[42.071923] (-) TimerEvent: {}
+[42.075379] (lightning) StderrLine: {'line': b'In file included from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.h:18,\n'}
+[42.076929] (lightning) StderrLine: {'line': b'                 from /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/core/system/slam.cc:5:\n'}
+[42.077049] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h: In constructor \xe2\x80\x98lightning::Keyframe::Keyframe(long unsigned int, lightning::CloudPtr, lightning::NavState)\xe2\x80\x99:\n'}
+[42.077096] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:74:14: warning: \xe2\x80\x98lightning::Keyframe::state_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[42.077129] (lightning) StderrLine: {'line': b'   74 |     NavState state_;  // \xe5\x8d\xa1\xe5\xb0\x94\xe6\x9b\xbc\xe6\xbb\xa4\xe6\xb3\xa2\xe5\x99\xa8\xe7\x8a\xb6\xe6\x80\x81\n'}
+[42.077159] (lightning) StderrLine: {'line': b'      |              ^~~~~~\n'}
+[42.077187] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:71:9: warning:   \xe2\x80\x98lightning::SE3 lightning::Keyframe::pose_lio_\xe2\x80\x99 [-Wreorder]\n'}
+[42.077216] (lightning) StderrLine: {'line': b'   71 |     SE3 pose_lio_;  // \xe5\x89\x8d\xe7\xab\xaf\xe7\x9a\x84pose\n'}
+[42.077245] (lightning) StderrLine: {'line': b'      |         ^~~~~~~~~\n'}
+[42.077281] (lightning) StderrLine: {'line': b'/home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/src/lightning-lm/src/common/keyframe.h:22:5: warning:   when initialized here [-Wreorder]\n'}
+[42.077328] (lightning) StderrLine: {'line': b'   22 |     Keyframe(unsigned long id, CloudPtr cloud, NavState state)\n'}
+[42.077369] (lightning) StderrLine: {'line': b'      |     ^~~~~~~~\n'}
+[42.182861] (-) TimerEvent: {}
+[42.387892] (-) TimerEvent: {}
+[44.719731] (-) TimerEvent: {}
+[47.069160] (-) TimerEvent: {}
+[53.389425] (-) TimerEvent: {}
+[59.343361] (-) TimerEvent: {}
+[61.537030] (-) TimerEvent: {}
+[63.118492] (-) TimerEvent: {}
+[67.193776] (-) TimerEvent: {}
+[69.746241] (-) TimerEvent: {}

@@ -1,0 +1,1 @@
+/home/kepler/lightning_lm_ws/build/livox_ros_driver2/rosidl_generator_rs/livox_ros_driver2/rust/src/lib.rs

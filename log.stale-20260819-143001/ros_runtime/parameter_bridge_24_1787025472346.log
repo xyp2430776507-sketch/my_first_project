@@ -1,0 +1,5 @@
+[INFO] [1787025472.357406495] [lightning_sim_bridge]: Creating ROS->GZ Bridge: [/cmd_vel (geometry_msgs/msg/Twist) -> /cmd_vel (ignition.msgs.Twist)] (Lazy 0)
+[INFO] [1787025472.358543751] [lightning_sim_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[INFO] [1787025472.359285405] [lightning_sim_bridge]: Creating GZ->ROS Bridge: [/imu (ignition.msgs.IMU) -> /imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[INFO] [1787025472.360241008] [lightning_sim_bridge]: Creating GZ->ROS Bridge: [/livox/lidar/points (ignition.msgs.PointCloudPacked) -> /livox/lidar/points (sensor_msgs/msg/PointCloud2)] (Lazy 0)
+[INFO] [1787025474.512955452] [rclcpp]: signal_handler(SIGINT/SIGTERM)

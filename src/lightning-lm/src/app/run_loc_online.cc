@@ -17,6 +17,7 @@ int main(int argc, char** argv) {
     FLAGS_colorlogtostderr = true;
     FLAGS_stderrthreshold = google::INFO;
 
+    google::AllowCommandLineReparsing();
     google::ParseCommandLineFlags(&argc, &argv, true);
     using namespace lightning;
 

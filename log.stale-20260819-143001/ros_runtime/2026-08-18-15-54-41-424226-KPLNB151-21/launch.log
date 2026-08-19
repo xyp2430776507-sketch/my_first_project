@@ -1,0 +1,13 @@
+1787039681.4290137 [INFO] [launch]: All log files can be found below /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/log/ros_runtime/2026-08-18-15-54-41-424226-KPLNB151-21
+1787039681.4292283 [INFO] [launch]: Default logging verbosity is set to INFO
+1787039681.8060968 [INFO] [ign gazebo-1]: process started with pid [22]
+1787039681.8063753 [INFO] [parameter_bridge-2]: process started with pid [24]
+1787039681.8064926 [INFO] [static_transform_publisher-3]: process started with pid [27]
+1787039681.8065808 [INFO] [sim_cloud_adapter-4]: process started with pid [29]
+1787039682.0246987 [ERROR] [parameter_bridge-2]: process has died [pid 24, exit code 255, cmd '/opt/ros/humble/lib/ros_gz_bridge/parameter_bridge /model/lightning_cart/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist /clock@rosgraph_msgs/msg/Clock[ignition.msgs.Clock /imu@sensor_msgs/msg/Imu[ignition.msgs.IMU /livox/lidar/points@sensor_msgs/msg/PointCloud2[ignition.msgs.PointCloudPacked --ros-args -r __node:=lightning_sim_bridge -r /model/lightning_cart/cmd_vel:=/cmd_vel -r /livox/lidar/points:=/livox/lidar'].
+1787039682.0740247 [ERROR] [ign gazebo-1]: process has died [pid 22, exit code 255, cmd 'ruby /usr/bin/ign gazebo -r -s --headless-rendering /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/install/lightning_sim/share/lightning_sim/worlds/baseline_world.sdf --force-version 6'].
+1787039682.0743682 [INFO] [launch]: process[ign gazebo-1] was required: shutting down launched system
+1787039682.0765808 [INFO] [sim_cloud_adapter-4]: sending signal 'SIGINT' to process[sim_cloud_adapter-4]
+1787039682.0773442 [INFO] [static_transform_publisher-3]: sending signal 'SIGINT' to process[static_transform_publisher-3]
+1787039682.1842291 [INFO] [sim_cloud_adapter-4]: process has finished cleanly [pid 29]
+1787039682.1866593 [INFO] [static_transform_publisher-3]: process has finished cleanly [pid 27]

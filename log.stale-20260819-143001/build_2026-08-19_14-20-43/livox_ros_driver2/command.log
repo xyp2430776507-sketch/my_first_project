@@ -1,0 +1,2 @@
+Invoking command in '/home/kepler/lightning_lm_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kepler/lightning_lm_ws/build/livox_ros_driver2 -- -j28 -l28
+Invoked command in '/home/kepler/lightning_lm_ws/build/livox_ros_driver2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kepler/lightning_lm_ws/build/livox_ros_driver2 -- -j28 -l28

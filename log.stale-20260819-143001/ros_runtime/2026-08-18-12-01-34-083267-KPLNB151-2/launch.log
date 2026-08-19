@@ -1,0 +1,7 @@
+1787025694.0838928 [INFO] [launch]: All log files can be found below /home/kepler/Documents/Codex/2026-08-14/microsoft-visual-studio-code-stable-vs/outputs/lightning_lm_ws/log/ros_runtime/2026-08-18-12-01-34-083267-KPLNB151-2
+1787025694.0839856 [INFO] [launch]: Default logging verbosity is set to INFO
+1787025694.2422786 [INFO] [ign gazebo-1]: process started with pid [21]
+1787025694.2423954 [INFO] [parameter_bridge-2]: process started with pid [23]
+1787025694.2424412 [INFO] [static_transform_publisher-3]: process started with pid [26]
+1787025694.2424767 [INFO] [sim_cloud_adapter-4]: process started with pid [28]
+1787025694.2425122 [INFO] [ros2-5]: process started with pid [30]
