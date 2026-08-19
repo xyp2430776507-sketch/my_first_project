@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "name": "lightning-lm",
+      "path": "src/lightning-lm"
+    },
+    {
+      "name": "livox_ros_driver2",
+      "path": "src/livox_ros_driver2"
+    }
+  ],
+  "settings": {
+    "cmake.configureOnOpen": false,
+    "terminal.integrated.cwd": "${workspaceFolder:lightning-lm}/../.."
+  }
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<sdf version="1.8">
+  <world name="lightning_baseline">
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <plugin filename="libignition-gazebo-physics-system.so"
+            name="ignition::gazebo::systems::Physics"/>
+    <plugin filename="libignition-gazebo-user-commands-system.so"
+            name="ignition::gazebo::systems::UserCommands"/>
+    <plugin filename="libignition-gazebo-scene-broadcaster-system.so"
+            name="ignition::gazebo::systems::SceneBroadcaster"/>
+    <plugin filename="libignition-gazebo-imu-system.so"
+            name="ignition::gazebo::systems::Imu"/>
+    <plugin filename="libignition-gazebo-sensors-system.so"
+            name="ignition::gazebo::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+
+    <light type="directional" name="sun">
+      <pose>0 0 12 0 0 0</pose>
+      <cast_shadows>true</cast_shadows>
+      <diffuse>0.85 0.85 0.85 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.2 -0.9</direction>
+    </light>
+
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="ground_link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal><size>40 34</size></plane></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>40 34</size></plane></geometry>
+          <material>
+            <ambient>0.55 0.57 0.60 1</ambient>
+            <diffuse>0.62 0.64 0.67 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Four perimeter walls leave a 24 m x 18 m driving area. -->
+    <model name="wall_north"><static>true</static><pose>0 9 1.25 0 0 0</pose><link name="link">
+      <collision name="collision"><geometry><box><size>24.5 0.3 2.5</size></box></geometry></collision>
+      <visual name="visual"><geometry><box><size>24.5 0.3 2.5</size></box></geometry><material><diffuse>0.78 0.78 0.74 1</diffuse></material></visual>
+    </link></model>
+    <model name="wall_south"><static>true</static><pose>0 -9 1.25 0 0 0</pose><link name="link">
+      <collision name="collision"><geometry><box><size>24.5 0.3 2.5</size></box></geometry></collision>
+      <visual name="visual"><geometry><box><size>24.5 0.3 2.5</size></box></geometry><material><diffuse>0.78 0.78 0.74 1</diffuse></material></visual>
+    </link></model>
+    <model name="wall_east"><static>true</static><pose>12 0 1.25 0 0 0</pose><link name="link">
+      <collision name="collision"><geometry><box><size>0.3 18.5 2.5</size></box></geometry></collision>
+      <visual name="visual"><geometry><box><size>0.3 18.5 2.5</size></box></geometry><material><diffuse>0.72 0.76 0.80 1</diffuse></material></visual>
+    </link></model>
+    <model name="wall_west"><static>true</static><pose>-12 0 1.25 0 0 0</pose><link name="link">
+      <collision name="collision"><geometry><box><size>0.3 18.5 2.5</size></box></geometry></collision>
+      <visual name="visual"><geometry><box><size>0.3 18.5 2.5</size></box></geometry><material><diffuse>0.72 0.76 0.80 1</diffuse></material></visual>
+    </link></model>
+
+    <!-- Asymmetric internal geometry provides useful LiDAR constraints. -->
+    <model name="inner_wall_a"><static>true</static><pose>-4.5 2.5 1.0 0 0 0</pose><link name="link">
+      <collision name="collision"><geometry><box><size>5.5 0.3 2.0</size></box></geometry></collision>
+      <visual name="visual"><geometry><box><size>5.5 0.3 2.0</size></box></geometry><material><diffuse>0.30 0.52 0.72 1</diffuse></material></visual>
+    </link></model>
+    <model name="inner_wall_b"><static>true</static><pose>4.0 -2.0 0.9 0 0 1.5708</pose><link name="link">
+      <collision name="collision"><geometry><box><size>5.0 0.3 1.8</size></box></geometry></collision>
+      <visual name="visual"><geometry><box><size>5.0 0.3 1.8</size></box></geometry><material><diffuse>0.72 0.42 0.26 1</diffuse></material></visual>
+    </link></model>
+
+    <model name="pillar_round"><static>true</static><pose>7 5 1.25 0 0 0</pose><link name="link">
+      <collision name="collision"><geometry><cylinder><radius>0.65</radius><length>2.5</length></cylinder></geometry></collision>
+      <visual name="visual"><geometry><cylinder><radius>0.65</radius><length>2.5</length></cylinder></geometry><material><diffuse>0.80 0.62 0.18 1</diffuse></material></visual>
+    </link></model>
+    <model name="pillar_square"><static>true</static><pose>-7 -4.5 1.0 0 0 0</pose><link name="link">
+      <collision name="collision"><geometry><box><size>1.1 1.1 2.0</size></box></geometry></collision>
+      <visual name="visual"><geometry><box><size>1.1 1.1 2.0</size></box></geometry><material><diffuse>0.30 0.65 0.42 1</diffuse></material></visual>
+    </link></model>
+    <model name="low_box"><static>true</static><pose>7 -5.5 0.4 0 0 0.35</pose><link name="link">
+      <collision name="collision"><geometry><box><size>2.0 1.2 0.8</size></box></geometry></collision>
+      <visual name="visual"><geometry><box><size>2.0 1.2 0.8</size></box></geometry><material><diffuse>0.55 0.30 0.62 1</diffuse></material></visual>
+    </link></model>
+    <model name="tall_box"><static>true</static><pose>-8 5.5 1.5 0 0 -0.2</pose><link name="link">
+      <collision name="collision"><geometry><box><size>1.4 1.8 3.0</size></box></geometry></collision>
+      <visual name="visual"><geometry><box><size>1.4 1.8 3.0</size></box></geometry><material><diffuse>0.62 0.28 0.24 1</diffuse></material></visual>
+    </link></model>
+
+    <include>
+      <uri>model://lightning_cart</uri>
+      <name>lightning_cart</name>
+      <pose>0 -6.5 0 0 0 0</pose>
+    </include>
+  </world>
+</sdf>

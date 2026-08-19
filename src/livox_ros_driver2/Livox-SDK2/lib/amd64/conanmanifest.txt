@@ -1,0 +1,7 @@
+1784708842
+conaninfo.txt: 789976e52cdda2846d10109f1ffc1f89
+include/livox_lidar_api.h: 968268a0ab6460fd7562e9fb5c87c718
+include/livox_lidar_cfg.h: ca2e98882ee40cb63326d95c08c0f6b3
+include/livox_lidar_def.h: 6ee5c28319491ff99c217a3e96d5351e
+lib/liblivox_lidar_sdk_shared.so: f0665d56ee44e0bc24b2ff02776388b5
+licenses/LICENSE.txt: 433d1f618cfa59e85ac2a2e9f1af3969

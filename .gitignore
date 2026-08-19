@@ -1,0 +1,57 @@
+# ROS2 / colcon
+build/
+install/
+log/
+bags/
+runs/
+work/
+review_materials/extracted_media/
+test_results/
+compile_commands.json
+COLCON_IGNORE
+*.db3
+*.pcd
+*.zip
+build*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# CMake / build artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+*.cmake
+*.ninja
+Makefile
+
+# VS Code / editor temp
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Generated TF graphs / helper files
+frames_*.gv
+frames_*.pdf
+build-lightning.pid
+
+# Large media / reference files
+src/lightning-lm/doc/*.gif
+review_materials/*.pptx
+
+# Keep main VS Code workspace
+!lightning_lm_ws.code-workspace
