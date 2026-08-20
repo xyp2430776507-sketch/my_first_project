@@ -85,6 +85,22 @@ Full-bag TF recording confirmed:
 
 `tf2_echo lightning_map odom` and `tf2_echo map base_link` both produced continuous transforms during replay.
 
+Integrated launch validation also passed using:
+
+```bash
+ros2 launch xyp_mid360_navigation lightning_localization_tf.launch.py
+```
+
+Recorded result:
+
+```text
+/lightning_tf map->base_link count: 45088
+/tf lightning_map->odom count:     45088
+/tf odom->base_link count:          7534
+/tf_static map->lightning_map:      1
+final chain z_range span:           ~0.134 m
+```
+
 ## Remaining Work
 
-The static `map -> lightning_map` transform is validated but still needs to be integrated into a permanent launch file.
+No remaining work for this TF conflict. Phase 4 Nav2 map and navigation integration is separate.

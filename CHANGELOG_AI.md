@@ -26,6 +26,14 @@
   - Purpose: validate horizontal `map -> lightning_map` frame from the fitted ground normal.
   - Result: quaternion `qx=0.008708, qy=0.042288, qz=0.0, qw=0.999068` reduced `map -> base_link` z range from about `1.215 m` to about `0.145 m`; Phase 3D passed.
 
+- Files: `src/xyp_mid360_navigation/launch/lightning_localization_tf.launch.py`, `src/xyp_mid360_navigation/package.xml`
+  - Purpose: make the verified localization TF chain available from one launch entry.
+  - Result: `ros2 launch xyp_mid360_navigation lightning_localization_tf.launch.py` now starts Lightning localization with `/tf` remapped to `/lightning_tf`, the `lightning_map_to_odom_tf.py` wrapper, and the fixed `map -> lightning_map` static TF; the launch sets Lightning's working directory through `map_run_dir` so the relative `./data/new_map/` config resolves to the verified real map. Python syntax check, `colcon build --packages-select xyp_mid360_navigation`, default map-file existence check, and `ros2 launch ... --show-args` passed. Full bag replay through this launch also passed: `/lightning_tf map->base_link` and `/tf lightning_map->odom` both had `45088` samples, `/tf odom->base_link` had `7534` samples, `/tf_static map->lightning_map` had `1` sample, and final-chain z span was about `0.134 m`.
+
+- Files: `src/xyp_mid360_navigation/scripts/lightning_map_to_odom_tf.py`
+  - Purpose: avoid noisy traceback during normal launch shutdown.
+  - Result: wrapper now handles `ExternalShutdownException` and repeated shutdown calls; short launch shutdown smoke no longer produced wrapper traceback.
+
 - Files: `README.md`, `ARCHITECTURE.md`, `CURRENT_STATUS.md`, `CHANGELOG_AI.md`, `docs/decisions.md`, `docs/daily/2026-08-20.md`, `docs/guides/lightning_tf_integration.md`, `docs/problems/phase3_tf_conflict.md`
   - Purpose: document Phase 1 through Phase 3D validation and record Phase 4 as the next planned stage.
   - Result: handoff documentation now records the validated TF architecture, horizontalization decision, known remaining issues, and next steps without marking Nav2 as complete.

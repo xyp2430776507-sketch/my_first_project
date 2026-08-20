@@ -26,6 +26,24 @@ odom -> base_link
 
 Use the same `ROS_DOMAIN_ID` in every terminal involved in the test.
 
+For normal integrated localization startup, use:
+
+```bash
+cd /home/kepler/lightning_lm_ws
+source install/setup.bash
+export ROS_DOMAIN_ID=0
+
+ros2 launch xyp_mid360_navigation lightning_localization_tf.launch.py
+```
+
+The launch starts Lightning localization, the TF wrapper, and the fixed horizontal `map -> lightning_map` static TF together. The default `map_run_dir` points to:
+
+```text
+/home/kepler/lightning_lm_ws/runs/real_mid360/offline-mid360-loop-20260814-180225-20260819-122805
+```
+
+The commands below are the manual equivalent and are useful for debugging.
+
 ```bash
 cd /home/kepler/lightning_lm_ws/runs/real_mid360/offline-mid360-loop-20260814-180225-20260819-122805
 source /home/kepler/lightning_lm_ws/install/setup.bash

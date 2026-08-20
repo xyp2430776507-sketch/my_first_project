@@ -133,14 +133,36 @@ samples:                  44707
 
 The positive quaternion direction is confirmed. The inverse direction made z drift worse.
 
+## Phase 3E: Integrated Localization TF Launch
+
+Status: PASSED
+
+- Added launch entry: `ros2 launch xyp_mid360_navigation lightning_localization_tf.launch.py`
+- Default `map_run_dir`: `/home/kepler/lightning_lm_ws/runs/real_mid360/offline-mid360-loop-20260814-180225-20260819-122805`
+- The launch runs Lightning from `map_run_dir` so the existing relative config value `system.map_path: ./data/new_map/` resolves to the verified map.
+- The launch starts:
+  - Lightning online localization with `/tf` remapped to `/lightning_tf`
+  - `lightning_map_to_odom_tf.py`
+  - fixed `map -> lightning_map` static TF
+- `xyp_mid360_navigation` rebuild passed.
+- `ros2 launch xyp_mid360_navigation lightning_localization_tf.launch.py --show-args` passed with workspace-local `ROS_HOME` / `ROS_LOG_DIR`.
+- Full bag replay through the integrated launch passed with recorded TF topics:
+
+```text
+/lightning_tf map->base_link count: 45088
+/tf lightning_map->odom count:     45088
+/tf odom->base_link count:          7534
+/tf_static map->lightning_map:      1
+```
+
+- Recorded final chain `map -> lightning_map -> odom -> base_link` kept `map -> base_link` z_range at about `0.134 m` with `z_std` about `0.0289 m`.
+
 ## Current Issues
 
-- The `map -> lightning_map` static TF is verified but not yet integrated into a permanent launch file.
 - Nav2 integration has not started; Phase 4 is still next.
 - Current real run did not produce a Nav2-ready 2D/2.5D map because `system.with_g2p5` remains disabled.
 
 ## Next Steps
 
-1. Add a dedicated launch entry that starts Lightning localization, `lightning_map_to_odom_tf.py`, and the fixed `map -> lightning_map` static TF together.
-2. Re-run the same bag replay through the integrated launch and confirm the full horizontal TF chain.
-3. Begin Phase 4: generate/choose the 2D or 2.5D navigation map and connect Nav2 without real robot motion first.
+1. Begin Phase 4: generate/choose the 2D or 2.5D navigation map and connect Nav2 without real robot motion first.
+2. Keep old generated directories `build.stale-*`, `install.stale-*`, and `log.stale-*` until the system has stayed stable.
