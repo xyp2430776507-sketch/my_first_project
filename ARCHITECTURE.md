@@ -97,6 +97,104 @@ Real offline mapping:
 
 - `src/lightning_real/scripts/run_offline_slam.sh` selects a Mid-360 bag, runs `src/lightning-lm/bin/run_slam_offline`, and writes a timestamped directory under `runs/real_mid360/`.
 
+## Validated Localization Architecture
+
+Lightning-LM remains responsible for 3D SLAM and map-based localization. Nav2 is not planned to use AMCL as the primary global localization source.
+
+Validated TF structure after Phase 3D:
+
+```text
+map
+  -> lightning_map
+      -> odom
+          -> base_link
+              -> livox_frame
+```
+
+Frame semantics:
+
+- `map`: horizontal world frame for Nav2, navigation map, global planning, and RViz navigation visualization.
+- `lightning_map`: Lightning-LM native 3D map frame. It preserves the original tilted map coordinates caused by the MID360 mechanical mounting and Lightning initialization behavior.
+- `odom`: local continuous chassis odometry frame.
+- `base_link`: chassis body frame.
+- `livox_frame`: MID360 sensor frame; later real-robot TF should reflect the physical sensor mounting angle.
+
+## Lightning TF Isolation
+
+Lightning native online localization publishes:
+
+```text
+map -> base_link
+```
+
+The chassis or recorded bag publishes:
+
+```text
+odom -> base_link
+```
+
+Publishing both directly into `/tf` gives `base_link` two parents. The validated architecture isolates Lightning output by remapping its TF to:
+
+```text
+/lightning_tf
+```
+
+The transform inside `/lightning_tf` stays:
+
+```text
+map -> base_link
+```
+
+It is used only as wrapper input. The wrapper computes:
+
+```text
+T_lightning_map_odom = T_lightning_map_base * inverse(T_odom_base)
+```
+
+and publishes:
+
+```text
+lightning_map -> odom
+```
+
+This produces the standard localization chain without modifying the Lightning localization algorithm.
+
+## Horizontalization
+
+The real MID360 is mounted about 5 degrees relative to the level chassis. Ground fitting on the generated 3D map measured:
+
+```text
+normal ~= [-0.0845, 0.0174, 0.9963]
+tilt ~= 4.95 deg
+```
+
+The selected approach does not modify:
+
+```text
+LiDAR-IMU extrinsic_R
+Lightning-LM IMU initialization
+Lightning-LM internal map
+stored 3D map files
+```
+
+Instead, it adds an external fixed transform:
+
+```text
+map -> lightning_map
+```
+
+Validated quaternion:
+
+```text
+qx=0.008708, qy=0.042288, qz=0.0, qw=0.999068
+```
+
+Offline validation reduced `map -> base_link` z variation:
+
+```text
+1.215 m -> 0.145 m
+```
+
 ## Navigation Link
 
 Costmap inspection:
@@ -124,3 +222,24 @@ Waypoint helper:
 - Uses actions `/compute_path_to_pose` and `/follow_path`.
 - Default frame is `odom`.
 
+## Planned Nav2 Link
+
+Phase 4 has not been validated yet. Planned architecture:
+
+```text
+MID360 3D point cloud
+        |
+        +-> Lightning-LM -> global localization
+        |
+        +-> PointCloud2 -> Nav2 obstacle/voxel costmap
+
+3D map -> 2D/2.5D traversability map -> Nav2 global planner
+```
+
+The expected final runtime chain is:
+
+```text
+map -> lightning_map -> odom -> base_link
+```
+
+Nav2 should consume the horizontal `map` frame, not the tilted `lightning_map` frame directly.

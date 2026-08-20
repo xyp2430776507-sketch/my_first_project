@@ -1,5 +1,35 @@
 # AI Change Log
 
+## 2026-08-20 - Phase 3 TF Integration and Horizontalization
+
+- Files: generated `build/`, `install/`, and `log/` directories
+  - Purpose: remove old absolute workspace path references after moving the workspace to `/home/kepler/lightning_lm_ws`.
+  - Result: old generated directories were preserved as `*.stale-*` backups; the workspace was rebuilt and package prefixes/libraries resolved from the current path.
+
+- Files: `src/lightning-lm/src/app/run_loc_online.cc`
+  - Purpose: allow ROS 2 arguments such as `--ros-args -r /tf:=/lightning_tf` to coexist with the application's gflags parsing.
+  - Result: `run_loc_online` can be started with ROS 2 TF remapping, allowing Lightning native TF to be isolated on `/lightning_tf`.
+
+- Files: `src/xyp_mid360_navigation/scripts/lightning_map_to_odom_tf.py`
+  - Purpose: convert Lightning native localization and chassis odometry into a standard ROS 2 TF chain.
+  - Result: wrapper reads `/lightning_tf` `map -> base_link` and `/tf` `odom -> base_link`, computes `T_lightning_map_odom = T_lightning_map_base * inverse(T_odom_base)`, and publishes `lightning_map -> odom`.
+
+- Files: `src/xyp_mid360_navigation/CMakeLists.txt`, `src/xyp_mid360_navigation/package.xml`
+  - Purpose: install the TF wrapper and declare runtime TF dependencies.
+  - Result: `ros2 run xyp_mid360_navigation lightning_map_to_odom_tf.py` is available after rebuilding `xyp_mid360_navigation`.
+
+- Files: runtime validation bags under `runs/real_mid360/`
+  - Purpose: validate full-bag Phase 3C TF continuity.
+  - Result: recorded `/tf` and `/lightning_tf` showed `44707` `lightning_map -> odom` samples, `44707` Lightning `map -> base_link` samples, `7457` `odom -> base_link` samples, no TF-chain disappearance, and no meter-scale adjacent jump.
+
+- Files: runtime static TF command, not yet permanent launch file
+  - Purpose: validate horizontal `map -> lightning_map` frame from the fitted ground normal.
+  - Result: quaternion `qx=0.008708, qy=0.042288, qz=0.0, qw=0.999068` reduced `map -> base_link` z range from about `1.215 m` to about `0.145 m`; Phase 3D passed.
+
+- Files: `README.md`, `ARCHITECTURE.md`, `CURRENT_STATUS.md`, `CHANGELOG_AI.md`, `docs/decisions.md`, `docs/daily/2026-08-20.md`, `docs/guides/lightning_tf_integration.md`, `docs/problems/phase3_tf_conflict.md`
+  - Purpose: document Phase 1 through Phase 3D validation and record Phase 4 as the next planned stage.
+  - Result: handoff documentation now records the validated TF architecture, horizontalization decision, known remaining issues, and next steps without marking Nav2 as complete.
+
 ## 2026-08-19
 
 - Files: `CURRENT_STATUS.md`, `docs/daily/2026-08-19.md`

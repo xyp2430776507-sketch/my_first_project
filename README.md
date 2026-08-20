@@ -8,6 +8,38 @@ ROS 2 workspace for integrating Lightning-LM lidar SLAM/localization with Gazebo
 - Build system: `colcon` with `ament_cmake`.
 - Core dependencies visible in package manifests/config: `rclcpp`, `sensor_msgs`, `nav_msgs`, `geometry_msgs`, `tf2_ros`, `pcl_ros`, `pcl_conversions`, `rviz2`, `ros_gz_sim`, `ros_gz_bridge`, Nav2 packages, Livox SDK/driver files.
 
+## Current Progress
+
+Real MID360 pipeline status:
+
+```text
+Real MID360 rosbag
+      -> Lightning-LM offline 3D mapping      PASSED
+      -> 3D map quality / ground validation   PASSED
+      -> Lightning online localization        PASSED
+      -> Localization stability validation    PASSED
+      -> lightning_map -> odom -> base_link   PASSED
+      -> horizontal map frame                 PASSED
+      -> Nav2 integration                     NEXT
+```
+
+Current validated TF architecture:
+
+```text
+map -> lightning_map -> odom -> base_link
+```
+
+Key validation results:
+
+```text
+Localization loop closure error: ~5 cm
+Ground map tilt: ~4.95 deg
+Trajectory z range before correction: ~1.215 m
+Trajectory z range after correction:  ~0.145 m
+```
+
+Next milestone: Phase 4, 2D/2.5D navigation map and Nav2 integration.
+
 ## ROS 2 Packages
 
 - `lightning` (`src/lightning-lm`): upstream Lightning-LM SLAM/localization core. Builds online/offline SLAM and localization executables, custom services, LIO, loop closing, G2P5 grid projection, map storage, and RViz publications.
