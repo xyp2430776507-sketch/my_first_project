@@ -1,5 +1,31 @@
 # AI Change Log
 
+## 2026-08-20 - Phase 4A Nav2 Static Map
+
+- Files: `src/xyp_mid360_navigation/scripts/pcd_to_nav2_map.py`, `src/xyp_mid360_navigation/CMakeLists.txt`
+  - Purpose: create an independent Nav2 map-generation path without modifying Lightning-LM core or enabling Lightning g2p5 in the tilted native map frame.
+  - Result: installed `pcd_to_nav2_map.py` and added subcommands for PCD horizontalization, static rasterization, LiDAR ray-tracing free-space recovery, and trajectory footprint cleanup.
+
+- Files: `runs/real_mid360/phase4a-nav-map-20260820-104859/`
+  - Purpose: horizontalize the real MID360 Lightning `global.pcd` into the external horizontal `map` frame.
+  - Result: generated `global_horizontal.pcd`; ground tilt changed from about `4.9342 deg` to `0.0124 deg`, confirming the positive `map -> lightning_map` quaternion direction.
+
+- Files: `runs/real_mid360/phase4a-raytrace-20260820-120418/`
+  - Purpose: recover observed free space that cannot be inferred from the final accumulated PCD alone.
+  - Result: using the original MID360 bag, Phase 3E TF bag, and explicit `base_link -> livox_frame` mounting extrinsic, free cells increased from `1458` to `22125` while static occupied remained `11370`.
+
+- Files: `runs/real_mid360/phase4a-raytrace-clean-20260820-131736/`
+  - Purpose: remove robot-self trajectory-shaped occupied artifacts from the static raster.
+  - Result: shrunken footprint sweep removed `1347` occupied cells along the verified base_link trajectory; RViz review confirmed the black trajectory artifacts mostly disappeared while walls and main fixed obstacles remained.
+
+- Files: `src/xyp_mid360_navigation/scripts/pcd_to_nav2_map.py`, `runs/real_mid360/phase4a-final-20260820-132916/`
+  - Purpose: fix a PGM serialization bug where unknown pixel `205` was interpreted as free by `map_server` with `free_thresh=0.25`.
+  - Result: PGM output now uses `0` for occupied, `254` for free, and `128` for unknown, with write-time semantic validation. Final map statistics are `occupied=10023`, `free=23494`, `unknown=297643`; trajectory free samples `752/752` are in the largest free connected component. Phase 4A passed.
+
+- Files: `CURRENT_STATUS.md`, `CHANGELOG_AI.md`, `docs/daily/2026-08-20.md`, `docs/problems/phase4a_nav2_static_map.md`
+  - Purpose: record Phase 4A decisions, pitfalls, commands, outputs, and final validation results for future handoff.
+  - Result: project documentation now marks Phase 4A as passed and Phase 4B as the next stage.
+
 ## 2026-08-20 - Phase 3 TF Integration and Horizontalization
 
 - Files: generated `build/`, `install/`, and `log/` directories

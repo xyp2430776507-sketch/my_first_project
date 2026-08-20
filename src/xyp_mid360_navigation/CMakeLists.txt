@@ -6,6 +6,7 @@ find_package(ament_cmake REQUIRED)
 install(PROGRAMS
   scripts/lightning_map_to_odom_tf.py
   scripts/odom_handedness_adapter.py
+  scripts/pcd_to_nav2_map.py
   scripts/plan_follow_waypoints.py
   DESTINATION lib/${PROJECT_NAME}
 )

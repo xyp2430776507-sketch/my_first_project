@@ -157,12 +157,98 @@ Status: PASSED
 
 - Recorded final chain `map -> lightning_map -> odom -> base_link` kept `map -> base_link` z_range at about `0.134 m` with `z_std` about `0.0289 m`.
 
+## Phase 4A: Nav2 Static Global Map
+
+Status: PASSED
+
+Goal:
+
+```text
+Lightning 3D global.pcd
+  -> horizontal map frame
+  -> Nav2-compatible map.pgm / map.yaml
+```
+
+Final map:
+
+```text
+/home/kepler/lightning_lm_ws/runs/real_mid360/phase4a-final-20260820-132916/map.yaml
+```
+
+Input map:
+
+```text
+runs/real_mid360/offline-mid360-loop-20260814-180225-20260819-122805/data/new_map/global.pcd
+```
+
+Implemented tool:
+
+```text
+src/xyp_mid360_navigation/scripts/pcd_to_nav2_map.py
+```
+
+Important decisions:
+
+- Do not enable Lightning `system.with_g2p5` for the final map. Investigation showed g2p5 works in Lightning's native tilted `lightning_map`, and the external `map -> lightning_map` static TF does not affect its internal keyframes.
+- Keep Lightning-LM core unchanged.
+- Use the verified Phase 3D `map -> lightning_map` rotation to horizontalize `global.pcd`.
+- Restore observed free space from the original MID360 bag and the Phase 3E TF bag.
+- Clear robot-self trajectory artifacts only inside a shrunken base footprint.
+- Do not do inflation in the static map; leave inflation to Nav2.
+
+Final map parameters:
+
+```text
+frame semantics: map
+resolution:      0.1 m/cell
+size:            487 x 680 cells
+origin:          [-23.6, -43.4, 0.0]
+```
+
+Final PGM / map_server semantics:
+
+```text
+OCCUPIED_PIXEL = 0
+FREE_PIXEL     = 254
+UNKNOWN_PIXEL  = 128
+
+occupied: 10023
+free:     23494
+unknown: 297643
+```
+
+Final free connected-component validation:
+
+```text
+free component count:       166
+largest free component:     23256 cells
+largest / total free:       98.987%
+largest component area:     232.56 m^2
+
+trajectory samples:         754
+trajectory free:            752
+trajectory occupied:        0
+trajectory unknown:         0
+trajectory out_of_grid:     0
+trajectory in largest comp: 752 / 752 = 100%
+```
+
+Key pitfalls resolved:
+
+- The original Lightning map is tilted; final Nav2 map must belong to horizontal `map`, not `lightning_map`.
+- `global.pcd` alone has little free-space evidence; LiDAR ray tracing is needed to recover observed free.
+- Robot-self points produced trajectory-shaped occupied artifacts; these were removed with a shrunken trajectory footprint.
+- PGM unknown pixel `205` was semantically wrong for `free_thresh=0.25`; unknown is now `128` and write-time semantic validation prevents threshold/pixel mismatch.
+
 ## Current Issues
 
-- Nav2 integration has not started; Phase 4 is still next.
-- Current real run did not produce a Nav2-ready 2D/2.5D map because `system.with_g2p5` remains disabled.
+- Phase 4A is complete, but Phase 4B has not started.
+- Nav2 planner/controller integration has not yet been validated with the existing `map -> lightning_map -> odom -> base_link` TF chain.
+- AMCL should not be used as the primary localization source in Phase 4B; localization should come from the completed Lightning TF chain.
+- Real-time MID360 obstacle input for Nav2 local costmap is still future Phase 4C work.
 
 ## Next Steps
 
-1. Begin Phase 4: generate/choose the 2D or 2.5D navigation map and connect Nav2 without real robot motion first.
-2. Keep old generated directories `build.stale-*`, `install.stale-*`, and `log.stale-*` until the system has stayed stable.
+1. Begin Phase 4B: start only the Nav2 basic chain needed to validate map/TF/planning, without AMCL as the main localization source.
+2. Validate that Nav2 has no `map` / `odom` / `base_link` TF errors and that a 2D Goal can produce a global path.
+3. Do not start real robot motion in Phase 4B. If controller output is tested later, remap `/cmd_vel` to a test topic such as `/nav_test_cmd_vel`.
